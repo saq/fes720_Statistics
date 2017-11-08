@@ -155,7 +155,7 @@
     Test if the proportion of males was greater in year 2."
   CorrectAnswer: prop.test(x = c(48, 58), n = c(100, 101), alternative = 'less')
   AnswerTests: any_of_exprs("prop.test(x = c(48, 58), n = c(100, 101), alternative = 'less')", 
-    prop.test(x = c(58, 48), n = c(101, 100), alternative = 'greater'))
+    "prop.test(x = c(58, 48), n = c(101, 100), alternative = 'greater')")
   Hint: "Remember you need to use a vector for x and n, e.g., c(48, 58). And the order of the numbers
     matters here: the alternative hypothesis is the first number relative to the second."
 
