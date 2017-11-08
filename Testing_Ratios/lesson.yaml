@@ -8,17 +8,17 @@
 
 - Class: text
   Output: "Welcome to FES720 Statistics section! In this series of lessons, we will
-    look at how to do various common statistical tests in R, leading to more
+    look at how to do various common statistical tests in R, leading to
     more complex data and modelling approaches."
     
 - Class: text
   Output: "We will focus first on simple tests to compare proportions and ratios, for example
-    asking of there are more people with blue or brown eyes in a class."
+    asking if there are more people with blue or brown eyes in a room."
     
 - Class: text
   Output: "The specific statistical test we use will depend on the number 
-    of groups (e.g., blue:brown, or blue:brown:green) and the number of classes (e.g., fes720, fes723, ...),
-    and if we want to compare the ratio to some expected value, or among classes."
+    of groups (e.g., blue:brown, or blue:brown:green) and the number of rooms (e.g., G01, 319, Burke, ...),
+    and if we want to compare the ratio to some expected value, or among rooms."
     
 - Class: text
   Output: "OK, first, we might want to compare the flowering sex ratio of a population of trees (for example ... this 
@@ -74,7 +74,8 @@
     different from a 1:1 ratio."
   CorrectAnswer: prop.test(x = 48, n = 100, alternative = 'two.sided')
   AnswerTests: any_of_exprs("binom.test(x = 48, n = 100, alternative = 'two.sided')", "prop.test(x = 48, n = 100, alternative = 'two.sided')")
-  Hint: prop.test(x = 48, n = 100, alternative = 'two.sided')
+  Hint: "Use prop.test(), set x to the number of males, and n to the total number of trees. 
+    What is your alternative hypothesis?"
     
 - Class: text
   Output: "What does this output tell us? If you used `binom.test()`, it first tells us the name of the
@@ -152,9 +153,11 @@
     In this case, we have two proportions to test, so we need to pass a vector. In year 1, we had 
     48 male trees flowering and 52 females. In year 2, we had 58 male trees flowering and 43 female trees.
     Test if the proportion of males was greater in year 2."
-  CorrectAnswer: prop.test(x = c(48, 58), n = c(100, 101), alternative = 'two.sided')
-  AnswerTests: omnitest(correctExpr="prop.test(x = c(48, 58), n = c(100, 101), alternative = 'two.sided')")
-  Hint: Remember you need to use a vector for x and n, e.g., c(48, 58)
+  CorrectAnswer: prop.test(x = c(48, 58), n = c(100, 101), alternative = 'less')
+  AnswerTests: any_of_exprs("prop.test(x = c(48, 58), n = c(100, 101), alternative = 'less')", 
+    prop.test(x = c(58, 48), n = c(101, 100), alternative = 'greater'))
+  Hint: "Remember you need to use a vector for x and n, e.g., c(48, 58). And the order of the numbers
+    matters here: the alternative hypothesis is the first number relative to the second."
 
 - Class: text
   Output: "If you look at the help file for `prop.test()`, you will see that for `x` it states: 
@@ -179,8 +182,8 @@
 - Class: cmd_question
   Output: "Now, put this matrix into the call to `prop.test()` for the argument `x`. Then,
     you do not need to include `n` (but you will still need to set `alternative = `)."
-  CorrectAnswer: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')
-  AnswerTests: omnitest(correctExpr="prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')")
+  CorrectAnswer: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'less')
+  AnswerTests: omnitest(correctExpr="prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'less')")
   Hint: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')
 
 - Class: text
@@ -263,10 +266,10 @@
 - Class: cmd_question
   Output: "Ok.. now we want to know if apple preference is related to preference for pasta shapes. I 
     asked last year's class* what apples and pasta shapes they preferred. The results are in the object
-    `apples_v_pasta`. Have a look. [*not really]"
-  CorrectAnswer: apples_v_pasta
-  AnswerTests: omnitest(correctExpr='apples_v_pasta')
-  Hint: Type apples_v_pasta
+    `apples_vs_pasta`. Have a look. [*not really]"
+  CorrectAnswer: apples_vs_pasta
+  AnswerTests: omnitest(correctExpr='apples_vs_pasta')
+  Hint: Type apples_vs_pasta
 
 - Class: text
   Output: "The chi-squared test of independence is used to analyze the contingency table
