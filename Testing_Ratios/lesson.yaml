@@ -1,0 +1,324 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Testing_Ratios
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "Welcome to FES720 Statistics section! In this series of lessons, we will
+    look at how to do various common statistical tests in R, leading to more
+    more complex data and modelling approaches."
+    
+- Class: text
+  Output: "We will focus first on simple tests to compare proportions and ratios, for example
+    asking of there are more people with blue or brown eyes in a class."
+    
+- Class: text
+  Output: "The specific statistical test we use will depend on the number 
+    of groups (e.g., blue:brown, or blue:brown:green) and the number of classes (e.g., fes720, fes723, ...),
+    and if we want to compare the ratio to some expected value, or among classes."
+    
+- Class: text
+  Output: "OK, first, we might want to compare the flowering sex ratio of a population of trees (for example ... this 
+    has absolutely nothing to do with the research of Simon at all in any way whatsoever), and ask if there 
+    are more female or male trees."
+    
+- Class: text
+  Output: "This question is interesting, because females are the trees that produce fruit and therefore 
+    invest more resources than males (that produce only flowers and pollen) in any one reproductive event. 
+    This disparity in investment may have implications for the life history of male and female trees: 
+    male trees may become reproductively mature at smaller sizes or flower more frequently than females."
+    
+- Class: text
+  Output: "So, our question is: Are there significantly more males or females that flowered in this
+    population? In other words, is the ratio of males:females different from 1:1 (= or 50:50)?"
+    
+- Class: text
+  Output: "We can compare our *observed* ratio (males:females) to the *theoretical* (or *expected*) ratio
+    of 1:1, and ask if they are different."
+    
+- Class: text
+  Output: "To compare an observed proportion to a theoretical one when there are _only two categories_
+    we use a *one-proportion z-test*."
+    
+- Class: text
+  Output: "If we have no _a priori_ expectation, we might ask if the proportion of males is equal
+    to the expected proportion (i.e., 50:50). Our null hypothesis is therefore that the observed 
+    proportion (p_o) is equal to the expected proportion (p_e), such that p_o == p_e. Our alternative hypothesis
+    is therefore that the observed proportion is different (p_o != p_e). Thus, we have a 
+    two-tailed test (p_o could be greater or less than p_e)."
+    
+- Class: text
+  Output: "If we have some reason to think that the number of flowering males might be greater than the
+    number of flowering females, we might conduct a one-tailed test, such that our null hypothesis
+    is that p_o > p_e."
+    
+- Class: text
+  Output: "The R functions `binom.test()` and `prop.test()` can be used to carry out a one-proportion test: 
+    `binom.test()` computes an exact binomial test and is recommended when the sample size is small.
+    `prop.test()` can be used when your sample size is large (n > 30). It uses a normal approximation to 
+    the binomial distribution."
+    
+- Class: text
+  Output: "The syntax of these two functions is essentially the same. They require the arguments
+    `x = ` the number of successes (e.g., the number of males); `n = ` the total number of trials (e.g., the 
+    number of males + number of females); `p = ` the expected probability to test against (the default is 0.5); and
+    `alternative = ` a character string specifying your alternative hypothesis ('two.sided', 'greater', or
+    'lesser')."
+
+
+- Class: cmd_question
+  Output: "Ok, let's try it out! Test if a population of 48 male trees and 52 female trees is significantly 
+    different from a 1:1 ratio."
+  CorrectAnswer: prop.test(x = 48, n = 100, alternative = 'two.sided')
+  AnswerTests: any_of_exprs("binom.test(x = 48, n = 100, alternative = 'two.sided')", "prop.test(x = 48, n = 100, alternative = 'two.sided')")
+  Hint: prop.test(x = 48, n = 100, alternative = 'two.sided')
+    
+- Class: text
+  Output: "What does this output tell us? If you used `binom.test()`, it first tells us the name of the
+    test, the data, number of successes, trials, and p-value. It provides us with the alternative
+    hypothesis, the 95% confidence intervals, and the calculated probability of success. `prop.test()`
+    returns something similar."
+    
+- Class: text
+  Output: "In either function, the p-value is greater than the usual alpha of 0.05, suggesting that 
+    there is no difference in our sample from the expected ratio of 1:1."
+    
+- Class: cmd_question
+  Output: "Usefully, the output of all statistical models or tests in R is a list, so we can extract the 
+    parts we want. Run the function again, and assign the result to the object `m`."
+  CorrectAnswer: m <- binom.test(x = 48, n = 100, alternative = 'two.sided')
+  AnswerTests: omnitest(correctExpr="m <- binom.test(x = 48, n = 100, alternative = 'two.sided')")
+  Hint: m <- binom.test(x = 48, n = 100, alternative = 'two.sided')
+
+- Class: cmd_question
+  Output: "Now, extract the p-value from `m`."
+  CorrectAnswer: m$p.value
+  AnswerTests: omnitest(correctExpr='m$p.value')
+  Hint: Remember that you can access parts of a list with `$`. If you get stuck, run `str(m)`.
+
+- Class: cmd_question
+  Output: "Check if the p-value is less than an alpha of 0.05."
+  CorrectAnswer: m$p.value < 0.05
+  AnswerTests: omnitest(correctExpr='m$p.value < 0.05')
+  Hint: Remember that we can construct a logical statement to test this.
+
+- Class: cmd_question
+  Output: "We have some sensible biological reason to think that we might expect 
+    more males flowering this year. Alter your previous test to reflect this hypothesis.
+    Do not assign the output to any object."
+  CorrectAnswer: binom.test(x = 48, n = 100, alternative = 'greater')
+  AnswerTests: omnitest(correctExpr="binom.test(x = 48, n = 100, alternative = 'greater')")
+  Hint: Check the argument `alternative = `
+  
+- Class: text
+  Output: "Ok, great work! You can test if a proportion is different from an expected value. What
+    about if we now have data on our trees flowering in the next year? Do we have the same
+    proportion of males flowering in both years?"
+  
+- Class: text
+  Output: "We can use a *two-proportions z-test* to compare two observed proportions. Similarly to the 
+    one-proportion z-test, we can ask whether the proportion of males flowering in year 1 is equal to the proportion in 
+    year 2 (p_1 == p_2), or if the proportion in year 1 is less in year 2 (p_1 < p_2), 
+    or if the proportion in year 1 is greater in year 2 (p_1 > p_2)."
+     
+- Class: text
+  Output: "If we have no _a priori_ expectation of how male flowering varies from year to year, 
+    we might ask if the proportion of males flowering in year 1 is equal to that in year 2
+    (i.e., 50:50). Our null hypothesis is therefore that p_1 == p_2. Our alternative hypothesis
+    is therefore that the observed proportion is different (p_1 != p_2). Thus, we have a 
+    two-tailed test (p_1 could be greater or less than p_2)."
+    
+- Class: text
+  Output: "If we have some reason to think that the number of flowering males might be greater in year 1 
+    than year 2, we might conduct a one-tailed test, such that our null hypothesis
+    is that p_1 > p_2."  
+
+- Class: text
+  Output: "There are two different R functions to compare two-proportions. If you have >5 individuals or counts in 
+    all four groups (e.g., >5 males in year 1, and >5 males in year 2, and >5 females in year 1, and >5 females in year 2)
+    a two-proportion z-test is fine. If you have fewer than 5 individuals or counts in any category, then you should
+    use a *Fisher's exact test*, a non-parametric test for small sample sizes (we will come back to this shortly)."
+  
+- Class: text
+  Output: "We can use the function `prop.test()` again to run a two-proportion z-test. Again, we need 
+    the number of success (`x = `), the total number of trials (`n = `), and specify the alternative
+    hypothesis (`alternative = `)."
+    
+- Class: cmd_question
+  Output: "In the one-proportion test, we passed single integers to `x` and `n` (`x = 48` and `n = 100`).
+    In this case, we have two proportions to test, so we need to pass a vector. In year 1, we had 
+    48 male trees flowering and 52 females. In year 2, we had 58 male trees flowering and 43 female trees.
+    Test if the proportion of males was greater in year 2."
+  CorrectAnswer: prop.test(x = c(48, 58), n = c(100, 101), alternative = 'two.sided')
+  AnswerTests: omnitest(correctExpr="prop.test(x = c(48, 58), n = c(100, 101), alternative = 'two.sided')")
+  Hint: Remember you need to use a vector for x and n, e.g., c(48, 58)
+
+- Class: text
+  Output: "If you look at the help file for `prop.test()`, you will see that for `x` it states: 
+     'a vector of counts of successes, a one-dimensional table with two entries, or a two-dimensional
+     table (or matrix) with 2 columns, giving the counts of successes and failures, respectively.' And
+     for `n`: 'a vector of counts of trials; ignored if x is a matrix or a table'."
+    
+- Class: cmd_question
+  Output: "So, we can pass a matrix to `x` instead. Make a matrix of two columns, with the counts
+    of male and female flowering trees in years 1 and 2. Columns should be males and females, rows
+    should be years. (There are several ways to do this operation, and swirl checks only a couple)."
+  CorrectAnswer: matrix(c(48, 58, 52, 43), ncol = 2)
+  AnswerTests: omnitest(correctExpr='matrix(c(48, 58, 52, 43), ncol = 2)')
+  Hint: matrix(c(48, 58, 52, 43), ncol = 2)
+  
+- Class: text
+  Output: "This matrix is what is known as a *contingency table*, a type of table in a matrix format 
+    that displays the (multivariate) frequency distribution of the variables. In other words,
+    it displays the counts that match the criteria for each cell in the table, e.g., male flowering
+    in year 1."  
+  
+- Class: cmd_question
+  Output: "Now, put this matrix into the call to `prop.test()` for the argument `x`. Then,
+    you do not need to include `n` (but you will still need to set `alternative = `)."
+  CorrectAnswer: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')
+  AnswerTests: omnitest(correctExpr="prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')")
+  Hint: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided')
+
+- Class: text
+  Output: "The output is the same as before, except the p-value relates to the hypothesis
+    of whether the proportion of males flowering is the same in years 1 and 2."
+    
+- Class: text
+  Output: "However, what if instead we wanted to ask if the ratio of males:females was 
+    different from 1:1 in either year? `prop.test()` has the argument `p = `, where you 
+    can give the specific probability for each pair of successes and failures."
+    
+- Class: cmd_question
+  Output: "Run the two-proportion test again, specifying a 1:1 ratio for each year."
+  CorrectAnswer: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided', p = c(0.5,0.5))
+  AnswerTests: omnitest(correctExpr="prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided', p = c(0.5,0.5))")
+  Hint: prop.test(x = matrix(c(48, 58, 52, 43), ncol = 2), alternative = 'two.sided', p = c(0.5,0.5))
+
+- Class: text
+  Output: "So, what do we do if our sample size is very small? We can run a *Fisher's exact test* 
+    using the function `fisher.test()`."
+  
+- Class: cmd_question
+  Output: "This test was devised in order to test a the claim of a friend of Ronald Fisher that she could 
+    tell whether the tea or the milk was added first to a cup of tea (she was English, of course). As a good
+    statistician, Fisher proposed an experimental test, and gave her 8 cups of tea in a random order, 4 with 
+    the milk in first, and 4 with the tea in first. The results can be seen in the object `tea_test`. Have a look."
+  CorrectAnswer: tea_test
+  AnswerTests: omnitest(correctExpr='tea_test')
+  Hint: Type tea_test
+
+- Class: cmd_question
+  Output: "As for `prop.test()`, the `fisher.test()` takes a matrix, which, handily, is how the `tea_test`
+    object is structured. Run a Fisher's exact test on the tea_test data."
+  CorrectAnswer: fisher.test(tea_test)
+  AnswerTests: omnitest(correctExpr='fisher.test(tea_test)')
+  Hint: fisher.test(tea_test)
+
+- Class: text
+  Output: "Hmmm ... in this experiment, the friend did not do so well ..."
+  
+- Class: text
+  Output: "So far, we have dealt with variables with only two categories. But many things
+    occur in more than two categories. To compare an observed proportion to a theoretical one when 
+    there are _more than two categories_ we can use a *Chi-square goodness-of-fit test*."
+    
+- Class: text
+  Output: "The chi-square goodness of fit test is used to compare an observed distribution 
+    to an expected distribution, in a situation where we have two or more categories of discrete 
+    data. In other words, it compares multiple observed proportions to expected probabilities." 
+
+- Class: text
+  Output: "Suppose that you go to Lyman's Orchard to pick apples. You picked 81 Honeycrisp, 50 Empire, 
+    and 27 Macoun. We can ask two questions about these apples: First, did we pick equal proportions 
+    of all varieties? Second, does the proportion of each variety we picked (i.e., the observed) match the proportions in
+    which they are grown at Lymans (i.e., the expected)?"
+    
+- Class: cmd_question
+  Output: "We can use the R function `chisq.test()` to answer both these questions. As usual,
+    we need to provide the arguments `x = ` (a vector or matrix of data) and `p = ` (a vector of probabilities).
+    Test if we picked the three apple varieties in equal proportions."
+  CorrectAnswer: chisq.test(x = c(81, 50, 27), p = c(1/3, 1/3, 1/3))
+  AnswerTests: omnitest(correctExpr='chisq.test(x = c(81, 50, 27), p = c(1/3, 1/3, 1/3))')
+  Hint: You can set `p` to be a vector of proportions expressed as fractions.
+
+- Class: text
+  Output: "The p-value is much less than 0.05, so we reject the null hypothesis that we picked 
+    the varieties at equal proportions."
+    
+- Class: cmd_question
+  Output: "Ok, does our picking reflect the relative abundance of each variety in Lyman's Orchard?
+    Lyman's grow 10 ha of Honeycrisp, 20 ha of Empire, and 30 ha of Macoun. If we picked apples
+    at random, our bags should reflect these proportions. Check if this was so."
+  CorrectAnswer: chisq.test(x = c(81, 50, 27), p = c(1/6, 2/6, 3/6))
+  AnswerTests: omnitest(correctExpr='chisq.test(x = c(81, 50, 27), p = c(1/6, 2/6, 3/6))')
+  Hint: There are several ways to specify the probabilities. Try and simplify it as much as possible.
+
+- Class: text
+  Output: "The p-value of < 2.2e-16 suggests that *someone* has a significant preference for Honeycrip apples ... "
+
+- Class: cmd_question
+  Output: "Ok.. now we want to know if apple preference is related to preference for pasta shapes. I 
+    asked last year's class* what apples and pasta shapes they preferred. The results are in the object
+    `apples_v_pasta`. Have a look. [*not really]"
+  CorrectAnswer: apples_v_pasta
+  AnswerTests: omnitest(correctExpr='apples_v_pasta')
+  Hint: Type apples_v_pasta
+
+- Class: text
+  Output: "The chi-squared test of independence is used to analyze the contingency table
+    formed by the counts of levels of two categorical variables. The chi-squared test
+    evaluates whether there is a significant association between the categories of
+    the two variables."
+    
+- Class: text
+  Output: "The chi-squared test can be carried out with the function `chisq.test()`. We used it
+    above with a vector of data and the function assumed that we wanted to run a goodness-of-fit
+    test. If we pass a data matrix to the argument `x = ` instead, it assumes (correctly!) that we
+    want to run a Pearson chi-squared test."
+    
+- Class: cmd_question
+  Output: "Run a chi-squared test on the apples_vs_pasta data matrix. Assign the output to the 
+    object `m`."
+  CorrectAnswer: m <- chisq.test(apples_vs_pasta)
+  AnswerTests: any_of_exprs('m <- chisq.test(apples_vs_pasta)', 'm <- chisq.test(x = apples_vs_pasta)')
+  Hint: m <- chisq.test(apples_vs_pasta)
+
+- Class: cmd_question
+  Output: "You can see the test results by typing `m`."
+  CorrectAnswer: m
+  AnswerTests: omnitest(correctExpr='m')
+  Hint: Type m
+
+- Class: cmd_question
+  Output: "Lots of other useful information is stored in our model object `m`. Look at the 
+    structure to get a better idea."
+  CorrectAnswer: str(m)
+  AnswerTests: omnitest(correctExpr='str(m)')
+  Hint: str(m)
+
+- Class: text
+  Output: "We have a list of 9 things, including the chi-squared statistic, a p-value,
+    the observed data and the calculated expected data."
+
+- Class: text
+  Output: "Congratulations! You made it through the first lesson in the statistics series. 
+    Hopefully you are comfortable working with counts of categories and checking if they
+    match some a priori expected ratio, or are related to counts of other categorical variables."
+
+- Class: text
+  Output: "In the next lesson, we will look at categorical predictor variables and continuous
+    response variables, and ask if our samples are drawn from populations with different means."
+
+- Class: mult_question
+  Output: Please submit the log of this lesson to Google Forms so
+    that Simon may evaluate your progress.
+  AnswerChoices: I accept the arbitrary nature of socially constructed educational programs and agree to be evaluated.
+  CorrectAnswer: I accept the arbitrary nature of socially constructed educational programs and agree to be evaluated.
+  AnswerTests: submit_log()
+  Hint: hint
+
+
