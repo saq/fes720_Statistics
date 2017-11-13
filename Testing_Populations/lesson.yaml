@@ -1,0 +1,657 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Testing_Populations
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "Welcome to the second lesson in the FES720 Statistics section! In this series of lessons, we are
+    looking at how to do various common statistical tests in R, leading to more complex 
+    data and modelling approaches."
+
+- Class: text
+  Output: "In this lesson, we will look at methods to test whether samples are drawn from populations
+    with different means, or test whether one sample is drawn from a population with a mean different 
+    from some theoretical mean."
+    
+- Class: text
+  Output: "We are moving from data that was wholly categorical (i.e., counts of the number of individuals
+    in different groups) in the previous lesson, to comparing continuous data that come from individuals 
+    in different groups or categories."
+    
+- Class: text
+  Output: "Our overarching question is whether the _mean value of  individuals in one group is 
+    different from the mean value of individuals from another group_. Continuing with our 
+    previous example, we could ask whether female trees tend to be larger than male trees, on average."
+    
+- Class: text
+  Output: "As with the last lesson, we will progress from simple data and analyses to more complex data.
+    First, we will consider comparing the mean of one sample to a known mean. Second, we will compare
+    the means of two independent groups. Third, we will compare the means of paired samples. Finally,
+    we will compare the means of more than two groups."
+    
+- Class: text
+  Output: "With all four comparisons, we will illustrate the analysis of parametric data (that follow
+    a Normal, or Gaussian, distribution) and non-parametric (from a non-Normal distribution)."
+    
+- Class: text
+  Output: "## Data"
+  
+- Class: cmd_question
+  Output: "We will use the data from the 2017 New Haven Road Race. Look at the first few rows of the 
+    data, in the `race` object."
+  CorrectAnswer: head(race)
+  AnswerTests: omnitest(correctExpr='head(race)')
+  Hint: head(race)
+
+- Class: text
+  Output: "## Testing assumptions: Normality"
+
+- Class: text
+  Output: "The t-test and ANOVA assume that the data (or the residuals from the model)
+    follow a Normal distribution. We can test this assumption visually using a 
+    a histogram and/or a quantile-quantile plot, 
+    and statistically using a Shapiro-Wilk test (or Kolmogorov-Smirnov test)."
+    
+- Class: cmd_question
+  Output: "We can generate a vector of random numbers drawn from a Normal distribution
+    using the function `rnorm()`. We need to provide the number of observations we want 
+    to draw (`n = `), and can also set the mean (`mean = `) and standard deviation (`sd = `).
+    Draw 1000 observations from a distribution with mean of 10 and a standard deviation 
+    of 2.5. Assign it to the object `n`"
+  CorrectAnswer: n <- rnorm(n = 1000, mean = 10, sd = 2.5)
+  AnswerTests: omnitest(correctExpr='n <- rnorm(n = 1000, mean = 10, sd = 2.5)')
+  Hint: n <-  rnorm(n = 1000, mean = 10, sd = 2.5)
+
+- Class: cmd_question
+  Output: "The Normal distribution is the classic 'bell-curve' shape. Thus,
+    a histogram of the data (or the residuals from a statistical model) should
+    resemble this shape. Using the function `hist()`, draw a histogram of the
+    Normal distribution using the code you used above, nested inside `hist()`."
+  CorrectAnswer: hist(n)
+  AnswerTests: omnitest(correctExpr='hist(n)')
+  Hint: hist(n)
+  
+- Class: cmd_question
+  Output: "Compare this distribution that we know is Normal, to the distribution
+    of the `$Pace_mins` data. Make a histogram of Pace."
+  CorrectAnswer: hist(race$Pace_mins)
+  AnswerTests: omnitest(correctExpr='hist(race$Pace_mins)')
+  Hint: hist(race$Pace_mins)
+
+- Class: text
+  Output: "### The quantile-quantile plot"
+  
+- Class: text
+  Output: "The function `qqnorm()` creates a q-q plot; the function `qqline()` adds
+    a theoretical line to the plot. Normal data will fall more or less along the line."
+    
+- Class: cmd_question
+  Output: "Plot a q-q plot of the `$Pace_mins` data."
+  CorrectAnswer: qqnorm(race$Pace_mins)
+  AnswerTests: omnitest(correctExpr='qqnorm(race$Pace_mins)')
+  Hint: qqnorm(race$Pace_mins)
+  
+- Class: cmd_question
+  Output: "The data look ok, but it can be hard to tell without a reference ... 
+    let's plot the line and see ..."
+  CorrectAnswer: qqline(race$Pace_mins)
+  AnswerTests: omnitest(correctExpr='qqline(race$Pace_mins)')
+  Hint: qqline(race$Pace_mins)
+
+- Class: text
+  Output: "The data fall away from the line at both ends, suggesting the data
+    are _not_ normally disitributed. D'oh."
+    
+- Class: text
+  Output: "### The Shapiro-Wilk test"
+    
+- Class: text
+  Output: "The function `shapiro.test()` performs the Shapiro-Wilk test of normality on 
+    a vector of data. It takes only one argument, `x = `., and returns the test statistic `W`,
+    and associated p-value."
+    
+- Class: cmd_question
+  Output: "First, test our normal data, `n`, is normally distributed."
+  CorrectAnswer: shapiro.test(n)
+  AnswerTests: omnitest(correctExpr='shapiro.test(n)')
+  Hint: shapiro.test(n)
+  
+- Class: text
+  Output: "The p-value is greater than 0.05, suggesting that the data are not significantly
+    different from a normal distribution."
+
+- Class: cmd_question
+  Output: "Check if the `$Pace` column in the race data is normally distributed (we would
+    expect not, given that it is a vector of integers from 1 to 2655 giving the final place
+    in the race of each runner)."
+  CorrectAnswer: shapiro.test(race$Place)
+  AnswerTests: omnitest(correctExpr='shapiro.test(race$Place)')
+  Hint: shapiro.test(race$Place)
+
+
+- Class: text
+  Output: "## A. Compare the mean of one sample to a known mean"
+
+- Class: text
+  Output: "### A1. Normal data: the one-sample t-test"
+    
+- Class: text
+  Output: "First, we can test whether one sample is drawn from a population with a mean different from a 
+    known mean, using a one-sample t-test."
+    
+- Class: text
+  Output: "This known mean value could come from one of several sources. The mean could come from theory
+    or a theoretical model; it could be data that come from a previous experiment or study; or from an
+    experiment where you have a control and treatment conditions. If you calculate the difference between
+    the treatment and control, you can test whether the mean % difference of the treatment differs 
+    significantly from 100."
+    
+- Class: text
+  Output: "Similar to the ratio and proportion tests, our null hypothesis would be one of the sample mean is
+  equal to/greater then/less than the theoretical mean."
+  
+- Class: text
+  Output: "Let's test if the mean net time for 2016 was different from the mean net time of 30 minutes 
+    and 56 seconds that we have for 2015."
+
+- Class: cmd_question
+  Output: "As good data analysts, we should always examine the data before we do anything. 
+    Check a summary of the `Nettime_mins` column."
+  CorrectAnswer: summary(race$Nettime_mins)
+  AnswerTests: omnitest(correctExpr='summary(race$Nettime_mins)')
+  Hint: summary(race$Nettime_mins)
+  
+- Class: cmd_question
+  Output: "And now we should plot the data, again, to look at the distribution and to check
+    for odd data points and outliers. We have continuous data from a group, thus a boxplot
+    is probably the best kind of plot. Using the `boxplot() function, make a boxplot of the 
+    `Nettime_mins` column."
+  CorrectAnswer: boxplot(race$Nettime_mins)
+  AnswerTests: omnitest(correctExpr='boxplot(race$Nettime_mins)')
+  Hint: Run boxplot() on the correct column
+
+- Class: text
+  Output: "It looks like there are some folks who took a long time to finish the race, 
+    but the data look like they are reasonably equally distributed around the median
+    (the central line of the box)."
+
+- Class: cmd_question
+  Output: "**Assumptions:** The t-test assumes that the data are normally-distributed. We can test this assumption
+   visually with a histogram, q-q plot, and statistically with a Shapiro-Wilk test. First,
+   make a histogram of `$Nettime_mins`."
+  CorrectAnswer: hist(race$Nettime_mins)
+  AnswerTests: omnitest(correctExpr='hist(race$Nettime_mins)')
+  Hint: hist(race$Nettime_mins)
+   
+- Class: text
+  Output: "The histogram looks decidedly right-skewed (i.e., 
+    there is a longer tail to the right), suggesting non-Normal data."
+   
+- Class: cmd_question
+  Output: "Now make a qqplot of the data."
+  CorrectAnswer:  qqnorm(race$Nettime_mins)
+  AnswerTests: omnitest(correctExpr=' qqnorm(race$Nettime_mins)')
+  Hint:  qqnorm(race$Nettime_mins)
+
+- Class: text
+  Output: "The data are curved, again suggesting some departure from 
+    Normality."
+   
+- Class: cmd_question
+  Output: "Now run a Shapiro-Wilk test on the data."
+  CorrectAnswer: shapiro.test(race$Nettime_mins)
+  AnswerTests: omnitest(correctExpr='shapiro.test(race$Nettime_mins)')
+  Hint: "Put race$Nettime_mins inside shapiro.test()"
+
+- Class: text
+  Output: "Ok, so the data are not normal and the t-test is probably not appropriate.
+    A large sample size can go some way to offsetting this assumption (large
+    samples tend to approach normality, according to the [
+    Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem))
+    However, we will proceed with these data to illustrate the test."
+
+- Class: text
+  Output: "For a one-sample t-test, we need to provide the data (`x = `), the
+    known mean that we want to compare the data against (`mu = `), and the 
+    alternative hypothesis ('alternative = `)."
+
+- Class: cmd_question
+  Output: Compare the `$Nettime_mins` to a mean of 30 minutes 58 seconds.
+  CorrectAnswer: t.test(race$Nettime_mins, mu = 30.96)
+  AnswerTests: any_of_exprs('t.test(race$Nettime_mins, mu = 30.96)', 't.test(race$Nettime_mins, mu = 30.58)',
+    't.test(x = race$Nettime_mins, mu = 30.96)', 't.test(x = race$Nettime_mins, 30.58)')
+  Hint: t.test() on $Nettime_mins
+  
+- Class: text
+  Output: "The p-value is less than 0.05, suggesting that we can reject the null hypothesis,
+    and infer than people ran at a different time to 2015, on average."
+    
+- Class: text
+  Output: "### A2. Non-normal data: one-sample Wilcoxon test"
+  
+- Class: text
+  Output: "The one-sample Wilcoxon signed rank test is a non-parametric 
+    alternative to a one-sample t-test when the data does not follow a normal distribution. 
+    It is used to determine whether the median of the sample is equal to a specified value."
+    
+- Class: text
+  Output: "The one-sample Wilcoxon signed-rank test requires the same same three arguments
+    as the t-test: the data (`x = `), the specified value (`mu = `), and the alternative
+    hypothesis (`alternative = `; two-sided is the default)."
+    
+- Class: cmd_question
+  Output: "Test if the median of `$Nettime_mins` was *less than* a median time of 30 minutes."
+  CorrectAnswer: wilcox.test(x = race$Nettime_mins, mu  = 30, alternative = 'less')
+  AnswerTests: omnitest(correctExpr="wilcox.test(x = race$Nettime_mins, mu  = 30, alternative = 'less')")
+  Hint: wilcox.test(x = race$Nettime_mins, mu  = 30, alternative = 'less')
+  
+- Class: text
+  Output: "The p-value less than 0.05 suggests that we can reject the null hypothesis,
+    and infer that people ran faster this time."
+
+- Class: text
+  Output: "## B. Compare the mean of one sample to the mean of another sample"
+
+- Class: text
+  Output: "### B1. Normal data: the two-sample t-test"
+
+- Class: text
+  Output: "The unpaired two-samples t-test is used to compare the mean of two independent groups.
+    For example, we could ask if men or women ran the New Haven Road Race faster?" 
+
+- Class: text
+  Output: "**Assumptions:** The t-test has several assumptions. The two samples are: 
+    (i) independent, (ii) normally distributed, and (iii) have equal variance." 
+
+- Class: text
+  Output: "Independent samples depends on good experimental design. We can test for 
+    normal distribution graphically (histogram, q-q plot) and statistically (Shapiro-Wilk test).
+    We can check for equal variance with an F test."
+    
+- Class: cmd_question
+  Output: "First, draw a boxplot of the data. Use `boxplot()` to plot `$Nettime_mins` as a function
+    of `$Sex`."
+  CorrectAnswer: boxplot(race$Nettime_mins ~ race$Sex)
+  AnswerTests: any_of_exprs("boxplot(race$Nettime_mins ~ race$Sex)", 
+    "boxplot(Nettime_mins ~ Sex, data = race)")
+  Hint: boxplot, boxplot, boxplot!
+    
+- Class: text
+  Output: "There are a few folks who didn't fill in the box, but it looks like
+    males tended to run faster than females."
+    
+- Class: cmd_question
+  Output: "Check that male `$Nettime_mins` are normally distributed."
+  CorrectAnswer:  shapiro.test(race$Nettime_mins[race$Sex == 'M'])
+  AnswerTests: omnitest(correctExpr="shapiro.test(race$Nettime_mins[race$Sex == 'M'])")
+  Hint: Remember to subset out the males from within the shapiro test function.
+
+- Class: cmd_question
+  Output: "Check that female `$Nettime_mins` are normally distributed."
+  CorrectAnswer:  shapiro.test(race$Nettime_mins[race$Sex == 'F'])
+  AnswerTests: omnitest(correctExpr="shapiro.test(race$Nettime_mins[race$Sex == 'F'])")
+  Hint: Remember to subset out the females from within the shapiro test function.
+
+- Class: text    
+  Output: "Ok, well in this case, neither are normally distributed (the p-values are 
+    less than 0.05), and thus we should consider using the non-parametric
+     version (wilcoxon test). No matter, let's carry on and check for equal variance."
+    
+- Class: text
+  Output: "We can test for equal variance using the function `var.test()` that 
+    runs an F test to compare the variances of two samples from normal populations.
+    `var.test requires with `x = ` and `y = `, or a formula."
+    
+- Class: cmd_question
+  Output: "Compare the variances of the male and female runners, using `x = ` and `y = `."
+  CorrectAnswer: var.test(race$Nettime_mins[race$Sex == 'M'], race$Nettime_mins[race$Sex == 'F'])
+  AnswerTests: omnitest(correctExpr="var.test(race$Nettime_mins[race$Sex == 'M'], race$Nettime_mins[race$Sex=='F'])")
+  Hint: You will need to subset x for one sex and y for the other.
+  
+- Class: text
+  Output: "The p-value is greater than 0.05, suggesting that we cannot reject the null
+    hypothesis of a difference between the variance of the two samples. Moreover,
+    the `t.test()` function can also make a correction for unequal variances if
+    needed."
+
+- Class: text
+  Output: "Ok, lets proceed with a two-sample t-test."
+  
+- Class: text
+  Output: "As above, we use the `t.test()` function, and give it an extra
+    data argument. We need to provide two data arguments (`x = ` and `y = `),
+    provide the alternative hypothesis (`alternative = `) if it is not the default
+    of two-sided."
+    
+- Class: text
+  Output: "The `t.test()` function also includes a correction for unequal variance. By default,
+    this correction is set to TRUE, so we need to disable it. If the variances are equal
+    (as we found above), we need to set `var.equal = TRUE`."
+    
+- Class: cmd_question
+  Output: "Check if males ran faster than females using a t-test, using subsetting to pull out 
+    males for `x` and females for `y`."
+  CorrectAnswer: t.test(race$Nettime_mins[race$Sex == 'M'], race$Nettime_mins[race$Sex == 'F'], alternative = 'less', var.equal = TRUE)
+  AnswerTests: omnitest(correctExpr = "t.test(race$Nettime_mins[race$Sex == 'M'], race$Nettime_mins[race$Sex == 'F'], alternative = 'less', var.equal = TRUE)")
+  Hint: remember to subset the sexes adn set var.equal to TRUE
+  
+- Class: text
+  Output: "The p-value suggests that there is a significant difference between the mean values of male and
+    female net time."
+
+
+- Class: cmd_question
+  Output: "You can also use the formula method to set up the model within `t.test()`, 
+    modelling net time as a function of sex. Try that method with the data argument and the default alternative hypothesis."
+  CorrectAnswer: t.test(Nettime_mins ~ Sex, data = race, var.equal = TRUE)
+  AnswerTests: omnitest(correctExpr="t.test(Nettime_mins ~ Sex, data = race, var.equal = TRUE)")
+  Hint: Nettime_mins ~ Sex
+  
+
+- Class: cmd_question
+  Output: "Hopefully you got a similar answer! We have extracted parts of the answer
+    from these tests before, first assigning the result to an object.
+    We can short-cut that process, however, and extract directly from the call to 
+    `t.test()`. Scroll up one step with the arrow, and add `$p.value` to the end of
+    your previous t.test, to extract the p-value."
+  CorrectAnswer: t.test(Nettime_mins ~ Sex, data = race, var.equal = TRUE)$p.value
+  AnswerTests: omnitest(correctExpr="t.test(Nettime_mins ~ Sex, data = race, var.equal = TRUE)$p.value")
+  Hint: add `$p.value` to your previous code.  
+
+- Class: text
+  Output: "### B2. Non-normal data: two-sample Wilcoxon test"
+
+- Class: text
+  Output: "The two-sample Wilcoxon test (`wilcox.test()`) parallels the two-sample t-test. As before, 
+    we need to provide two data arguments and specify if we want an alternative 
+    hypothesis different to a two-sided test. Again, we can use `x = ` and `y = `
+    data arguments, or use a formula."
+    
+- Class: cmd_question
+  Output: "Run a Wilcoxon test on net time of males and females, using the formula 
+    approach with a data argument, with the default alternative hypothesis."
+  CorrectAnswer: wilcox.test(Nettime_mins ~ Sex, data = race)  
+  AnswerTests: omnitest(correctExpr = "wilcox.test(Nettime_mins ~ Sex, data = race)")
+  Hint: nope :)
+  
+- Class: text
+  Output: "The p-value less than 0.05 suggests that there is a difference between 
+    net time of males and females."
+
+- Class: text
+  Output: "## C. Compare the means of paired samples"
+
+- Class: text 
+  Output: "If we have observations before and after a treatment, or of two matched subjects 
+    with different treatments, we can run a paired t-test. R relies on the relative position
+    to determine the pairing, so make sure that this is correct."
+
+- Class: text
+  Output: "Pairing the data gives us more statistical power, because random inbetween 
+    subject variation has been eliminated. But, we lose degrees of freedom because each 
+    pair is now the test unit, rather than the individual."
+    
+- Class: text
+  Output: "Again, we can run a parametric t-test, or a non-parametric Wilcoxon test. In
+    both cases to run a paired test, set the argument `paired = TRUE`."
+  
+- Class: cmd_question  
+  Output: "Look at the 
+    head of the `rats` dataset. It describes measurements taken from rats before and after some
+    horrible experiment*. *[made up]."
+  CorrectAnswer: head(rats)
+  AnswerTests: omnitest(correctExpr='head(rats)')
+  Hint: use your head()
+
+- Class: cmd_question
+  Output: "Now, run a t-test on the rats data, with a data argument, and
+    the default alternative hypthesis (i.e., the difference between before and after 
+    could be greater or lesser)."  
+  CorrectAnswer: t.test(after, before, data = rats, paired = TRUE)
+  AnswerTests: omnitest(correctExpr="t.test(after, before, data = rats, paired = TRUE)")
+  Hint: t.test(after, before, data = rats, paired = TRUE)
+  
+- Class: text
+  Output: "## D. Compare the means of more than two groups"
+
+- Class: text
+  Output: "In its simplest form, ANOVA is a statistical test of whether or not the means 
+    of several groups are equal, and therefore generalizes the t-test to more than
+    two groups. It is akin to running multiple two-sample t-tests."
+    
+- Class: text
+  Output: "ANOVA has the following **assumptions:** (i) independence of observations, 
+    (ii) Normality - the distributions of the residuals are normal, (iii) Equality
+    (or 'homogeneity') of variances (called homoscedasticity) - the variance of data 
+    in groups should be the same. We can test these assumptions using the tests
+    described previously."
+    
+- Class: text
+  Output: "The R function `aov()` is designed for balanced designs, 
+    and the results can be hard to interpret without balance: beware 
+    that missing values in the response(s) will likely lose the balance."
+  
+- Class: text
+  Output: "### D1. One-way Analysis of Variance"
+  
+- Class: text
+  Output: "One-way analysis of variance (ANOVA) is used to determine whether 
+    there are any statistically significant differences between the means of
+    three or more independent (unrelated) groups."
+    
+- Class: text
+  Output: "It tests the null hypothesis that the means of all groups are
+    equal. Details of the specifics of ANOVA are described (here)[http://www.simonqueenborough.info/R/anova-explained.html]."
+    
+- Class: text
+  Output: "If it returns a statistically significant result, we accept the
+    alternative hypothesis that at least two group means are statistically
+    significantly different from each other. However, ANOVA cannot tell you
+    _which_ specific group/s are significantly different from which other. 
+    To determine this, a post-hoc test must be carried out."
+    
+- Class: cmd_question
+  Output: "Let's test different age groups and see which ran faster. First,
+    make a boxplot of net time on age (Class), using a formula and data 
+    argument in `boxplot()`."
+  CorrectAnswer: boxplot(Nettime_mins ~ Class, data = race)
+  AnswerTests: omnitest(correctExpr="boxplot(Nettime_mins ~ Class, data = race)")
+  Hint: boxplot(Nettime_mins ~ Class, data = race)
+  
+- Class: text
+  Output: "To run an ANOVA, we can use the function `aov()`, and give it a
+    formula. In contrast to `t.test()`, `wilcox.test()` and other functions
+    that take a maximum of two data arguments, those that can take more
+    than two data arguments (e.g. in a two-way ANOVA, or multiple regression) always
+    use a formula."
+  
+- Class: cmd_question
+  Output: "Run an ANOVA of net time on age class with a data argument."
+  CorrectAnswer: aov(Nettime_mins ~ Class, data = race)
+  AnswerTests: omnitest(correctExpr= "aov(Nettime_mins ~ Class, data = race)")
+  Hint: put the previous formula you used for boxplot in a call to aov().
+  
+- Class: cmd_question
+  Output: "R prints some items to the screen. We can do better. Assign 
+    the ANOVA code to an object, called `m0` (our first model)."
+  CorrectAnswer: m0 <- aov(Nettime_mins ~ Class, data = race)
+  AnswerTests: omnitest(correctExpr= "m0 <- aov(Nettime_mins ~ Class, data = race)")
+  Hint: assign the previous code to `m0`
+  
+- Class: cmd_question
+  Output: "Now we can delve into the details of the output. Look at the structure 
+    of m0."
+  CorrectAnswer: str(m0)
+  AnswerTests: omnitest("str(m0)")
+  Hint: str(m0)
+  
+- Class: cmd_question
+  Output: "A list of 13 different things. It looks pretty complex. We
+    can use the function`summary()` to pull out the main results in an
+    easy to digest way. Do so."
+  CorrectAnswer: summary(m0)
+  AnswerTests: omnitest("summary(m0)")
+  Hint: summary(m0)
+  
+- Class: text
+  Output: "Here we have our traditional ANOVA table, with degrees of 
+    freedom (Df), sum of squares, etc. The p-value tells us that
+    there _are_ significant differences between age classes."
+  
+- Class: text
+  Output: "Ok. But what if we want to actually _see_ the means of
+    each category... We can use `summary.lm()` to return those. Try that."
+  CorrectAnswer: summary.lm(m0)
+  AnswerTests: omnitest("summary.lm(m0)")
+  Hint: summary.lm(m0)
+    
+- Class: text
+  Output: "What is going on? In reality, `aov()` is a wrapper to `lm()` (the function 
+    for simple linear regression), i.e., the function `aov()` calls the function `lm()`
+    for fitting linear models to balanced or unbalanced experimental designs. The main
+    difference from `lm()` is in the way `print()`, `summary()` and so on handle the 
+    fit: This is expressed in the traditional language of the analysis of variance 
+    rather than that of linear models. This also means that it is easy to include
+    both categorical and continuous variables as predictors in a model
+    (we will come to this later)."
+    
+- Class: text
+  Output: "What is returned by `summary.lm()` is the mean values of each category ...
+    almost. In fact, the values displayed are the _differences_ between the base level 
+    (in this case 01-12) and each other level. So, the value of -3.4574 is the difference
+    between 01-12 and 13-19. To calulate the actual value for age class 13-19, take the value
+    for 01-12 (31.1825) and add -3.4575 (31.1825 + -3.4575 == 31.1825 - 3.4575 = 27.725)."
+    
+- Class: text
+  Output: "The p-values are testing that this difference is 0. Thus, the p-value for 
+    age class 13-19 is less than 0.05, indicating that it is significantly different from
+    0 and therefore a different mean from the mean of age class 01-12."
+
+- Class: text
+  Output: "This way of testing for differences is specific to R. Other software
+    will have a different set of default contrasts. It is possible to change the 
+    contrasts in R (i.e., to test each group against the pooled grand mean, for example)."
+    
+- Class: text
+  Output: "We can check the assumption of **normal distribution of the residuals** 
+    (not the data; once you move to linear models (ANOVA, lm, etc), it is the residuals that
+    are important (specifically, in a t-test the data and residuals are the same), either 
+    graphically or with a shapiro-wilk test."
+    
+- Class: cmd_question
+  Output: "If you run `plot()` on the result of any model, it will return a series 
+    of _diagnostic plots_. To see only the q-q plot, run `plot(m0, 2)`."
+  CorrectAnswer: plot(m0, 2)
+  AnswerTests: omnitest("plot(m0, 2)")
+  Hint: plot(m0, 2) 
+    
+- Class: text
+  Output: "The residuals still fall off the 1:1 line, suggesting they are not 
+    normally-distributed. Age class has not accounted for this variation in 
+    the data. You can use the shapiro-wilk test to do this more formally."
+    
+- Class: cmd_question
+  Output: "We can test for homogeneity of variance another diagnostic
+    plot. To display the plot of residuals on the fitted values, 
+    run `plot(m0, 1)`."
+  CorrectAnswer: plot(m0, 1)
+  AnswerTests: omnitest("plot(m0, 1)")
+  Hint: plot(m0, 1) 
+    
+- Class: text
+  Output: "This plot should show no relationship between the residuals and
+    the fitted values. There is no obvious correlation here, although we
+    may have lower variance at higher values, which may be a problem. You 
+    can use Levene's or Bartlett's test to examine this more formally."
+    
+- Class: text
+  Output: "A non-parametric alternative to ANOVA is the Kruskal-Wallis
+    rank sum test, `kruskal.test()`."
+    
+    
+- Class: text
+  Output: "### D2. Two-way ANOVA"
+    
+- Class: text
+  Output: "A two-way ANOVA models the response as a function of two 
+    categorical variables, and can also include an interaction between them. 
+    It has the same assumptions as a one-way ANOVA."
+    
+- Class: cmd_question
+  Output: "We can run a two-way ANOVA easily, using `aov()`, and adding in
+    another part to the formula. We will go over formulas in more detail
+    later, but for now, know that you write them out in R much as you 
+    would algebraically. To model net time as a function of age class
+    and sex, type: Nettime_mins ~ Class + Sex. Run that two-way ANOVA."
+  CorrectAnswer: aov(Nettime_mins ~ Class + Sex, data = race)
+  AnswerTests: omnitest(correctExpr= "aov(Nettime_mins ~ Class + Sex, data = race)")
+  Hint: Add ` + Sex` to the previous call to aov.
+  
+- Class: text
+  Output: "This model is an _additive_ model. The effect of age is
+    equal across both sexes, and vice versa. You could allow the 
+    effects to vary across the other variable, by making the model
+    _multiplicative_ or including an interaction, by replacing the 
+    plus sign with a star (`+` changes to `*`)."
+
+
+- Class: cmd_question
+  Output: "Anyway, let's stick with our additive model, and assign it
+    to `m1`. Do that."
+  CorrectAnswer: m1 <- aov(Nettime_mins ~ Class + Sex, data = race)
+  AnswerTests: omnitest(correctExpr= "m1 <- aov(Nettime_mins ~ Class + Sex, data = race)")
+  Hint: Assign the model to m1
+    
+- Class: cmd_question
+  Output: "Now look at the summary of m1."
+  CorrectAnswer: summary(m1)
+  AnswerTests: omnitest("summary(m1)")
+  Hint: summary(m0)
+
+- Class: text
+  Output: "This displays the ANOVA table for the two-way model. It looks
+    like there are significant differences among age class and sex."
+
+
+- Class: text
+  Output: "### D3. Post-hoc tests: TukeyHSD"
+  
+- Class: text
+  Output: "To compare the significant difference across all the group means,
+    Tukeys Honest Significant Differences test is often used. Tukey's test is
+    essentially a t-test, except that it corrects for the fact that you are
+    making multiple comparisons (when making multiple comparisons, the chance of 
+    making a Type I error---a false positive---increases). Tukey's test corrects 
+    for that, so is more suitable single test for multiple comparisons than 
+    running multiple t-tests."
+
+- Class: cmd_question
+  Output: "To run a Tukey HSD test, use the function `TukeyHSD()` on the 
+    model object (in this case `m1`). Try that."
+  CorrectAnswer: TukeyHSD(m1)
+  AnswerTests: omnitest("TukeyHSD(m1)")
+  Hint: TukeyHSD(m1)
+    
+- Class: text
+  Output: "This function displays the model and the results
+    for each pairwise comparison (we have a lot of age classes, 
+    so the table is long!). It tells us the difference between
+    the means of each comparison, some confidence intervals, and an
+    adjusted p-value."
+    
+- Class: text
+  Output: "Well done! That was a whistle-stop tour of comparing 
+    the means of single, pairs, and multiple groups."
+
+- Class: mult_question
+  Output: Please submit the log of this lesson to Google Forms so
+    that Simon may evaluate your progress.
+  AnswerChoices: I am a robot.
+  CorrectAnswer: I am a robot.
+  AnswerTests: submit_log()
+  Hint: hint
+
+
