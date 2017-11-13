@@ -407,12 +407,13 @@
   Hint: use your head()
 
 - Class: cmd_question
-  Output: "Now, run a t-test on the rats data, with a data argument, and
+  Output: "Now, run a t-test on the rats data, setting `x` and `y` (but, `t.test()` has 
+    no data argument), and
     the default alternative hypthesis (i.e., the difference between before and after 
     could be greater or lesser)."  
-  CorrectAnswer: t.test(after, before, data = rats, paired = TRUE)
-  AnswerTests: omnitest(correctExpr="t.test(after, before, data = rats, paired = TRUE)")
-  Hint: t.test(after, before, data = rats, paired = TRUE)
+  CorrectAnswer: t.test(x = rats$after, y = rats$before, paired = TRUE)
+  AnswerTests: omnitest(correctExpr="t.test(x = rats$after, y = rats$before, paired = TRUE)")
+  Hint: t.test(x = rats$after, y = rats$before, paired = TRUE)
   
 - Class: text
   Output: "## D. Compare the means of more than two groups"
