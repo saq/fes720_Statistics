@@ -1,0 +1,2644 @@
+Place	No.	Name	City	Div	Sex	Class	Nettime_mins	Time_mins	Pace_mins
+1	4606	Jake Gurzler	Manchester	1	M	30-39	15.82	15.82	5.1
+2	4384	Patrick Galvin	Stamford	1	M	20-29	15.85	15.87	5.12
+3	4598	Aidan Pillard	Washington	2	M	20-29	15.92	15.93	5.13
+4	3745	Omar Perez	Poughkeepsie	3	M	20-29	15.98	16	5.15
+5	5807	Timothy Milenkevich	Ansonia	2	M	30-39	16.2	16.23	5.23
+6	3954	Tim Foldy-Porto	Northampton	1	M	13-19	16.37	16.38	5.28
+7	4369	Scott Rodilitz	West Hartford	4	M	20-29	16.38	16.42	5.28
+8	4408	James Rogers	New Haven	2	M	13-19	16.42	16.45	5.3
+9	4610	Wade Davis	New Haven	5	M	20-29	16.62	16.67	5.37
+10	5442	Jonathan Annelu	Middletown	6	M	20-29	16.7	16.73	5.4
+11	4703	Robert Dillon	Shelton	3	M	13-19	16.68	16.8	5.42
+12	5452	Matt Chaston	New York	1	M	45-49	16.78	16.8	5.42
+13	5433	Bart Wasiolek	Branford	2	M	45-49	16.8	16.82	5.42
+14	5047	Azaan Dawson	New Haven	4	M	13-19	16.9	16.93	5.45
+15	5214	John Longo	Southington	7	M	20-29	16.92	16.97	5.47
+16	5339	Adam D_Sa	Garden City	8	M	20-29	17.07	17.1	5.52
+17	3882	Kieran Haug	Simsbury	5	M	13-19	17.25	17.27	5.57
+18	5401	David Kerns	Naugatuck	6	M	13-19	17.25	17.27	5.57
+19	5492	Chris Stonier	Middletown	1	M	50-54	17.47	17.48	5.63
+20	4399	Oscar Gonzalez-Barret	Tappan	2	M	50-54	17.48	17.5	5.63
+21	5343	Nicolas Burtson	Westport	7	M	13-19	17.45	17.53	5.65
+22	5296	David Guzman	Bronx	9	M	20-29	17.47	17.57	5.67
+23	4283	Matthew Richard	Shelton	8	M	13-19	17.5	17.62	5.68
+24	4916	Joseph Berrafati	Wilton	9	M	13-19	17.6	17.63	5.68
+25	5027	George Dorsey	New Haven	10	M	13-19	17.72	17.73	5.72
+26	4591	Niko Zorba	Madison	11	M	13-19	17.63	17.77	5.72
+27	3029	Joseph Fischel	Scarsdale	3	M	30-39	17.72	17.77	5.72
+28	5273	Eric Sanderson	New Haven	12	M	13-19	17.93	17.95	5.78
+29	3003	Ethan Laudermilch	New Haven	10	M	20-29	17.93	17.98	5.8
+30	4887	Dr. Robert Canelli	Newton	4	M	30-39	17.97	18.03	5.82
+31	4558	Grant Young	Woodbridge	13	M	13-19	17.88	18.08	5.83
+32	3005	Tyler Pineau	Shelton	14	M	13-19	18.02	18.13	5.85
+33	3139	Joseph Mitchell Vecch	Trumbull	15	M	13-19	18.13	18.15	5.85
+34	5038	Richard McCoy	Wexford	11	M	20-29	18.1	18.18	5.85
+35	4711	Matthew Wells	Shelton	16	M	13-19	18.1	18.23	5.87
+36	4238	Casey Pickett	New Haven	5	M	30-39	18.2	18.25	5.88
+37	4058	Harry Harwood	Woodbury	17	M	13-19	18.18	18.28	5.88
+38	5341	Omar Santos	Bridgeport	3	M	50-54	18.28	18.3	5.9
+39	4883	Keaton Mangi	New Haven	12	M	20-29	18.3	18.33	5.9
+40	4993	Musa Hussain	New Haven	18	M	13-19	18.23	18.35	5.92
+41	4562	Nicolette St Lawrence	Garrison	1	F	20-29	18.33	18.35	5.92
+42	4871	Joshua Wilson	Shelton	19	M	13-19	18.25	18.37	5.92
+43	3590	Doug Levens	Cheshire	3	M	45-49	18.4	18.43	5.93
+44	3804	Max Veers	Princeton	20	M	13-19	18.4	18.48	5.95
+45	4500	Andrew Ballard	Larchmont	21	M	13-19	18.42	18.48	5.95
+46	5137	Brandon Thomas	Naugatuck	22	M	13-19	18.48	18.53	5.97
+47	5328	Wesley Oliveira	Bridgeport	4	M	45-49	18.6	18.62	6
+48	5053	Parker Paragas	Woodbridge	1	M	01-12	18.67	18.7	6.02
+49	4509	Michael Van Den Linde	Walpole	13	M	20-29	18.67	18.72	6.03
+50	5049	Caleb Bolden	New Haven	23	M	13-19	18.77	18.78	6.05
+51	4876	Brendan Mellitt	Cheshire	24	M	13-19	18.77	18.82	6.07
+52	5340	Wantuil Souza	Bridgeport	5	M	45-49	18.8	18.83	6.07
+53	4571	Jay Damania	Shelton	25	M	13-19	18.73	18.85	6.08
+54	3665	Jonah Norwitt	Ridgefield	26	M	13-19	18.82	18.9	6.08
+55	4325	Sean Barkasy	Manchester	2	M	01-12	18.9	18.93	6.1
+56	4675	Sean Hackett	Guilford	27	M	13-19	18.92	18.93	6.1
+57	4517	Samantha Glass	Goshen	2	F	20-29	18.95	18.97	6.12
+58	5059	Michael Loschiavo	Milford	28	M	13-19	18.98	19.02	6.12
+59	3364	Jake Wang	New Haven	29	M	13-19	18.93	19.02	6.12
+60	4829	George Buchanan	Shelton	1	M	55-59	19.03	19.07	6.15
+61	5161	Max Huang	West Hartford	3	M	01-12	19.03	19.08	6.15
+62	4212	George Kosinski	Hamden	30	M	13-19	19	19.08	6.15
+63	3879	Forrest Simpson	New Haven	31	M	13-19	18.83	19.18	6.18
+64	4374	Joshua Sacoto	Shelton	32	M	13-19	19.13	19.32	6.22
+65	4446	Ethan Puc	Naugatuck	33	M	13-19	19.22	19.32	6.22
+66	5204	Chabad Wod	New Haven	6	M	30-39	19.22	19.37	6.23
+67	4807	Acer Xu	Ann Arbor	14	M	20-29	19.3	19.37	6.23
+68	4528	Michael Sisti	New Haven	34	M	13-19	19.05	19.38	6.25
+69	3471	Miles Williams	New Haven	35	M	13-19	19.28	19.4	6.25
+70	5347	Mike Song	Guilford	4	M	50-54	19.38	19.42	6.25
+71	4619	Emmett Parkerson	Cheshire	36	M	13-19	19.4	19.45	6.27
+72	5481	Christine Pakutka	Branford	1	F	30-39	19.43	19.48	6.28
+73	4293	Matthew Taylor	New Haven	1	M	40-44	19.47	19.5	6.28
+74	3931	Hector Matos Jr	Rutherford	7	M	30-39	19.48	19.5	6.28
+75	5024	De Janey Davis	New Haven	1	F	13-19	19.52	19.53	6.3
+76	3319	Liam Festa	New York	37	M	13-19	19.52	19.57	6.3
+77	5801	Liz Herbert	Darien	1	F	45-49	19.55	19.58	6.32
+78	4946	Jaime Calderon	Madison	38	M	13-19	19.45	19.58	6.32
+79	3993	Mike Rieger	Hamden	15	M	20-29	19.45	19.6	6.32
+80	3295	Parth Mody	Durham	39	M	13-19	19.4	19.62	6.32
+81	3894	Pat Summa	West Hartford	16	M	20-29	19.53	19.62	6.32
+82	2885	Curran Oi	New Haven	17	M	20-29	19.5	19.62	6.32
+83	4928	Christoph Funke	New Haven	40	M	13-19	19.4	19.63	6.33
+84	5324	Chris Lemay	South Windsor	41	M	13-19	19.58	19.67	6.33
+85	5335	Vincenzo Dinatale	Wallingford	42	M	13-19	19.48	19.7	6.35
+86	3650	Stephen Woolbert	Trumbull	2	M	40-44	19.57	19.7	6.35
+87	4140	Owen McGeary	Madison	43	M	13-19	19.55	19.72	6.35
+88	2946	Lauren Daddi	Cheshire	2	F	13-19	19.7	19.73	6.35
+89	3881	Ryan Haug	Simsbury	3	M	40-44	19.72	19.75	6.37
+90	3362	George Wang	New Haven	44	M	13-19	19.68	19.77	6.37
+91	4817	Gil Schaper	Guilford	8	M	30-39	19.65	19.78	6.37
+92	3771	Gordon Bakoulis	New York	1	F	55-59	19.75	19.78	6.37
+93	3943	Christopher Rojas	New Haven	45	M	13-19	19.77	19.8	6.38
+94	5239	Nicole Toomey	New Haven	3	F	20-29	19.72	19.8	6.38
+95	3690	Edwin Vargas	New Haven	5	M	50-54	19.75	19.8	6.38
+96	3941	Matthew Cristiano	Shelton	46	M	13-19	19.72	19.82	6.38
+97	5476	Celso Lojano	White Plains	9	M	30-39	19.78	19.82	6.38
+98	4234	Madeleine Walker	Fairfield	3	F	13-19	19.7	19.82	6.38
+99	4262	John Dewitt	New Haven	10	M	30-39	19.58	19.82	6.38
+100	3298	Maliya Ellis	New Haven	4	F	13-19	19.68	19.82	6.38
+101	4983	Charles Marenghi	Naugatuck	47	M	13-19	19.78	19.82	6.38
+102	4476	Tim Shortt	North Branford	6	M	50-54	19.8	19.85	6.4
+103	5158	Christian Shaboo	New Haven	11	M	30-39	19.55	19.88	6.4
+104	3687	Matthew Falcon	Hamden	12	M	30-39	19.85	19.88	6.4
+105	3942	Luis Ortiz	West Haven	13	M	30-39	19.85	19.9	6.42
+106	4014	Griffin Mascia	Madison	48	M	13-19	19.75	19.93	6.42
+107	5350	Joseph Dempsey	Naugatuck	49	M	13-19	19.92	19.95	6.43
+108	2748	Paul El-Fishawy	New Haven	6	M	45-49	19.92	19.95	6.43
+109	3794	Ken Clark	Prospect	4	M	40-44	19.92	19.97	6.43
+110	4538	Yuill Moore	Albany	50	M	13-19	19.73	19.98	6.43
+111	4341	Owen Corbett	Shelton	51	M	13-19	19.87	19.98	6.43
+112	5432	Michael Healey	Madison	52	M	13-19	19.83	19.98	6.43
+113	3382	Visna Ngov	Hamden	14	M	30-39	20	20.03	6.45
+114	3627	Elizabeth Patron	Cockeysville	4	F	20-29	19.97	20.03	6.45
+115	4879	Topiltzin Gomez	Waulsegan	53	M	13-19	19.95	20.07	6.47
+116	3837	Arjun Katechia	Glastonbury	54	M	13-19	19.92	20.07	6.47
+117	3334	Daniel Martin	New Haven	18	M	20-29	20.03	20.08	6.47
+118	5249	Dylan McDonnell	New Haven	19	M	20-29	19.17	20.1	6.48
+119	3279	Jeff Sanborn	Wethersfield	7	M	50-54	20.08	20.12	6.48
+120	4951	Ian Belles	Brookfield	55	M	13-19	20.12	20.13	6.48
+121	4665	Clark Devoto	Middletown	56	M	13-19	19.98	20.15	6.5
+122	5310	Angel Perez	New Haven	4	M	01-12	20.15	20.18	6.5
+123	4996	Christine Vincent	Fairfield	2	F	45-49	20.15	20.18	6.5
+124	3117	Luis Yanza	Maspeth	5	M	40-44	20.17	20.18	6.5
+125	5054	Leilani Gibson		1	F	01-12	20.18	20.2	6.5
+126	5233	Joseph Shrager	New Haven	20	M	20-29	20.13	20.23	6.52
+127	3821	Sam Jenkins	Branford	57	M	13-19	20.15	20.28	6.53
+128	4555	Andrew Lingenfelter	Evans City	58	M	13-19	19.92	20.3	6.53
+129	4072	Daniel Bondeson	New Haven	21	M	20-29	19.92	20.3	6.53
+130	3383	Brian Dreyfus	Durham	15	M	30-39	20.2	20.32	6.55
+131	5019	Peter Reynolds	Hamden	16	M	30-39	19.95	20.32	6.55
+132	5355	Jared James	Orange	17	M	30-39	20.3	20.35	6.55
+133	5419	Brian Malarney	Mattews	6	M	40-44	20.28	20.35	6.55
+134	4155	Max Yuhas	Baltimore	59	M	13-19	20.18	20.37	6.57
+135	5498	Jackie Baungartner	North Branford	2	F	30-39	20.33	20.37	6.57
+136	5422	Ty Stinson	Wellington	60	M	13-19	20.2	20.4	6.57
+137	4497	Jacob Marks	Weston	22	M	20-29	20.33	20.42	6.57
+138	4607	Kyle Dwyer	Guilford	61	M	13-19	20.42	20.47	6.6
+139	2941	Jacqueline Guerra	Guilford	5	F	13-19	20.37	20.48	6.6
+140	5423	Stuart Arthur	Jersey City	62	M	13-19	20.33	20.5	6.6
+141	5544	Megan Re	Oxford	3	F	30-39	20.48	20.5	6.6
+142	4096	Aidan Weir	Wallingford	63	M	13-19	20.38	20.52	6.6
+143	4241	Michael Ai	San Diego	64	M	13-19	20.17	20.52	6.62
+144	4025	James Post	Beaufort	23	M	20-29	20.3	20.52	6.62
+145	3862	Randall Reynolds	White River Juncti	24	M	20-29	20.13	20.55	6.62
+146	4041	Martin Adlianitski	Cheshire	65	M	13-19	20.52	20.55	6.62
+147	4207	Julio Berruecos	New Haven	7	M	40-44	20.52	20.58	6.63
+148	4257	Matt Spoerndle	Orange	8	M	40-44	20.57	20.63	6.65
+149	3079	Holden Turner	New Haven	66	M	13-19	20.43	20.63	6.65
+150	4530	Alec Emser	New Haven	67	M	13-19	20.53	20.65	6.65
+151	4573	Graham Keating	Killingworth	68	M	13-19	20.48	20.68	6.67
+152	3934	David Judd	New Haven	69	M	13-19	20.67	20.7	6.67
+153	3867	Thomas Redding	Hamden	70	M	13-19	20.63	20.72	6.67
+154	5052	Matthew Gibbs	Hamden	5	M	01-12	20.68	20.72	6.67
+155	3173	Lauren Flament	Shelton	5	F	20-29	20.72	20.73	6.68
+156	4893	Noah Schmeisser	Milford	71	M	13-19	20.62	20.73	6.68
+157	4086	Brian Cashin	Wadsworth	72	M	13-19	20.67	20.75	6.68
+158	4028	Brynn Bergin	Goshen	2	F	01-12	20.72	20.75	6.68
+159	4331	Jonathan Connellan	Southington	18	M	30-39	20.6	20.77	6.68
+160	3651	Ethan Woolbert	Trumbull	73	M	13-19	20.63	20.77	6.68
+161	3217	Bill Wiesler	Guilford	2	M	55-59	20.73	20.77	6.68
+162	4428	Ryan Pfeiffer	Middlebury	9	M	40-44	20.73	20.77	6.7
+163	5387	Michael Mendonia	Madison	74	M	13-19	20.62	20.78	6.7
+164	4751	Michael Campanelli	Madison	75	M	13-19	20.6	20.78	6.7
+165	4120	Kevin Wang	Brentwood	25	M	20-29	20.65	20.78	6.7
+166	3065	Joseph Coyne	Woodbridge	19	M	30-39	20.62	20.78	6.7
+167	4432	Pao K Chang	Cheshire	8	M	50-54	20.6	20.8	6.7
+168	4618	Alan Healy	New Haven	26	M	20-29	20.75	20.8	6.7
+169	3174	Katie Flament	Shelton	4	F	30-39	20.77	20.8	6.7
+170	3938	Matthew Haims	Madison	76	M	13-19	20.62	20.82	6.7
+171	4545	Shunhe Wang	Northville	77	M	13-19	20.65	20.82	6.7
+172	4453	Charles Hornak	Hamden	7	M	45-49	20.78	20.83	6.72
+173	1051	Paul Luciano	Fairfield	10	M	40-44	20.8	20.85	6.72
+174	5114	John Paul Vander Woud	Nokesville	78	M	13-19	20.4	20.85	6.72
+175	4788	Heath Leber	Bristol	20	M	30-39	20.77	20.87	6.72
+176	4176	Nicolas Neumeister	Hamden	79	M	13-19	20.8	20.9	6.73
+177	3718	Connor Hartigan	Niantic	80	M	13-19	20.8	20.9	6.73
+178	5061	Adam Hagens		6	M	01-12	20.88	20.92	6.73
+179	3149	Alexander Orcutt	Cheshire	81	M	13-19	20.87	20.92	6.73
+180	2855	David Weinreb	Purchase	27	M	20-29	20.85	20.92	6.73
+181	4482	Rob Colgate	New Haven	82	M	13-19	20.5	20.93	6.73
+182	3923	Ryan Podann	Windsor Locks	28	M	20-29	20.83	20.95	6.75
+183	3248	Amir Idris	South Euclid	83	M	13-19	20.27	20.97	6.75
+184	4481	Kate Halabi	New Haven	6	F	13-19	20.97	21.02	6.77
+185	4425	Dylan Bettencourt	Cheshire	7	M	01-12	20.98	21.03	6.77
+186	5364	Danny Miller	New Haven	8	M	45-49	20.9	21.03	6.78
+187	5043	Elena Brennan	New Haven	7	F	13-19	21.02	21.03	6.78
+188	3649	Alexander Stein	Branford	21	M	30-39	20.78	21.03	6.78
+189	4049	Phillip Wilkinson	New Haven	29	M	20-29	20.92	21.03	6.78
+190	4008	Matthew Wallack	Madison	30	M	20-29	20.88	21.08	6.78
+191	3906	Michael White	Worchester	31	M	20-29	20.9	21.08	6.8
+192	4802	Jason Kish	Guilford	11	M	40-44	21.03	21.1	6.8
+193	4068	Joseph Lim	Cambridge	32	M	20-29	20.48	21.12	6.8
+194	3445	Jason Richards	Hamden	12	M	40-44	20.93	21.13	6.8
+195	4900	Hunter Singewald	Madison	84	M	13-19	20.95	21.13	6.8
+196	3507	Michael Rossi	Madison	85	M	13-19	20.98	21.13	6.8
+197	5352	Meredith Ott	New York	6	F	20-29	21.12	21.15	6.82
+198	4551	Jared Michaud	Fort Kent	86	M	13-19	20.8	21.18	6.82
+199	5458	Timothy Cyr	New Haven	33	M	20-29	21.12	21.18	6.83
+200	3647	Jack Welsh	New Haven	34	M	20-29	21.07	21.22	6.83
+201	3180	Jim Thompson	Burlington	13	M	40-44	21.15	21.23	6.83
+202	4858	Ben Walker	Fairfield	87	M	13-19	20.82	21.23	6.83
+203	3009	Rory O_Connor	New Haven	88	M	13-19	20.95	21.25	6.85
+204	4193	Ryan Bauman	Woodinville	89	M	13-19	21.18	21.32	6.87
+205	4118	Arthur Abeshouse	New Haven	90	M	13-19	21.3	21.33	6.87
+206	3550	Nathan McCann	Madison	35	M	20-29	21.18	21.35	6.88
+207	5565	Ruben Reyez	Stratford	91	M	13-19	21.05	21.35	6.88
+208	5183	Robert Backhaus	Milford	9	M	45-49	21.23	21.37	6.88
+209	5431	Edmund Huminski	Madison	92	M	13-19	21.25	21.38	6.88
+210	2924	Jason Kirck	Orange	14	M	40-44	21.32	21.38	6.88
+211	4429	Zachary Young	New Haven	36	M	20-29	21.1	21.4	6.9
+212	2879	Peter Remillard	Cheshire	9	M	50-54	21.28	21.4	6.9
+213	4055	Camille Lewis	Cheshire	8	F	13-19	21.37	21.4	6.9
+214	3219	Clara Wiesler	Guilford	9	F	13-19	21.38	21.42	6.9
+215	4658	Garrett Bingham	Pleasant View	93	M	13-19	21.27	21.42	6.9
+216	5398	Mark Oldham	North Haven	22	M	30-39	21.38	21.42	6.9
+217	5351	Jane Ott	Darien	1	F	50-54	21.38	21.43	6.9
+218	4978	Henry Hall	New Haven	94	M	13-19	21.22	21.43	6.9
+219	3051	Erin Duffy	New Haven	7	F	20-29	21.38	21.43	6.9
+220	4988	Jack Hoey	Watertown	3	M	55-59	21.35	21.45	6.92
+221	3399	Elizabeth Derose	New Haven	1	F	40-44	21.4	21.45	6.92
+222	590	Nate Stratton	New Haven	95	M	13-19	21.3	21.47	6.92
+223	4059	Kevin Langstaff	Syosset	37	M	20-29	21.13	21.47	6.92
+224	4625	Jack Dorland	Shelton	96	M	13-19	21.27	21.48	6.92
+225	2917	Patrick Cyr	Hamden	38	M	20-29	21.42	21.48	6.92
+226	3398	Carl Jacobson	N Branford	97	M	13-19	21.12	21.5	6.93
+227	5181	Jonathan Ortiz	West Haven	98	M	13-19	21.47	21.52	6.93
+228	4243	Nathaniel Hadley	New Haven	15	M	40-44	21.47	21.55	6.93
+229	5264	Allan Dias	New York	1	M	65-69	21.52	21.57	6.95
+230	3738	Joe Pierpont	West Haven	16	M	40-44	21.53	21.57	6.95
+231	3436	Justin Prestash	Cheshire	39	M	20-29	20.92	21.58	6.95
+232	3911	Anthony Shonti	Windsor Locks	99	M	13-19	21.43	21.6	6.95
+233	5208	Xanthe Robinson	Hamden	10	F	13-19	21.37	21.62	6.97
+234	4417	Rob Michanczyk	Southington	23	M	30-39	21.48	21.62	6.97
+235	3425	Christian Tambling	Watertown	40	M	20-29	20.92	21.63	6.97
+236	2997	David Kudej Jr	Shelton	100	M	13-19	21.43	21.65	6.98
+237	4708	Tommy Fant	Kentfield	101	M	13-19	21.35	21.67	6.98
+238	3724	Samuel Kaplan	Wallingford	102	M	13-19	21.48	21.68	6.98
+239	5103	Edgar Xicohtencatl	Bridgeport	103	M	13-19	21.42	21.7	6.98
+240	3944	Gustavo Rojas	New Haven	24	M	30-39	21.63	21.7	6.98
+241	4071	Katelynn Kyker	Carmel	8	F	20-29	21.57	21.73	7
+242	5021	Matthew Reynolds	Hamden	41	M	20-29	21.35	21.73	7
+243	5051	Marlon McFerren		8	M	01-12	21.68	21.73	7
+244	4800	Roberto Otavalo	Meriden	25	M	30-39	21.73	21.73	7
+245	4038	Tyler Whiting	Coppell	104	M	13-19	21.63	21.75	7
+246	4139	Rachel Kaplan	Cheshire	11	F	13-19	21.72	21.77	7.02
+247	5086	Rob Poudrier	Amston	17	M	40-44	21.68	21.78	7.02
+248	4035	Tommy Atlee	New Haven	105	M	13-19	21.52	21.78	7.02
+249	4050	Oscar Perales	Houston	106	M	13-19	21.52	21.82	7.03
+250	4617	Georino Darosa	Shelton	107	M	13-19	21.58	21.82	7.03
+251	5438	Corbin Wood	Bradenton	108	M	13-19	21.6	21.87	7.05
+252	5048	August Taylor	New Haven	9	M	01-12	21.83	21.88	7.05
+253	5149	Wolf Boone	New Haven	10	M	01-12	21.55	21.88	7.05
+254	4345	Tom Pescatore	New Haven	42	M	20-29	21.82	21.88	7.05
+255	5087	Suzanne Poudrier	Amston	2	F	40-44	21.8	21.88	7.05
+256	4535	Jamaal Thomas	New Haven	26	M	30-39	21.55	21.92	7.07
+257	4030	Rachel Furey	Lubbock	5	F	30-39	21.65	21.93	7.07
+258	2832	Robert Gagnon	Orange	10	M	45-49	21.87	21.95	7.07
+259	4510	Joseph Balsells	New Haven	109	M	13-19	21.85	21.97	7.07
+260	4880	Jose Diego Paucar	Hamden	27	M	30-39	21.83	21.97	7.08
+261	4020	Michael Lucas	Wallingford	28	M	30-39	21.87	22	7.08
+262	3910	Corey Wadlinger	West Simsbury	43	M	20-29	21.87	22.03	7.1
+263	5122	Kian McCormack	Cheshire	110	M	13-19	21.6	22.03	7.1
+264	4338	Patrick Grudberg	North Haven	111	M	13-19	21.9	22.05	7.1
+265	4285	Daren Anderson	Cheshire	11	M	45-49	22.1	22.1	7.12
+266	5173	Aksel Sather	Lyme	11	M	01-12	21.25	22.12	7.13
+267	4461	Francis Simpatico	Cheshire	112	M	13-19	22.08	22.15	7.13
+268	5806	Bill Nelson	New Haven	12	M	45-49	21.93	22.17	7.13
+269	4258	Michael Huang	Houston	113	M	13-19	22.03	22.18	7.15
+270	3800	Matthew Sampt	West Hartford	12	M	01-12	22.1	22.18	7.15
+271	5305	Kelsey Higgs Nawaf	New Haven	9	F	20-29	22.15	22.2	7.15
+272	4451	Borys Kuca	Lisia G  Ra	44	M	20-29	22.05	22.2	7.15
+273	5113	Michael Vander Woude	Nokesville	13	M	01-12	21.73	22.2	7.15
+274	4491	Anthony Famiglietti	Middletown	45	M	20-29	21.5	22.22	7.15
+275	4699	Danny Valen	New Haven	29	M	30-39	22.18	22.25	7.17
+276	3583	Emily Schwab	Cheshire	12	F	13-19	22.23	22.25	7.17
+277	2716	Jeremy Schofield	New Haven	46	M	20-29	21.88	22.25	7.17
+278	4998	Emily Longmore	Cheshire	13	F	13-19	22.23	22.27	7.17
+279	5050	Cayden Drost	West Haven	14	M	01-12	22.23	22.28	7.18
+280	4154	Tyrese Ford	Hamden	47	M	20-29	22.22	22.3	7.18
+281	4434	Jose Sanguano	Wallingford	10	M	50-54	22.27	22.32	7.18
+282	5018	Peter Reynolds	Hamden	1	M	60-64	21.95	22.32	7.18
+283	3780	Victor Figueroa	Branford	13	M	45-49	22.15	22.32	7.18
+284	2852	John Brett	Berlin	11	M	50-54	22.22	22.32	7.18
+285	3820	Bailey Cunningham	Cheshire	14	F	13-19	21.98	22.32	7.18
+286	5454	Antonio Martinez	Baldwinsville	48	M	20-29	22.23	22.33	7.2
+287	3218	Ellie Wiesler	Guilford	15	F	13-19	22.28	22.33	7.2
+288	4407	Sophie Cremo	Cheshire	16	F	13-19	21.98	22.35	7.2
+289	3479	Michael Stankewich	Guilford	14	M	45-49	22.1	22.35	7.2
+290	4605	Maygan Morello	Durham	10	F	20-29	22.02	22.37	7.2
+291	4671	William Meaney	Woodbridge	4	M	55-59	22.33	22.38	7.22
+292	3330	Kai Chometa	Bethany	15	M	01-12	21.85	22.42	7.22
+293	3341	Kelly Materna	Medina	11	F	20-29	22.37	22.43	7.23
+294	3676	Madison Beasley	Naugatuck	12	F	20-29	22.28	22.45	7.23
+295	3973	Md Jawad	New Haven	114	M	13-19	22.18	22.47	7.23
+296	4987	Matthew Vasseur	Hamden	16	M	01-12	22.42	22.47	7.23
+297	4371	Cailley Silbert	Short Hills	13	F	20-29	22.03	22.47	7.23
+298	4092	Mary Hyde	Derby	14	F	20-29	21.92	22.48	7.25
+299	3622	Richard Andreozzi	Hamden	5	M	55-59	22.35	22.5	7.25
+300	3236	Joseph Kelly	New York	30	M	30-39	21.88	22.5	7.25
+301	4477	Justin Abbasi	New Haven	49	M	20-29	22.27	22.53	7.25
+302	2915	Rachel Joyce	Wallingford	17	F	13-19	22.4	22.53	7.25
+303	5167	Michael Shepa	Bethany	115	M	13-19	22.48	22.53	7.27
+304	3305	Nicholai Dalidowitz	Southington	31	M	30-39	22.33	22.55	7.27
+305	4137	Jonathan Kaplan	Cheshire	12	M	50-54	22.4	22.55	7.27
+306	5039	Marlon Ward	New Haven	17	M	01-12	22.55	22.57	7.27
+307	5315	Wes Raymond	Branford	18	M	01-12	22.2	22.57	7.27
+308	2744	Rob D_Andrea	Cheshire	15	M	45-49	22.42	22.58	7.27
+309	3852	Jacob Mitchell	Lebanon	50	M	20-29	22.27	22.58	7.27
+310	4845	Brendan Buckley	North Haven	116	M	13-19	22.07	22.6	7.28
+311	5805	Ryan Joseph	Hamden	32	M	30-39	22.05	22.6	7.28
+312	4745	Amanda Addesso	Cheshire	18	F	13-19	22.58	22.62	7.28
+313	4437	Alex Carrio	Malverne	51	M	20-29	22.33	22.62	7.28
+314	4016	Alexandra Weyerhaeuse	Cambridge	19	F	13-19	22.6	22.62	7.28
+315	5130	Joshua Guernon	Ellington	52	M	20-29	22.42	22.63	7.28
+316	4678	Chentian Jin	New Haven	53	M	20-29	22.57	22.65	7.3
+317	4486	Hunter Congdon	Milford	117	M	13-19	22.45	22.67	7.3
+318	4380	Claud Chong	East Hampton	13	M	50-54	22.65	22.7	7.32
+319	5093	Jason Pettit	Torrington	33	M	30-39	22.65	22.7	7.32
+320	4733	Luke Aldo	Southington	34	M	30-39	22.62	22.7	7.32
+321	5152	Del Toreno	Trumbull	14	M	50-54	22.52	22.72	7.32
+322	2771	Nandan Pandit	Phoenixville	54	M	20-29	22.42	22.75	7.33
+323	5538	Sean Fallon	West Simsbury	15	M	50-54	22.68	22.75	7.33
+324	3452	Andrew Parkany	Glastonbury	118	M	13-19	22.63	22.77	7.33
+325	4712	James Ball	Shelton	119	M	13-19	22.53	22.78	7.33
+326	3329	Trey Chometa	Bethany	19	M	01-12	22.27	22.8	7.35
+327	4335	Cole Benoit	New Haven	120	M	13-19	22.63	22.82	7.35
+328	3909	Kyle Wadlinger	West Simsbury	35	M	30-39	22.63	22.83	7.35
+329	3246	Bill Galdenzi	Northford	16	M	50-54	22.77	22.83	7.35
+330	5112	Bobby Vander Woude	Nokesville	121	M	13-19	22.3	22.85	7.37
+331	4013	Gaboury Benoit	New Haven	2	M	60-64	22.85	22.85	7.37
+332	4346	John Pescatore	New Haven	17	M	50-54	22.8	22.87	7.37
+333	4162	Matt Fischer	Woodbridge	36	M	30-39	22.7	22.87	7.37
+334	3918	David Weiner	Ellington	16	M	45-49	22.7	22.87	7.37
+335	3644	Brian Toole	Shelton	122	M	13-19	22.65	22.87	7.37
+336	4135	Jake Daxner	Shelton	123	M	13-19	22.75	22.88	7.37
+338	4644	Gaudencio Manzanares	New Haven	37	M	30-39	22.83	22.88	7.37
+339	3515	Lindsey Bonitz	Cheshire	15	F	20-29	22.78	22.9	7.38
+340	5225	Matthew Hack	Ann Arbor	124	M	13-19	22.8	22.92	7.38
+341	5016	Cuill Cushing	Bethany	38	M	30-39	22.85	22.95	7.4
+342	5017	Luke Cushing	Bethany	20	M	01-12	22.85	22.95	7.4
+343	3823	Katie Ward	Walnut Creek	16	F	20-29	22.72	22.97	7.4
+344	4385	Vikram Joglekar	Killingworth	39	M	30-39	22.35	22.97	7.4
+345	2956	Mary Rothfuss	North Haven	6	F	30-39	22.92	22.97	7.4
+346	4506	Stephen Tang	New Haven	125	M	13-19	22.87	22.97	7.4
+347	3030	Mohammed Qureshi	New Haven	40	M	30-39	22.57	23	7.4
+348	5804	Robert Schwaber	Woodbridge	6	M	55-59	22.88	23	7.42
+349	4979	Foster Hall	New Haven	126	M	13-19	22.78	23.02	7.42
+350	4581	Samuel Savitz	New Haven	55	M	20-29	22.8	23.02	7.42
+351	4743	Gabrielle Stack	New Haven	17	F	20-29	22.95	23.03	7.42
+352	4488	Adam Maiocco	Trumbull	41	M	30-39	22.92	23.03	7.42
+353	3653	E Camden Fisher	New Haven	42	M	30-39	22.53	23.05	7.42
+354	5602	Emily Birney	Wallingford	20	F	13-19	22.98	23.05	7.43
+355	5376	Michael Costello	Fairfield	7	M	55-59	22.93	23.07	7.43
+356	2840	Susan Pratt	Avon	18	F	20-29	23.02	23.07	7.43
+357	4372	Courtney Cosgrove	Hamden	18	M	40-44	22.77	23.07	7.43
+358	3526	Rene Moreno	Meriden	19	M	40-44	22.93	23.1	7.45
+359	4263	Zach Wright	New Haven	127	M	13-19	22.82	23.1	7.45
+360	5302	Brenda Toto	Milford	2	F	50-54	23.08	23.12	7.45
+361	5375	Jake Henry Poulos	New Haven	128	M	13-19	23.02	23.12	7.45
+362	4327	Jesse Girald	Darien	43	M	30-39	22.92	23.12	7.45
+363	5337	Matthew Murillo	West Haven	129	M	13-19	22.85	23.13	7.45
+364	3169	Adrian Horotan	North Branford	20	M	40-44	23.02	23.15	7.45
+365	3514	Rob Bonitz	Cheshire	18	M	50-54	23.03	23.15	7.45
+366	5549	Tim Discipio	Easton	19	M	50-54	23.05	23.15	7.45
+367	3683	Emmy Stocker	Cos Cob	2	F	55-59	23.12	23.15	7.45
+368	3299	Peter Ellis	New Haven	8	M	55-59	22.68	23.15	7.47
+369	3346	Bob Wardwell	Durham	2	M	65-69	23.08	23.18	7.47
+370	4116	Miles Ahrens	Bethany	3	M	60-64	22.97	23.18	7.47
+371	2781	Matt Kalthoff	New Haven	44	M	30-39	22.82	23.18	7.47
+372	3708	Daniel Brockett	Wallingford	130	M	13-19	22.98	23.18	7.47
+373	3961	Frederick Cisse	New Haven	131	M	13-19	22.97	23.23	7.48
+374	3446	Carter Richards	Hamden	132	M	13-19	23.07	23.25	7.48
+375	5150	Kurt Boone	New Haven	21	M	01-12	22.92	23.25	7.48
+376	3125	Kurt Philipp	Bristol	4	M	60-64	23.2	23.27	7.5
+377	4936	Caroline Borden	Amherst	21	F	13-19	23.05	23.28	7.5
+378	4503	Isabel Detherage	Zionsville	22	F	13-19	23.05	23.28	7.5
+379	4191	Sofia Menemenlis	La Canada	23	F	13-19	22.95	23.28	7.5
+380	4989	Nathan Hoey	Watertown	56	M	20-29	23.18	23.28	7.5
+381	3428	Curvin Council	North Branford	21	M	40-44	22.93	23.28	7.5
+382	2746	Kaitlyn D_Andrea	Cheshire	24	F	13-19	23.15	23.3	7.5
+383	3885	Pedro Hervella	Westport	133	M	13-19	22.73	23.32	7.52
+384	2856	Christopher Reese	Plantsville	20	M	50-54	23.32	23.37	7.53
+385	5495	Michael Loughlin	Guilford	17	M	45-49	23.12	23.4	7.53
+386	4764	Mart  N Pastor	Hamden	134	M	13-19	23.3	23.42	7.55
+387	4905	Durval Pinto	Mogi Das Cruzes	45	M	30-39	22.43	23.42	7.55
+388	2819	Mark Branch	New Haven	21	M	50-54	23.12	23.43	7.55
+389	4762	Kiran Chokshi	Short Hills	135	M	13-19	23.07	23.43	7.55
+390	3147	Dave Brockett	Wallingford	22	M	40-44	23.32	23.45	7.55
+391	3730	Philip Guay	Watertown	57	M	20-29	22.98	23.45	7.55
+392	4997	Richard Hicks	New Haven	58	M	20-29	23.03	23.45	7.55
+393	2843	Cole Bova	Orange	136	M	13-19	23.15	23.45	7.55
+394	5441	Joseph Plante	Southington	22	M	50-54	23.38	23.47	7.55
+395	4657	Michael Faherty		23	M	40-44	23.13	23.48	7.57
+396	4574	Nethkelum Perera	Bridgeport	59	M	20-29	22.8	23.48	7.57
+397	4300	Josh Hochman	Short Hills	60	M	20-29	22.75	23.48	7.57
+399	4639	Evan Harte	Cheshire	137	M	13-19	23.37	23.5	7.57
+400	3027	Ethan Forauer	Milford	61	M	20-29	23.1	23.5	7.57
+401	5211	Eric Levesque	Plantsville	46	M	30-39	23.45	23.52	7.57
+402	4533	Chris Rudeen	Denver	62	M	20-29	23.28	23.52	7.57
+403	5115	Gina Levesque	Plantsville	7	F	30-39	23.4	23.52	7.57
+404	3280	Gualberto Saucedo	Plainfield	24	M	40-44	23.37	23.52	7.58
+405	2964	Scott McMahon	Guilford	18	M	45-49	22.27	23.52	7.58
+406	4406	Hannah Cremo	Cheshire	25	F	13-19	23.47	23.53	7.58
+407	3746	Hannah Na	Cheshire	26	F	13-19	23.5	23.55	7.58
+408	5424	Hurston Mazard Wallac	Amherst	138	M	13-19	23.4	23.6	7.6
+409	3599	Shannon Leslie	New Haven	19	F	20-29	23	23.6	7.6
+410	2844	Mikayla Crowley	Cheshire	27	F	13-19	23.25	23.6	7.6
+411	5342	Marcus McFerren	Woodbridge	25	M	40-44	23.55	23.62	7.62
+412	3963	Jacqueline Rojas	New Haven	28	F	13-19	23.57	23.63	7.62
+413	5260	Elliot Rosa	New Haven	47	M	30-39	23.5	23.65	7.62
+414	4273	Sanelma Heinonen	Ann Arbor	29	F	13-19	23.42	23.67	7.62
+415	2865	Veronica Alcocer	Bridgeport	8	F	30-39	22.98	23.67	7.62
+416	4763	Chris Hays	Charlottesville	139	M	13-19	23.33	23.68	7.63
+417	5426	Henry Keller	Madison	22	M	01-12	22.83	23.7	7.63
+418	4502	Gillian Reyes	Avon	30	F	13-19	23.48	23.7	7.63
+419	3122	Luis Galli	Orange	48	M	30-39	23.27	23.72	7.63
+420	3880	Colin Wallace	Madison	140	M	13-19	23.58	23.72	7.63
+421	4575	Cameron Yick	Stamford	63	M	20-29	22.98	23.72	7.65
+422	4867	Jim Mydosh	Derby	9	M	55-59	23.55	23.72	7.65
+423	3675	Aliza Taylor	Cheshire	31	F	13-19	23.68	23.73	7.65
+424	3435	Victoria Alvarez	Cheshire	20	F	20-29	23.68	23.73	7.65
+425	3075	David Manning	Oxford	10	M	55-59	23.63	23.75	7.65
+426	5803	Emily Finn	New Haven	21	F	20-29	23.15	23.75	7.65
+427	4444	Dennis Gelinas	Prospect	26	M	40-44	23.52	23.77	7.65
+428	3735	Maria Hern  Ndez	New Haven	9	F	30-39	23.77	23.78	7.67
+429	3498	Jennifer Prato	N Branford	3	F	40-44	23.75	23.8	7.67
+430	3643	Eric Woods	Milford	49	M	30-39	23.62	23.8	7.67
+431	3285	Camerin Jenkins Johns	New Haven	64	M	20-29	23.53	23.82	7.67
+432	3652	Heather Woolbert	Trumbull	10	F	30-39	23.68	23.82	7.67
+433	3720	Erik Aguilar	New Haven	141	M	13-19	23.55	23.82	7.67
+434	3876	Chris Regan	Trumbull	50	M	30-39	23.27	23.83	7.68
+435	4755	Matthew Daley	Branford	142	M	13-19	23.37	23.85	7.68
+436	4034	Jacob Levitt	New York	143	M	13-19	23.6	23.85	7.68
+437	4524	Brandon Ortiz	Brooklyn	65	M	20-29	23.73	23.88	7.7
+438	2722	Andrew Benner	Guilford	19	M	45-49	23.68	23.9	7.7
+439	3871	Alex Walker	Lower Gwynedd	66	M	20-29	23.77	23.9	7.7
+440	3256	Eric Goulet	Stratford	23	M	50-54	23.38	23.93	7.7
+441	2986	Hyung Chun	Guilford	27	M	40-44	23.83	23.93	7.72
+442	2831	Mark Youngblood	Hamden	51	M	30-39	23.65	23.93	7.72
+443	4231	Nolan Keane	Middlebury	23	M	01-12	23.4	23.95	7.72
+444	3714	Jennifer Johnson	West Hartford	11	F	30-39	23.95	23.97	7.72
+445	5421	Brendon Page	Branford	67	M	20-29	23.08	23.97	7.72
+446	4622	Yasmin Bergemann	New Haven	32	F	13-19	23.77	23.97	7.72
+447	3573	David Uprichard	New York	24	M	50-54	23.8	23.97	7.72
+448	5198	David Bamgboye	Hamden	144	M	13-19	23.85	23.98	7.73
+449	4646	Chase Ireland	Prospect	3	F	01-12	23.93	24	7.73
+450	5449	John Hogan	Cheshire	145	M	13-19	23.6	24.02	7.73
+451	3517	Megan Daly	Cheshire	33	F	13-19	23.58	24.02	7.73
+452	5206	Amanda Magleby	Clinton	12	F	30-39	23.88	24.02	7.73
+453	4494	Hui Yang	New Haven	68	M	20-29	23.82	24.03	7.73
+454	3046	Chaoqun Chen	New Haven	11	M	55-59	23.97	24.05	7.75
+455	5220	Andrew Nyhart	New Haven	12	M	55-59	23.65	24.08	7.75
+456	5219	Caleb Nyhart	New Haven	146	M	13-19	23.67	24.08	7.75
+457	4054	Anna Walewski	Fairfield	34	F	13-19	23.9	24.08	7.75
+458	5525	Rich Giveans	Portlnd	25	M	50-54	23.75	24.1	7.77
+459	3824	Alan Liu	Hillsborough	69	M	20-29	23.92	24.1	7.77
+460	4870	Geert Rouwenhorst	New Haven	13	M	55-59	23.85	24.13	7.77
+461	4661	Morganne Brady	New Haven	22	F	20-29	24.02	24.15	7.78
+462	4943	Kay Nakazawa	New Haven	23	F	20-29	23.88	24.15	7.78
+463	5116	Jacob Taswell	Bethesda	70	M	20-29	23.9	24.15	7.78
+464	3698	Allie Del Savio	Katonah	35	F	13-19	24.12	24.15	7.78
+465	4662	Colin Newton	Branford	71	M	20-29	23.27	24.15	7.78
+466	4611	Carrie Younkin	Ansonia	13	F	30-39	23.87	24.17	7.78
+467	3231	Michael Sangree	Ashford	14	M	55-59	23.98	24.17	7.78
+468	5222	Christopher Brigham	New Haven	52	M	30-39	24.13	24.17	7.78
+469	4040	Kristian Adlianitski	Cheshire	24	M	01-12	24.12	24.18	7.78
+470	4405	Richard Allard	New Haven	20	M	45-49	24.12	24.18	7.78
+471	3983	Andy Herrera	New Haven	147	M	13-19	23.92	24.18	7.78
+472	3450	Jacquie Violette	Guilford	36	F	13-19	23.82	24.18	7.78
+473	4404	Joshua Allard	New Haven	25	M	01-12	24.13	24.18	7.78
+474	5420	Richie Salval	Santa Ana	148	M	13-19	23.97	24.18	7.78
+475	3571	William Watson	New Haven	72	M	20-29	23.43	24.18	7.78
+476	4480	Summer Wu	New Haven	24	F	20-29	24.07	24.18	7.78
+477	3035	Kaitlyn Pacelli	North Branford	25	F	20-29	23.93	24.18	7.78
+478	3232	Ariel Cosgrove	Hamden	14	F	30-39	23.88	24.18	7.8
+479	3527	Michael Berthiaume	West Springfield	53	M	30-39	23.95	24.2	7.8
+480	3970	Mohammed Hoque	New Haven	149	M	13-19	23.95	24.22	7.8
+481	5363	Ryan Smith	New Haven	54	M	30-39	24.12	24.22	7.8
+482	3551	Andrew Yao	Trumbull	150	M	13-19	23.65	24.23	7.8
+483	5134	Hemer Ramirez	New Haven	55	M	30-39	24.22	24.23	7.8
+484	3959	Corbin Forselius	Cheshire	26	M	01-12	24.18	24.25	7.82
+485	4549	Eugine Szeto	Malden	73	M	20-29	23.77	24.25	7.82
+486	4958	Kevin Crowley	West Haven	56	M	30-39	24.12	24.25	7.82
+487	3965	Joel Rodriguez	New Haven	27	M	01-12	23.98	24.25	7.82
+488	3731	Rachel Guay	Watertown	37	F	13-19	23.85	24.25	7.82
+489	3863	Paul Gwiazdowski	Branford	74	M	20-29	23.87	24.25	7.82
+490	5439	Ashley Gerckens	Derby	38	F	13-19	24.15	24.28	7.82
+491	3413	Ahmet Kurdoglu	New Haven	57	M	30-39	23.77	24.3	7.83
+492	3922	Lucy Pellegrino	Cheshire	39	F	13-19	23.72	24.3	7.83
+493	5175	John Sather	Lyme	21	M	45-49	23.47	24.32	7.83
+494	4882	Alejandro Corpilla	West Haven	58	M	30-39	24.32	24.32	7.83
+495	3194	Walter Harding	Madison	15	M	55-59	24.02	24.33	7.83
+496	4066	John Casparino	Madison	75	M	20-29	24.15	24.33	7.83
+497	4201	Audrey Kiesling	Cheshire	40	F	13-19	24.3	24.35	7.85
+498	3912	Brian McConnell	East Granby	26	M	50-54	24.13	24.35	7.85
+499	3924	Justin Mazza	Winsor Locks	76	M	20-29	24.17	24.35	7.85
+500	4825	Michael Rutenberg Sch	New Haven	77	M	20-29	24.05	24.35	7.85
+501	3478	Alessandra Stankewich	Guilford	41	F	13-19	23.63	24.38	7.85
+502	3798	Michael Glick	Chicago	151	M	13-19	24.07	24.38	7.85
+503	3386	Michael Zeoli	Cheshire	28	M	40-44	24.13	24.38	7.85
+504	4842	Sandra Zehentmeier	New Haven	15	F	30-39	24.3	24.4	7.85
+505	4683	James Badas	Oxford	78	M	20-29	24.27	24.4	7.87
+506	3118	Stuart Katz	Woodbridge	22	M	45-49	24	24.4	7.87
+507	2862	Neil Crockett	Cheshire	16	M	55-59	24.2	24.42	7.87
+508	4761	Molly Mullen	New Haven	26	F	20-29	23.78	24.42	7.87
+509	5428	Jack Mattingly	Mansfield Center	28	M	01-12	24.33	24.43	7.87
+510	4780	Tyler Jacques	Wallingford	152	M	13-19	24.07	24.45	7.88
+511	4766	Luke Festa	Wallingford	153	M	13-19	24.07	24.47	7.88
+512	4094	Olivia Weir	Wallingford	4	F	01-12	24.4	24.47	7.88
+513	4990	Ammar Abdulrahman	New Hven	59	M	30-39	23.42	24.47	7.88
+514	4772	Liza Rodler	New Haven	27	F	20-29	24.28	24.48	7.88
+515	4266	Aurelie Marcotte	New Haven	28	F	20-29	24.4	24.52	7.9
+516	4924	Nick Ricci	New Haven	154	M	13-19	24.5	24.52	7.9
+517	4541	Grace Stonecipher	Seattle	29	F	20-29	24.3	24.53	7.9
+518	4865	Stephen Murphy	Guilford	5	M	60-64	24.23	24.53	7.9
+519	3625	Samantha Floum	North Haven	30	F	20-29	24.42	24.53	7.9
+520	5129	Edvelyn Perez	West Haven	16	F	30-39	24.38	24.53	7.9
+521	4789	Lauren Penfield	New Haven	31	F	20-29	24.43	24.55	7.9
+522	2898	Kieran Liu	Wallingford	29	M	01-12	24.3	24.55	7.9
+523	4187	Christian Bjork	Branford	155	M	13-19	24.07	24.55	7.9
+524	4347	Abigail Cipparone	Old Lyme	42	F	13-19	24.25	24.55	7.92
+525	2897	Todd Liu	Wallingford	29	M	40-44	24.33	24.55	7.92
+526	5386	David Weiss	Wallingford	23	M	45-49	24.27	24.57	7.92
+527	4774	Ariege Besson	Broomfield	32	F	20-29	24.3	24.57	7.92
+528	3160	Ryan Brecht	New Haven	79	M	20-29	24.22	24.57	7.92
+529	4680	Titilayo Mabogunje	New Haven	43	F	13-19	24.32	24.57	7.92
+530	5599	Stephanie Loeb	New Haven	33	F	20-29	24.45	24.57	7.92
+531	5011	Paul Miller	Alexandria	30	M	01-12	24.17	24.58	7.92
+532	4093	Yolanda Xicohtencatl	New Haven	3	F	45-49	24.55	24.58	7.92
+533	5032	Donnay Davis	New Haven	5	F	01-12	24.57	24.6	7.92
+534	5004	Emma Lecarie	New Haven	34	F	20-29	24.13	24.62	7.93
+535	5217	Kelly Dolan	Hamden	44	F	13-19	24.05	24.62	7.93
+536	4966	Jennifer Rossman	Middletown	17	F	30-39	24.52	24.63	7.93
+537	5168	John Shepa	Bethany	27	M	50-54	24.58	24.63	7.93
+538	4651	William Eckner	New Haven	80	M	20-29	24.28	24.63	7.93
+539	5104	Kevin Xicohtencatl	Bridgeport	31	M	01-12	24.37	24.63	7.93
+540	4616	Caroline Marrinan	New Haven	35	F	20-29	24.57	24.65	7.93
+541	5327	Edgar Sandoval	Higganum	30	M	40-44	24.12	24.67	7.95
+542	4173	Carolino Monteiro	East Haven	60	M	30-39	23.37	24.67	7.95
+543	3528	Jackson Kuhl	Fairfield	31	M	40-44	24.02	24.68	7.95
+544	5191	Jodi Heslin	Plainville	4	F	40-44	24.42	24.68	7.95
+545	5187	Bob Heslin	Plainville	6	M	60-64	24.6	24.7	7.95
+546	3898	Maxwell Day	Cheshire	156	M	13-19	24.48	24.7	7.95
+547	3618	David Hill	Hamden	7	M	60-64	24.58	24.72	7.97
+548	3929	Lisa Lochner	Hamden	5	F	40-44	24.62	24.73	7.97
+549	4381	Melinda Sharkey	New Haven	6	F	40-44	24.57	24.73	7.97
+550	3620	Blaine Boxwell III	Wallingford	61	M	30-39	23.53	24.73	7.97
+551	4628	Jeff Williams	Branford	24	M	45-49	24.22	24.73	7.97
+552	5300	Leeanna Gray	New Haven	45	F	13-19	24.62	24.73	7.97
+553	3964	Carlos Rojas	New Haven	32	M	01-12	24.48	24.75	7.97
+554	4410	Katerina Toffoloni	New Haven	36	F	20-29	24.57	24.75	7.97
+555	4847	Shaun Paisley	Los Angeles	62	M	30-39	24.42	24.77	7.98
+556	5551	Alexander Mitchell	New Haven	157	M	13-19	24.62	24.77	7.98
+557	5176	Brendan Harris	New Haven	63	M	30-39	24.35	24.78	7.98
+558	5563	Richard Shrestha	Milford	158	M	13-19	24.48	24.78	7.98
+559	5593	Shane Walden	Guilford	32	M	40-44	24.45	24.78	7.98
+560	5403	Gabriel Dasilva	New Haven	25	M	45-49	24.5	24.8	7.98
+561	3759	Lilly Tipton	New Haven	46	F	13-19	24.6	24.8	7.98
+562	4809	Brian Dore	New Haven	26	M	45-49	24.45	24.82	7.98
+563	5238	Robert Reynolds	Hamden	8	M	60-64	24.67	24.82	8
+564	4203	Arnaaz Khwaja	Woodbridge	47	F	13-19	24.62	24.82	8
+565	5564	Joel Guiditina	Middlebury	9	M	60-64	24.72	24.82	8
+566	5145	Gregg Van Splunder	Portsmouth	64	M	30-39	24.13	24.83	8
+567	3864	Devin O_Banion	Chicago	159	M	13-19	24.68	24.83	8
+568	5185	Reeve Vacendak	Wasilla	160	M	13-19	24.68	24.83	8
+569	4151	Sarah Burzin	Ivory Ton	37	F	20-29	24.78	24.85	8
+570	4156	Isabelle Allen	West Haven	38	F	20-29	24.78	24.85	8
+571	2873	Melissa Kaplan-Charko	Hamden	7	F	40-44	24.72	24.87	8.02
+572	4844	Shelby Mauchline	Marco Island	48	F	13-19	24.73	24.87	8.02
+573	4569	John Laudati	Farmington	10	M	60-64	24.58	24.88	8.02
+574	5562	Kevin Seales	Durham	65	M	30-39	24.37	24.9	8.02
+575	5278	Abby Cole	Cheshire	49	F	13-19	24.47	24.92	8.02
+576	3751	Larry Inge	New Haven	3	M	65-69	24.68	24.92	8.03
+577	3292	Alex Schott	New Haven	161	M	13-19	24.73	24.93	8.03
+578	5279	Kevin Cole	Cheshire	28	M	50-54	24.5	24.95	8.03
+579	4121	Zerennadi Umeugo	New Haven	66	M	30-39	24.6	24.95	8.03
+580	4023	Omid Rooholfada	San Diego	162	M	13-19	24.83	24.95	8.03
+581	5391	Briana Lennon	Naugatuck	50	F	13-19	24.92	24.97	8.03
+582	4409	James Geisler	Londonderry	81	M	20-29	24.4	24.97	8.03
+583	2977	Danielle Ellis	Cheshire	6	F	01-12	24.18	24.97	8.03
+584	3286	Marquis Pettigrew	New Haven	163	M	13-19	24.62	24.97	8.03
+585	5494	Erin Rosenberg	Philadelphia	39	F	20-29	24.3	24.97	8.03
+586	3669	Chris Walsh	West Haven	33	M	40-44	24.18	25	8.05
+587	2845	Michael Crowley	Cheshire	29	M	50-54	24.6	25	8.05
+588	4117	Katherine Rosenberg	Chappaqua	40	F	20-29	24.5	25.02	8.07
+589	4537	Serena Lau	New Haven	41	F	20-29	24.82	25.02	8.07
+590	5467	Tyler Stohe	Hamden	33	M	01-12	24.15	25.05	8.07
+591	4259	Michael Herbert	Fairfield	82	M	20-29	24.53	25.07	8.07
+592	5569	Bob Laudati	Branford	11	M	60-64	24.97	25.07	8.07
+593	3133	Bradley Christensen	Madison	83	M	20-29	25	25.07	8.08
+594	4540	Michael Diaz	New Haven	67	M	30-39	24.45	25.08	8.08
+595	4017	James Segaloff	New Haven	1	M	70-74	24.78	25.08	8.08
+596	3797	Mateusz Dziuda	Bethany	164	M	13-19	24.9	25.08	8.08
+597	3913	Brandon Licke	West Simsbury	84	M	20-29	24.88	25.08	8.08
+598	4351	Matthew Lockett	Hamden	165	M	13-19	24.67	25.1	8.08
+599	4308	Rick Shannon	Southbury	17	M	55-59	24.87	25.1	8.08
+600	4169	Jenna Drollette	New Haven	42	F	20-29	24.97	25.1	8.08
+601	3843	Hannah Strickland	New Haven	43	F	20-29	24.97	25.1	8.08
+602	2994	Camille Konopnicki	New Haven	18	F	30-39	24.8	25.1	8.08
+603	3277	Ray Bendici	Shelton	30	M	50-54	24.83	25.1	8.08
+604	5383	Terri Addesso	Cheshire	4	F	45-49	24.57	25.12	8.08
+605	4824	Rachel Hagani	Woodbridge	51	F	13-19	24.9	25.12	8.08
+606	4291	Myra Jones-Taylor	New Haven	8	F	40-44	25.07	25.12	8.1
+607	2899	Julie Grise	West Hartford	19	F	30-39	24.98	25.13	8.1
+608	4186	Ken Bjork	Branford	27	M	45-49	24.67	25.15	8.1
+609	4722	Joseph Doran	Springfield	166	M	13-19	24.9	25.15	8.1
+610	4474	Roger Sheu	New Haven	85	M	20-29	24.42	25.15	8.1
+611	3932	Madison Stenzel	Lynd	52	F	13-19	24.48	25.17	8.1
+612	3025	Michael Iannuzzi	Branford	68	M	30-39	25.12	25.17	8.1
+613	4954	Patrick Niccolai	Madison	167	M	13-19	24.83	25.18	8.12
+614	5172	David Durham	New Haven	69	M	30-39	24.62	25.18	8.12
+615	4498	Joshua Tranen	New Haven	86	M	20-29	24.28	25.18	8.12
+616	5223	Kit Illick	New Haven	53	F	13-19	24.77	25.18	8.12
+617	3057	Rafael Torres	West Haven	4	M	65-69	24.98	25.18	8.12
+618	4450	Kevin Fitzsimons	Madison	168	M	13-19	24.88	25.2	8.12
+619	3795	Hillary Lutkus	New Haven	54	F	13-19	24.55	25.22	8.12
+620	2816	Christof Stein	Madison	31	M	50-54	24.33	25.22	8.12
+621	4738	Ward Naylor	Guilford	12	M	60-64	24.93	25.22	8.12
+622	4180	Stephen Murphy	North Haven	32	M	50-54	25.13	25.22	8.12
+623	3710	Jake Halsey	New Haven	34	M	01-12	24.9	25.22	8.12
+624	5098	Jeffrey Ogbar	Hartford	28	M	45-49	24.83	25.22	8.12
+625	3807	Benjamin Delmonico	New Haven	34	M	40-44	24.75	25.23	8.13
+626	5574	Lila Smith	Madison	7	F	01-12	25.1	25.25	8.13
+627	3225	Randall Beach	New Haven	5	M	65-69	25.17	25.25	8.13
+628	3062	Maria Quito	West Haven	20	F	30-39	25.27	25.27	8.13
+629	5434	Corey Duncanson	Madison	169	M	13-19	25.03	25.3	8.15
+630	4640	Michael Pilato	East Haven	35	M	01-12	24.18	25.3	8.15
+631	4275	Abigail Gahm	Eagle River	44	F	20-29	25.03	25.3	8.15
+632	3899	John Day	Cheshire	33	M	50-54	25.08	25.32	8.15
+633	5133	Manuel Ramirez	New Haven	36	M	01-12	25.28	25.32	8.15
+634	3853	Vivian Wang	New Haven	45	F	20-29	24.7	25.33	8.15
+635	4666	Michael Danz	New Haven	35	M	40-44	24.8	25.33	8.15
+636	4226	David Reindl	New Haven	87	M	20-29	25.07	25.33	8.15
+637	3579	Lauren Low	Hamden	55	F	13-19	25.28	25.33	8.17
+638	3850	Finnegan Schick	New Haven	88	M	20-29	25.02	25.33	8.17
+639	4289	Kieran Anderson	Cheshire	170	M	13-19	25.13	25.35	8.17
+640	4720	Anthony Pulino	New Haven	36	M	40-44	24.85	25.35	8.17
+641	4081	Albert Defilippo	East Haven	13	M	60-64	25.28	25.35	8.17
+642	5382	John Addesso	Cheshire	29	M	45-49	24.83	25.38	8.17
+643	5166	Laura Rosado	New Haven	56	F	13-19	24.63	25.38	8.18
+644	5255	Evan Arovas	Orange	171	M	13-19	25.05	25.4	8.18
+645	5482	Mark Laudati	Winsted	18	M	55-59	25.32	25.4	8.18
+646	3181	Avonlea Lebeau	North Branford	57	F	13-19	25.02	25.43	8.2
+647	5600	Steton Avey	New Haven	89	M	20-29	24.87	25.43	8.2
+648	3151	Tim Nolan	Manchester	70	M	30-39	24.9	25.45	8.2
+649	2783	Cesar Tlecuitl	New Haven	172	M	13-19	25.3	25.47	8.2
+650	5820	Billy Liebler	Southington	37	M	01-12	24.68	25.52	8.22
+651	4717	Parthib Samadder	Tucson	90	M	20-29	25.33	25.52	8.22
+652	5523	Dan Kwize	Newtown	91	M	20-29	24.85	25.53	8.22
+653	5463	Todd Challe	New Canaan	30	M	45-49	25.12	25.53	8.23
+654	3998	Carter Defigueiredo	Cheshire	173	M	13-19	25.27	25.57	8.23
+655	4682	Amanda Royka	North Haven	46	F	20-29	25.3	25.57	8.23
+656	4567	Chase Ammon	New Haven	174	M	13-19	24.92	25.58	8.23
+657	3991	Frank Griffel	New Haven	34	M	50-54	25.33	25.58	8.23
+658	4045	Mark Minuit	Guilford	31	M	45-49	25.42	25.58	8.23
+659	4107	Eileen Norris	New Haven	58	F	13-19	25.1	25.58	8.25
+660	5573	Marianne Smith	Madison	3	F	50-54	25.45	25.6	8.25
+661	3493	Gadareth Higgs	New Haven	71	M	30-39	25.35	25.6	8.25
+662	5251	Tim Riera	New Haven	32	M	45-49	24.48	25.6	8.25
+663	3313	Nia Christie	Monroe	59	F	13-19	25.58	25.63	8.25
+664	4790	Janine Jennings	Punta Gorda	1	F	60-64	25.42	25.63	8.25
+665	5164	Tolman Geffs	Greenwich	35	M	50-54	25.28	25.65	8.27
+666	3702	Kendall Redlitz	Cheshire	60	F	13-19	25.48	25.65	8.27
+667	4588	Maya Kreidwise	Cheshire	61	F	13-19	25.62	25.67	8.27
+668	5078	Joel Gunderson	New York	37	M	40-44	25.33	25.67	8.27
+669	5079	Jessica Bajoros	New York	21	F	30-39	25.33	25.67	8.27
+670	5092	Caitlyn Guerrera	Cheshire	62	F	13-19	25.57	25.67	8.27
+671	5147	Nolan Smith	Orange	38	M	01-12	25.37	25.68	8.27
+672	4256	David Greenhalgh	Bryn Mawr	72	M	30-39	25.55	25.68	8.27
+673	4255	Marielle Casanova	Merion Station	22	F	30-39	25.55	25.68	8.27
+674	4811	Julio Gonzalez	Hamden	73	M	30-39	24.65	25.68	8.27
+675	3007	Jason Hirschhorn	Pacific Palisades	92	M	20-29	23.97	25.7	8.28
+676	4668	Timothy Pothin	Guilford	19	M	55-59	25.55	25.7	8.28
+677	5142	Nicholas Frattini	New Haven	93	M	20-29	24.85	25.7	8.28
+678	3366	Katie Kortright	New Haven	47	F	20-29	25.12	25.7	8.28
+679	5085	Lucy Peto	Vista Rd	4	F	50-54	25.63	25.7	8.28
+680	3701	Rich Diana	Wlfd.	20	M	55-59	25.43	25.72	8.28
+681	3677	Juan Ingles	New Haven	33	M	45-49	25.53	25.72	8.28
+682	4972	Jennifer Schnitzer	Cheshire	23	F	30-39	25.47	25.72	8.28
+683	3868	Shiyue Cheng	Hadley	74	M	30-39	25.22	25.72	8.28
+684	4667	Joshua Ecochard	New Haven	94	M	20-29	25.22	25.73	8.28
+685	3437	Shawn Limata	Cheshire	95	M	20-29	25.03	25.73	8.28
+686	3558	Jacquelinek Allard	Cheshire	63	F	13-19	25.38	25.73	8.28
+687	3788	Katherine Hindley	New Haven	48	F	20-29	25.53	25.73	8.28
+688	3781	Sharon Belfonti	Orange	9	F	40-44	25.58	25.75	8.3
+689	4046	Colin Hill	New Haven	96	M	20-29	25.17	25.75	8.3
+690	4984	Alexa Wetmore	Cheshire	64	F	13-19	25.73	25.78	8.3
+691	5068	Alejandro Galarza	New Haven	175	M	13-19	25.23	25.8	8.3
+692	5246	Russell Johnson	Cheshire	14	M	60-64	25.32	25.8	8.32
+693	3101	Segundo Guallo	New Haven	36	M	50-54	25.42	25.8	8.32
+694	5566	Isabel Bysiewicz	Branford	65	F	13-19	25.55	25.8	8.32
+695	3739	Will Culligan	New Haven	97	M	20-29	24.98	25.8	8.32
+696	4301	Chris Boynton	Madison	75	M	30-39	25.63	25.8	8.32
+697	2976	Stacey Sullivan	Madison	5	F	50-54	25.72	25.82	8.32
+698	4917	Ameya Arun	Cheshire	66	F	13-19	25.8	25.85	8.32
+699	5528	Joseph Walters	Guilford	176	M	13-19	25.02	25.85	8.32
+700	4861	Sandy Levy	Woodbridge	6	F	50-54	25	25.85	8.33
+701	5471	Logan Adams	Wallingford	177	M	13-19	25.35	25.87	8.33
+702	3263	Cathy Niglio	Cheshire	10	F	40-44	25.67	25.87	8.33
+703	4064	Christopher Burke	New Haven	98	M	20-29	25.67	25.87	8.33
+704	2923	Emma Kirck	Orange	8	F	01-12	25.43	25.88	8.33
+705	5063	Nana Danso	New Haven	38	M	40-44	25.68	25.9	8.33
+706	4649	Alejandro Hervella	Westport	178	M	13-19	25.33	25.9	8.35
+707	3817	Jim Barakos	Cheshire	15	M	60-64	25.45	25.92	8.35
+708	4938	Thomas Parish	Manhattan	179	M	13-19	25.67	25.92	8.35
+709	3273	Demir Uslu	Milford	180	M	13-19	25.73	25.93	8.35
+710	4422	Kim Burkhart	Woodbridge	7	F	50-54	25.47	25.93	8.35
+711	5348	Meaghen Carroll	Cheshire	67	F	13-19	25.78	25.93	8.35
+712	2978	Scott Ellis	Cheshire	39	M	40-44	25.2	25.93	8.35
+713	3569	David Linsky	North Haven	37	M	50-54	25.37	25.93	8.35
+714	5349	Colleen Carroll	Cheshire	68	F	13-19	25.8	25.95	8.35
+715	4757	Katherine Hofmann	Barrington	69	F	13-19	25.78	25.95	8.37
+716	4214	Jennifer Glass	Branford	8	F	50-54	25.7	25.95	8.37
+717	3470	Jayne Whitman	Orange	9	F	01-12	25.53	25.98	8.37
+718	3785	Gil Cyr	Hamden	16	M	60-64	25.9	25.98	8.37
+719	2988	Kathryn Barsevich	Holyoke	49	F	20-29	25.87	26	8.37
+720	3405	Haley Albert	Guilford	70	F	13-19	25.63	26	8.37
+721	4459	Jon Hitchcock	Guilford	38	M	50-54	25.85	26.02	8.38
+722	4281	Dara Kovel	New Haven	5	F	45-49	25.43	26.02	8.38
+723	4561	Cullen Cox	New Haven	39	M	01-12	25.43	26.02	8.38
+724	4565	Cole Addonizio	New Haven	181	M	13-19	25.87	26.03	8.38
+725	3058	Bryan Gopian	New Haven	99	M	20-29	25.92	26.03	8.38
+726	3955	Zaira Ramirez	New Haven	71	F	13-19	25.98	26.03	8.38
+727	3253	Martin MacHyna	New Haven	76	M	30-39	25.58	26.05	8.38
+728	3915	James Flint	New Haven	182	M	13-19	25.75	26.05	8.4
+729	3962	Gisselle Rojas	New Haven	72	F	13-19	26.02	26.07	8.4
+730	4421	Jeremy Medow	Milford	77	M	30-39	25.47	26.07	8.4
+731	5540	Connor Garrett	Hamden	40	M	01-12	25.83	26.07	8.4
+732	4615	Tamara Malm	New Haven	50	F	20-29	25.77	26.07	8.4
+733	3994	Kristin Duthie	Hamden	51	F	20-29	25.67	26.07	8.4
+734	5046	Assata Dawson	New Haven	10	F	01-12	26.07	26.08	8.4
+735	4613	Scott Bourret	New Haven	100	M	20-29	25.78	26.08	8.4
+736	4621	Luke Parkerson	Cheshire	41	M	01-12	26.03	26.1	8.4
+737	2901	Paulina Kaminski	New Haven	52	F	20-29	25.63	26.1	8.4
+738	3281	Nadia Dinatale	Cheshire	73	F	13-19	25.65	26.1	8.4
+739	3171	Stephanie Shames	New Haven	24	F	30-39	25.52	26.1	8.4
+740	5475	Fatima Santiago-Rojar	New Haven	11	F	01-12	25.87	26.12	8.42
+741	5473	David Adams	Wallingford	39	M	50-54	25.6	26.12	8.42
+742	5057	Laila Best	New Haven	12	F	01-12	26.1	26.12	8.42
+743	4225	Jennifer Delorm	New Haven	53	F	20-29	26.05	26.12	8.42
+744	4344	Jessica Blanton	Boonton	11	F	40-44	25.97	26.12	8.42
+745	4495	Alejandro Rojas	New Haven	101	M	20-29	25.23	26.13	8.42
+746	4387	Charlotte Finegold	New Haven	54	F	20-29	26	26.13	8.42
+747	3119	Cameron Kaplan	Wallingford	42	M	01-12	25.77	26.13	8.42
+748	3591	Eric Levens	Cheshire	43	M	01-12	26.08	26.15	8.42
+749	3592	Shelley Goodstine	Orange	12	F	40-44	26	26.15	8.42
+750	4501	Michael Mei	New Haven	102	M	20-29	25.23	26.15	8.42
+751	3098	Geoff Ekenstam	Guilford	78	M	30-39	25.25	26.18	8.43
+752	4645	William Fries	Wallingford	40	M	40-44	26.17	26.2	8.43
+753	4723	James Carrabino	New Haven	183	M	13-19	25.97	26.2	8.43
+754	4340	Justin Robinson	New Haven	41	M	40-44	25.63	26.22	8.45
+755	3686	Christopher Ouellet	Naugatuck	42	M	40-44	25.55	26.22	8.45
+756	2702	James Evans	Hamden	44	M	01-12	25.8	26.23	8.45
+757	5109	Cris Uppal	Meriden	79	M	30-39	25	26.23	8.45
+758	3497	Christopher Prato	North Branford	43	M	40-44	25.97	26.23	8.45
+759	3389	Jill Campbell	New Haven	3	F	55-59	25.58	26.25	8.45
+760	5381	Elizabeth Addesso	Cheshire	74	F	13-19	25.7	26.25	8.45
+761	3100	Maria Jennings	Guilford	75	F	13-19	25.9	26.25	8.45
+762	2969	Robert McClure	Hamden	80	M	30-39	25.8	26.27	8.47
+763	4119	Eli Rami	Brooklyn	184	M	13-19	25.75	26.3	8.47
+764	4220	Sonali Rodrigues	Shelton	55	F	20-29	25.93	26.3	8.47
+765	3891	Katherine Kuenzle	Roxbury	76	F	13-19	25.67	26.32	8.47
+766	3576	Angelina Dusa	North Haven	6	F	45-49	26.27	26.32	8.48
+767	5457	Sally Leahy	Cheshire	56	F	20-29	25.5	26.32	8.48
+768	5417	Vlad Fatu	Rocky Hill	81	M	30-39	25.65	26.33	8.48
+769	4202	Chloe Kurtz	Cheshire	77	F	13-19	25.83	26.33	8.48
+770	3086	Patricia Schutz	Shelton	9	F	50-54	26.15	26.33	8.48
+771	3400	Julia Shatalov	Cheshire	78	F	13-19	26.3	26.33	8.48
+772	3743	Austin Toscano	Oxford	185	M	13-19	25.92	26.35	8.48
+773	5470	Kelley Schiffman	New Haven	57	F	20-29	25.83	26.35	8.48
+774	3641	Beth Pierpont	Cheshire	10	F	50-54	25.75	26.35	8.48
+775	3054	Edward Trimble	New Haven	40	M	50-54	26.35	26.35	8.48
+776	3210	Steve Thompson	Winchester	82	M	30-39	26	26.35	8.48
+777	5289	William McGarry	Hamden	45	M	01-12	25.75	26.37	8.48
+778	5290	Mike McGarry	Hamden	41	M	50-54	25.77	26.37	8.5
+779	4168	John Intravaia	Hamden	21	M	55-59	26.07	26.4	8.5
+780	3940	Ethan Berman	Hamden	46	M	01-12	26.27	26.4	8.5
+781	5425	Matthew Keller	Madison	42	M	50-54	25.53	26.4	8.5
+782	4799	Heather Fosburgh	New Haven	13	F	40-44	26	26.4	8.5
+783	4781	Steven Jacques	Wallingford	34	M	45-49	26.05	26.42	8.5
+784	4782	Leah Jacques	Wallingford	13	F	01-12	26.03	26.42	8.5
+785	3496	Gabriel Roberts	Wallingford	44	M	40-44	25.87	26.42	8.5
+786	3645	Gabriela Garcia-Perez	Guilford	79	F	13-19	26.1	26.43	8.52
+787	3554	Izzy Dziura	Cheshire	14	F	01-12	25.67	26.45	8.52
+788	5460	Stephanie Aragon	Bridgeport	58	F	20-29	26.37	26.45	8.52
+789	5461	Jessica Aragon	Bridgeport	80	F	13-19	26.37	26.47	8.52
+790	5485	Anne Kraske	South Windsor	11	F	50-54	25.78	26.47	8.53
+791	5451	David Carlson	Hamden	17	M	60-64	26.18	26.48	8.53
+792	2944	Katherine Takoudes	Guilford	81	F	13-19	26.23	26.48	8.53
+793	4164	Grace Fischer	Woodbridge	25	F	30-39	26.22	26.48	8.53
+794	4485	Joe Cala	Woodbridge	103	M	20-29	25.57	26.48	8.53
+795	4804	Michael Katz	Norwalk	104	M	20-29	25.57	26.5	8.53
+796	5234	Kristin Anderson	New Haven	26	F	30-39	26.4	26.5	8.53
+797	3055	Tane Trimble	New Haven	7	F	45-49	26.5	26.5	8.53
+798	3411	Albert Pallotto	Clinton	43	M	50-54	26.42	26.52	8.53
+799	4523	Alison Thurber	Hamden	27	F	30-39	25.83	26.52	8.53
+800	4355	Julia Schaff	Cheshire	82	F	13-19	26	26.52	8.53
+801	5060	Phoenix Taylor	New Haven	15	F	01-12	26.5	26.52	8.53
+802	4024	Jackson Cole	Dallas	186	M	13-19	26.27	26.52	8.55
+803	2937	Danica Cui	New Haven	59	F	20-29	26.47	26.53	8.55
+804	4489	Gregory J Pepe	New Haven	18	M	60-64	26	26.53	8.55
+805	4511	Juan Bravo	Los Angeles	187	M	13-19	26.3	26.53	8.55
+806	4242	Tyler Connelly	Northford	47	M	01-12	26.5	26.53	8.55
+807	4141	Jacob McGeary	Madison	48	M	01-12	25.67	26.55	8.55
+808	4853	Ratanachat Racharaks	New Haven	105	M	20-29	25.8	26.55	8.55
+809	4006	Emerson Suski	Durham	188	M	13-19	26.42	26.55	8.55
+810	2814	Deb Willis	Stratford	14	F	40-44	25.72	26.55	8.55
+811	2868	Julie Roche	Cheshire	83	F	13-19	26.2	26.55	8.55
+812	4599	Nicholas Ferrigno	New Haven	106	M	20-29	25.6	26.57	8.55
+813	4579	Timmy Case	New Haven	49	M	01-12	25.95	26.57	8.55
+814	5499	Mike Rowan	North Branford	83	M	30-39	25.88	26.57	8.55
+815	4078	Alexa Kalandiak	New Haven	60	F	20-29	26.13	26.58	8.57
+816	4471	Rosie Marquez	Cheshire	84	F	13-19	26.5	26.58	8.57
+817	2963	Mark Goodmaster	North Branford	44	M	50-54	26.15	26.6	8.57
+818	4632	Dominika Grzybko	New Haven	61	F	20-29	26.3	26.6	8.57
+819	3227	David Johns	Hamden	189	M	13-19	25.9	26.6	8.57
+820	4815	Patricia Buckley	New Haven	12	F	50-54	26.07	26.6	8.57
+821	4067	Daniel Kaylor	Lombard	190	M	13-19	26.32	26.62	8.57
+822	4298	Alyssa Amick	Sunnyvale	85	F	13-19	26.57	26.62	8.57
+823	5258	Daniel Botsman	New Haven	35	M	45-49	26.52	26.62	8.57
+824	3572	Mark Fitton	Lebanon	19	M	60-64	26.52	26.62	8.58
+825	4810	Thomas Barrette	Watertown	20	M	60-64	26.28	26.62	8.58
+826	5259	Crystal Feimster	New Haven	15	F	40-44	26.53	26.63	8.58
+827	5394	Neel Zomback	New Haven	22	M	55-59	26.2	26.65	8.58
+828	4224	Logan Brady	North Haven	107	M	20-29	25.98	26.65	8.58
+829	4106	Branson Rideaux	Berwyn	108	M	20-29	26.38	26.67	8.58
+830	589	Shel Swanson	New Haven	8	F	45-49	26.2	26.67	8.58
+831	5503	Momandviolet O_Connel	New Haven	28	F	30-39	25.42	26.67	8.58
+832	3945	Antonieta Ortiz	New Haven	29	F	30-39	26.65	26.68	8.6
+833	5501	Julie Handy	Philadelphia	62	F	20-29	25.65	26.68	8.6
+834	4816	John Buckley	New Haven	23	M	55-59	26.13	26.7	8.6
+835	3176	Julien Gangloff	New Haven	50	M	01-12	26.07	26.7	8.6
+836	4650	Santiago Hervella	Westport	109	M	20-29	26.13	26.7	8.6
+837	5007	John Kochanski	New Haven	110	M	20-29	26.37	26.72	8.6
+838	5406	Paul Iversen	West Haven	45	M	40-44	26.48	26.72	8.6
+839	4934	Leo Rode	New Haven	111	M	20-29	25.85	26.72	8.6
+840	4356	Mia Suchy	Guilford	86	F	13-19	26.03	26.73	8.6
+841	5468	Jaden Stone	Hamden	191	M	13-19	25.83	26.73	8.62
+842	3466	Meghana Rao	New Haven	30	F	30-39	25.82	26.73	8.62
+843	5261	Gary Smart	Hamden	24	M	55-59	26.25	26.73	8.62
+844	3316	Jonathan Tomlin	Stratford	46	M	40-44	26.33	26.73	8.62
+845	5091	Robert Kania	Southington	21	M	60-64	26.48	26.73	8.62
+846	5295	Gisela Rodriguez	Bronx	63	F	20-29	26.25	26.73	8.62
+847	3028	Colleen Caulfield	Sprague	31	F	30-39	26.03	26.75	8.62
+848	2939	Jim Wildes	Hamden	25	M	55-59	26.5	26.77	8.62
+849	4487	Griffin Congdon	Milford	192	M	13-19	26.28	26.77	8.62
+850	5291	Nick Gross	Madison	193	M	13-19	26.58	26.77	8.62
+851	3617	Joseph Coyne	Madison	194	M	13-19	26.2	26.77	8.62
+852	4992	Nolan Brant	New Haven	51	M	01-12	25.7	26.8	8.63
+853	5384	Gregg Goumas	Farmington	36	M	45-49	26.02	26.82	8.63
+854	4843	Lindsey Matthews	Hamden	64	F	20-29	26.48	26.83	8.63
+855	3892	India June	Nyack	87	F	13-19	26.15	26.83	8.63
+856	5221	Gisela Lara	New Haven	32	F	30-39	26.7	26.83	8.65
+857	3595	Mary Philipp	Wallingford	4	F	55-59	26.75	26.83	8.65
+858	5338	Paula Andrews	Wallingford	33	F	30-39	26.65	26.85	8.65
+859	3127	Mark Ferraro	Hamden	112	M	20-29	26.43	26.85	8.65
+860	3719	Glenda Flores	New Haven	65	F	20-29	26.53	26.85	8.65
+861	4366	Kyle Grande	Orange	52	M	01-12	25.85	26.87	8.65
+862	4542	Krisstel Gomez-Maiste	Downey	66	F	20-29	26.72	26.87	8.65
+863	2821	Ryan Rose	North Haven	84	M	30-39	26.53	26.88	8.65
+864	4529	Sarah Bruley	Poughkeepsie	67	F	20-29	26.7	26.9	8.67
+865	3907	Joe Bedford	Virginia Beach	113	M	20-29	26.58	26.9	8.67
+866	2723	Xuan Chau	Milford	85	M	30-39	25.65	26.9	8.67
+867	5132	Cristopher Martinez	New Haven	53	M	01-12	26.88	26.92	8.67
+868	5267	Erik Clemons	New Haven	45	M	50-54	26.42	26.92	8.67
+869	5830	Garth Harries	New Haven	47	M	40-44	26.42	26.92	8.67
+870	3574	Maura D_Andrea	Branford	5	F	55-59	26.63	26.93	8.67
+871	4991	Joshua Brant	New Haven	37	M	45-49	25.82	26.93	8.67
+872	5825	Dwyer Illick	New Haven	54	M	01-12	26.52	26.93	8.67
+873	5826	Christopher Illick	New Haven	46	M	50-54	26.52	26.93	8.68
+874	5402	Raffaele Moriello	Plainville	26	M	55-59	26.7	26.95	8.68
+875	4458	Miguel Almodovar	New Haven	114	M	20-29	26.33	26.95	8.68
+876	4732	Arushi Srivastava	Westport	88	F	13-19	26.73	26.95	8.68
+877	3175	Nicolas Gangloff	Hamden	48	M	40-44	26.33	26.95	8.68
+878	5266	Jordy Berruecos	West Haven	195	M	13-19	26.8	26.97	8.68
+879	4576	Mary Shaw	Orange	13	F	50-54	26.48	26.97	8.68
+880	3099	Peter Wang	New Haven	115	M	20-29	26.65	26.97	8.68
+881	3903	Barbara Hedden	Cheshire	6	F	55-59	26.67	26.97	8.68
+882	5453	Michael Monico	Hamden	116	M	20-29	26.52	26.98	8.68
+883	3921	Mike Wadlinger	West Simsbury	117	M	20-29	26.75	26.98	8.68
+884	3884	David Voccola	Trumbull	86	M	30-39	26.28	27	8.7
+885	4354	Kevin Roche	Bristol	27	M	55-59	26.7	27.02	8.7
+886	5365	Matt Bonito	Prospect	118	M	20-29	26.58	27.03	8.7
+887	3671	Heather Alexopoulos	New Haven	16	F	40-44	26.9	27.05	8.72
+889	5156	Alexis Yamin	Cheshire	89	F	13-19	26.57	27.05	8.72
+890	3116	Valerie Morley	New Haven	68	F	20-29	26.85	27.05	8.72
+891	3673	Vincent Duong	New Haven	119	M	20-29	26.57	27.07	8.72
+892	4311	Yabdriel Gonzalez	New Haven	55	M	01-12	26.33	27.07	8.72
+893	3487	Prem Patel	Madison	120	M	20-29	26.93	27.08	8.72
+894	4947	Jennifer Wilson	Wallingford	49	M	40-44	26.92	27.08	8.72
+895	5096	James Anctil	Naugatuck	38	M	45-49	26.55	27.08	8.72
+896	5056	Amaira Traynham	New Haven	16	F	01-12	27.08	27.12	8.73
+897	3288	Peter Butler	New Haven	87	M	30-39	26.4	27.12	8.73
+898	5076	Ishmael Montalvo	New Haven	56	M	01-12	26.38	27.12	8.73
+899	4165	Joel Silverman	New Haven	39	M	45-49	26.95	27.12	8.73
+900	5345	Carolyn Foston	Stamford	34	F	30-39	26.15	27.13	8.73
+901	3071	Maggie Coyne	Madison	17	F	01-12	26.82	27.15	8.75
+902	3060	Doug Kneeland	Ivoryton	47	M	50-54	26.68	27.15	8.75
+903	3799	Kiley Herlihy	Wallingford	90	F	13-19	26.87	27.15	8.75
+904	4373	Louis Sacoto	Shelton	196	M	13-19	27.03	27.17	8.75
+905	5286	Alice Malamud	Guilford	14	F	50-54	27	27.18	8.75
+906	3451	Simon Queenborough	New Haven	88	M	30-39	26.22	27.18	8.75
+907	3877	Brianna Floyd	Cheshire	91	F	13-19	26.72	27.22	8.77
+908	4770	Alison Ho	Bridgewater	92	F	13-19	26.95	27.22	8.77
+909	5120	Ben Rosand	Cambridge	197	M	13-19	26.3	27.23	8.77
+910	5390	William Hanley	Naugatuck	28	M	55-59	26.37	27.25	8.78
+911	3791	Monte Burgess	Woodbridge	50	M	40-44	26.65	27.25	8.78
+912	2881	Jason Kline	New Haven	89	M	30-39	26.35	27.27	8.78
+913	5118	Victor Korman	New Haven	198	M	13-19	26.58	27.27	8.78
+914	2739	Bryce Makula	Guilford	93	F	13-19	26.65	27.28	8.78
+915	2878	Beverly Pajer	Ipswich	2	F	60-64	27.25	27.28	8.78
+916	3861	Kelsi Putnam	Guilford	94	F	13-19	26.67	27.28	8.78
+917	4957	Jaimie Bango	Hamden	69	F	20-29	26.9	27.28	8.78
+918	4247	John Mezzo	New Haven	51	M	40-44	27.02	27.3	8.8
+919	5058	Laterrius Johnson	New Haven	57	M	01-12	27.23	27.3	8.8
+920	5128	Hannah Wood	New Haven	95	F	13-19	27.17	27.32	8.8
+921	3796	Cris Donovan	Durham	15	F	50-54	27.12	27.32	8.8
+922	4277	Caroline Loeser	North Haven	16	F	50-54	27.17	27.32	8.8
+923	4838	Tanya Pohrt	Hamden	17	F	40-44	27.18	27.33	8.8
+924	4931	Tony Aversano	Seymour	40	M	45-49	26.95	27.33	8.8
+925	5121	Rory McCormack	Cheshire	58	M	01-12	26.83	27.33	8.8
+926	4101	Natalie Yang	Lake Forest	70	F	20-29	26.92	27.33	8.8
+927	3691	Noreen Iannone	Wallingford	9	F	45-49	27.13	27.35	8.82
+928	4000	Ryan Meagher	Wallingford	199	M	13-19	26.27	27.37	8.82
+929	4914	Stephen Sheiffele	North Branford	90	M	30-39	26.05	27.37	8.82
+930	5154	Ella Stanley	Guilford	96	F	13-19	26.75	27.37	8.82
+931	5215	Mark Riordan	North Branford	48	M	50-54	26.93	27.37	8.82
+932	3828	Kaleigh Debowes	West Haven	97	F	13-19	27.08	27.38	8.82
+933	4536	Annique Wong	Nyc	98	F	13-19	26.95	27.4	8.82
+934	5361	Caleh Nugent	Madison	200	M	13-19	27.22	27.4	8.83
+935	5466	Erika Foster	New Haven	71	F	20-29	27.2	27.4	8.83
+936	5455	Kirsten Flower	New Haven	72	F	20-29	27.08	27.42	8.83
+937	4832	Ethan Roach	East Haven	59	M	01-12	26.32	27.42	8.83
+938	3786	Amberjean Hansen	Seymour	35	F	30-39	26.57	27.43	8.83
+939	5077	Gina Allegrini	Cheshire	99	F	13-19	26.92	27.43	8.83
+940	4109	Brooke Luokkala	Skandia	73	F	20-29	27.03	27.45	8.83
+941	3586	Tim Napolitano	Orange	52	M	40-44	27.02	27.45	8.83
+942	3136	Donald Acker	Orange	29	M	55-59	26.58	27.45	8.85
+943	5106	Edgar Xicohtencatl	Bridgeport	53	M	40-44	27.17	27.45	8.85
+944	2985	Mia Stebbins	Guilford	100	F	13-19	26.87	27.47	8.85
+945	4556	Sarah Wilkins	San Rafael	74	F	20-29	27.32	27.48	8.85
+946	2765	Eli Marcus	Ny	30	M	55-59	27.03	27.48	8.85
+947	5136	Jillian Degiacomo	Hamden	75	F	20-29	27.05	27.48	8.85
+948	5592	Noah Meyer	Guilford	54	M	40-44	26.98	27.48	8.85
+949	5472	Fiorella Adams	Wallingford	10	F	45-49	27.3	27.52	8.87
+950	3262	Debra Scotti	Cheshire	36	F	30-39	27.23	27.52	8.87
+951	3716	Maureen Fahy	Old Saybrook	7	F	55-59	27.22	27.52	8.87
+952	4564	William Thompson	North Haven	49	M	50-54	26.88	27.52	8.87
+953	5377	Steve Nanfan	Stamford	41	M	45-49	27.4	27.52	8.87
+954	4563	Stacey Thompson	North Haven	11	F	45-49	26.88	27.52	8.87
+955	3822	Dennis Vu	New Haven	201	M	13-19	27.18	27.53	8.87
+956	5123	Fiona McCormack	Cheshire	101	F	13-19	27.03	27.53	8.87
+957	3268	Hannah Jackson	Branford	18	F	01-12	27.23	27.53	8.87
+958	2838	Katelin Gallagher	Cheshire	102	F	13-19	27.03	27.53	8.87
+959	3238	Paige Remillard	Cheshire	103	F	13-19	27.03	27.55	8.87
+960	5536	Israel Hernandez	New Haven	121	M	20-29	27.48	27.55	8.87
+961	5271	Kerry Patton	Wallingford	18	F	40-44	27	27.55	8.87
+962	4211	Gregory Tompkins	New Haven	122	M	20-29	26.85	27.55	8.87
+963	5235	Karl Borne	New Haven	91	M	30-39	27.07	27.55	8.87
+964	4520	Adam Jenkinson	New Haven	123	M	20-29	26.67	27.57	8.88
+965	3342	Katherine Fisher	New Haven	76	F	20-29	27.18	27.57	8.88
+966	4148	Kyle Fees	New Haven	92	M	30-39	27.1	27.58	8.88
+967	3073	Kenneth Ghilardi	West Haven	22	M	60-64	27.43	27.58	8.88
+968	4689	Lauren Cretella	Wallingford	19	F	01-12	27.52	27.58	8.88
+969	4695	Gordon Williams	Hamden	31	M	55-59	27.42	27.58	8.88
+970	4499	Fandi Tang	New Haven	77	F	20-29	26.72	27.6	8.88
+971	3453	Lisa Howie	New Haven	37	F	30-39	27.27	27.6	8.88
+972	2886	Bernadette Karpel	New Haven	20	F	01-12	27.35	27.62	8.9
+973	4692	Carolyn Williams	Hamden	78	F	20-29	27.43	27.62	8.9
+974	4891	Duncan Lindsay	New Haven	124	M	20-29	27.15	27.62	8.9
+975	3375	Geralyn Vigliotti	Hamden	19	F	40-44	27.25	27.62	8.9
+976	4612	Allison Shortell	Shelton	20	F	40-44	27.33	27.62	8.9
+977	4635	Marjorie Cullinan	Hamden	38	F	30-39	27.18	27.62	8.9
+978	3401	Jessica Barry	Oxford	79	F	20-29	27.35	27.63	8.9
+979	3476	Sara Lombardi	Milford	80	F	20-29	27.52	27.63	8.9
+980	3365	Cara Sagnella	Northford	104	F	13-19	27.27	27.63	8.9
+981	3834	Amanda Pinto Regan	Trumbull	39	F	30-39	27.15	27.63	8.9
+982	3152	Ali Barrett	North Branford	105	F	13-19	27.27	27.63	8.9
+983	4630	Emmy Norton	North Branford	106	F	13-19	27.27	27.63	8.9
+984	3589	Chelsea Beaudry	Vernon	81	F	20-29	27.42	27.67	8.92
+985	3681	Kris Overstrum	Wallingford	17	F	50-54	27.38	27.67	8.92
+986	3148	John Hinrichs	Bristol	42	M	45-49	26.83	27.67	8.92
+987	2983	Rebekah Somma	Bethany	40	F	30-39	27.43	27.67	8.92
+988	3543	Dianne Eagan	Bethany	18	F	50-54	27.45	27.68	8.92
+989	5084	Stephen Gates	Manchester	23	M	60-64	27.17	27.68	8.92
+990	3339	Jennifer Wilson	Wallingford	21	F	40-44	27.55	27.68	8.92
+991	5035	Robert Ambrase Jr	West Haven	60	M	01-12	26.87	27.7	8.92
+992	4190	Hannah Szabo	Hamden	107	F	13-19	27.43	27.7	8.92
+993	3927	William Hammond	Bethel	93	M	30-39	27.38	27.7	8.92
+994	4105	Lorna Chitty	New Haven	108	F	13-19	27.23	27.7	8.92
+995	4037	Camryn Formica	Cheshire	109	F	13-19	27.25	27.72	8.93
+996	3245	Ava Galdenzi	Northford	110	F	13-19	27.3	27.72	8.93
+997	2854	Victoria Briggs	Cheshire	111	F	13-19	27.23	27.73	8.93
+998	4702	Madeline Sherlock	New Haven	82	F	20-29	27.22	27.73	8.93
+999	3247	Zelda Galdenzi	Northford	112	F	13-19	27.3	27.73	8.93
+1000	3001	Emma McSweet	Guilford	113	F	13-19	27.4	27.75	8.93
+1001	3235	Abigail Flinter	New York	41	F	30-39	27.48	27.75	8.93
+1002	2954	Madison Gambardella	Guilford	114	F	13-19	27.4	27.77	8.95
+1003	4961	Meghan Montanaro	North Branford	21	F	01-12	27.18	27.78	8.95
+1004	4969	Aaron Jones	New Haven	94	M	30-39	26.9	27.78	8.95
+1005	2975	Christopher Ryan	Madison	50	M	50-54	27.68	27.78	8.95
+1006	5527	Louis Altscheler	Durham	51	M	50-54	27.12	27.8	8.95
+1007	3221	Jordan Peccia	Hamden	43	M	45-49	27.58	27.8	8.95
+1008	4673	Danielle Ramada	North Branford	115	F	13-19	27.4	27.8	8.95
+1009	5824	Owen Lamothe	Hamden	61	M	01-12	27.2	27.82	8.95
+1010	5314	Sean McGarry	Hamden	62	M	01-12	27.2	27.82	8.97
+1011	2869	Cole Purcell	Northford	202	M	13-19	27.6	27.83	8.97
+1012	2805	Lucy Q.	Hamden	42	F	30-39	27.7	27.83	8.97
+1013	3033	Grace Keaveney	Cheshire	116	F	13-19	27.4	27.83	8.97
+1014	3722	Tanner Festa	New York	203	M	13-19	27.55	27.83	8.97
+1015	5530	Cassey Johnson	Guilford	204	M	13-19	27.03	27.85	8.97
+1016	4643	Andrew McIntyre	New York	95	M	30-39	26.6	27.85	8.97
+1017	5202	Rachael Amatruda	Guilford	117	F	13-19	27.8	27.85	8.97
+1018	4056	Sarah Rs	Milford	43	F	30-39	27.73	27.87	8.97
+1019	3161	Helen Beilinson	New Haven	83	F	20-29	27.55	27.87	8.97
+1020	4796	Mary Drake	Glastonbury	8	F	55-59	27.63	27.87	8.98
+1021	3688	Christopher Joyce	New Haven	55	M	40-44	27.85	27.87	8.98
+1022	2864	Sarah Pierpont	Cheshire	118	F	13-19	27.38	27.88	8.98
+1023	5257	Jordan Arovas	Orange	52	M	50-54	27.53	27.88	8.98
+1024	4831	Benjamin Willis	Wallingford	96	M	30-39	27.13	27.88	8.98
+1025	3833	Saki Tomita	New Haven	22	F	01-12	27.3	27.9	8.98
+1026	4206	Anthony Berruecos	New Haven	205	M	13-19	27.83	27.9	8.98
+1027	5015	Joseph Aurora	East Haven	97	M	30-39	27.72	27.9	8.98
+1028	5582	Alex Dalene	North Haven	125	M	20-29	26.75	27.92	8.98
+1029	4930	Samantha Nowak	Cheshire	119	F	13-19	27.48	27.92	8.98
+1030	3914	Sean Wadlinger	West Simsbury	98	M	30-39	27.6	27.92	8.98
+1031	2795	Ronald Peterson	Naugatuck	44	M	45-49	27.55	27.92	9
+1032	3926	Patrick Kral	Avon	99	M	30-39	27.72	27.92	9
+1033	4265	Carol Greeley	New Haven	19	F	50-54	27.62	27.93	9
+1034	3827	Susumu Tomita	New Haven	56	M	40-44	27.35	27.93	9
+1035	5292	Naomi Sussman	New Haven	84	F	20-29	27.8	27.93	9
+1036	3036	Mia Pulisciano	Cheshire	120	F	13-19	27.55	27.93	9
+1037	3829	Patricia Gallagher-Cr	North Haven	12	F	45-49	27.03	27.95	9
+1038	3121	Philip Warren	Old Saybrook	63	M	01-12	27.35	27.95	9
+1039	4974	Cameron Aurora	Madison	23	F	01-12	27.78	27.97	9
+1040	3008	Terri Lachance	Cheshire	9	F	55-59	27.92	27.97	9
+1041	5031	Justin McKay	Hamden	64	M	01-12	27.13	27.97	9.02
+1042	4102	Julie Slama	Peru	85	F	20-29	27.58	27.98	9.02
+1043	3077	Nolan Cotlier	New Haven	65	M	01-12	27.38	27.98	9.02
+1044	3332	Heather Chometa	Bethany	22	F	40-44	27.38	27.98	9.02
+1045	5531	Suki Hood	Branford	86	F	20-29	27.28	28	9.02
+1046	4681	Daniel Henick	New Haven	126	M	20-29	27.6	28	9.02
+1047	2870	David Purcell	Northford	45	M	45-49	27.75	28	9.02
+1048	5157	Andrew Boone	New Haven	57	M	40-44	27.67	28.02	9.02
+1049	3508	Chris Rutka	Cheshire	100	M	30-39	27.47	28.02	9.02
+1050	3338	Annemarie Sliby	Orange	20	F	50-54	27.82	28.03	9.03
+1051	5148	Meaghan Sullivan	New Haven	87	F	20-29	27.87	28.03	9.03
+1052	5404	Robert Toh	Pittsfield	6	M	65-69	27.65	28.03	9.03
+1053	2841	Mark Bissell	Wallingford	206	M	13-19	27.8	28.05	9.03
+1054	3646	Michael Wynn	Stratford	32	M	55-59	27.8	28.05	9.03
+1055	3615	Ilse Wiechers	Hamden	44	F	30-39	27.97	28.05	9.03
+1056	4819	Meredith Somers	Washington	45	F	30-39	27.12	28.05	9.03
+1057	3784	Daniel Beach	Prospect	101	M	30-39	27.6	28.05	9.03
+1058	4012	Elloise Benoit	New Haven	121	F	13-19	27.98	28.07	9.03
+1059	4925	Frank Ricci	New Haven	58	M	40-44	28.05	28.07	9.03
+1060	4230	Brian Keane	Middlebury	59	M	40-44	27.4	28.07	9.05
+1061	4411	Jordan Pollack	New York	102	M	30-39	27.62	28.08	9.05
+1062	4539	Michelle Peters	New Haven	88	F	20-29	27.88	28.08	9.05
+1063	5140	Sophie Chmelar	New Haven	122	F	13-19	28.03	28.1	9.05
+1064	3094	Krystn Wagner	Hamden	21	F	50-54	27.5	28.1	9.05
+1065	5370	Mary Lou Fialushko	Wallingford	13	F	45-49	27.9	28.12	9.05
+1066	4700	Reed Bobroff	New Haven	127	M	20-29	27.4	28.12	9.05
+1067	4397	Dinee Dorame	New Haven	89	F	20-29	27.42	28.12	9.05
+1068	4288	Esterina Anderson	Cheshire	23	F	40-44	28.05	28.12	9.05
+1069	4159	Eileen Wildermann	Madison	46	F	30-39	27.68	28.13	9.07
+1070	3974	Juan Hurtado	New Haven	207	M	13-19	27.88	28.15	9.07
+1071	3849	George Huynh	Dorchester	128	M	20-29	27.78	28.15	9.07
+1072	5325	Megan Lemay	South Windsor	123	F	13-19	28	28.15	9.07
+1073	5416	Andrew Zehner	New Haven	53	M	50-54	27.78	28.17	9.07
+1074	5344	Lisa Gardiner	Vernon	14	F	45-49	27.32	28.17	9.07
+1075	5190	Kara Roxbee	Guilford	47	F	30-39	28.17	28.17	9.07
+1076	2980	Sally Hellerman	Hamden	3	F	60-64	27.28	28.17	9.07
+1077	4146	Kaelen Annes	Hamden	66	M	01-12	27.92	28.18	9.08
+1078	4143	Ej Edelman	Hamden	48	F	30-39	27.93	28.18	9.08
+1079	4604	Mimi Lines	North Haven	4	F	60-64	27.3	28.18	9.08
+1080	5474	Nadia Sosnowitz	Hamden	90	F	20-29	27.97	28.2	9.08
+1081	5486	Diane Mazza	Hamden	15	F	45-49	27.98	28.2	9.08
+1082	4462	Katherine Farnsworth	Durham	49	F	30-39	27.85	28.22	9.08
+1083	4312	Anthony T. Boone	New Haven	208	M	13-19	27.97	28.23	9.08
+1084	3524	James A. Debowes Iv	West Haven	129	M	20-29	27.82	28.23	9.1
+1085	3854	David Byron-Brown	Brooklyn	33	M	55-59	27.88	28.25	9.1
+1086	4213	Julia Kosinski	Hamden	124	F	13-19	27.98	28.25	9.1
+1087	4663	Christine Ly	New Haven	91	F	20-29	28.13	28.27	9.1
+1088	4623	Matt Albert	Guilford	60	M	40-44	27.6	28.27	9.1
+1089	4496	Tanya Wiedeking	New Haven	16	F	45-49	27.8	28.27	9.1
+1090	4077	Jessica Gerber	Fairfield	17	F	45-49	28.12	28.27	9.1
+1091	4039	Joe Crosson	New York	130	M	20-29	27.83	28.27	9.1
+1092	2778	Rebecca Rose	North Haven	50	F	30-39	27.93	28.28	9.12
+1093	5040	Janlyn Lowndes		125	F	13-19	28.27	28.28	9.12
+1094	3831	Nao Tomita	New Haven	67	M	01-12	27.7	28.28	9.12
+1095	4010	Bryce Crawford	New Haven	209	M	13-19	28.2	28.3	9.12
+1096	4419	Mike Cheung	Shelton	131	M	20-29	27.97	28.3	9.12
+1097	3886	Daniela Hervella	Westport	18	F	45-49	27.85	28.32	9.12
+1098	4339	Paul Szollosi	Ledyard	61	M	40-44	27.13	28.32	9.12
+1099	3343	Dean D_Anna	Milford	34	M	55-59	27.93	28.33	9.13
+1100	4465	Annie Wang	Cheshire	126	F	13-19	27.77	28.33	9.13
+1101	2930	Christa Rider	Norwalk	51	F	30-39	27.47	28.35	9.13
+1102	5095	Jessica Monarca	New Britain	92	F	20-29	28.25	28.35	9.13
+1103	5108	Fabian Villacis	Bethany	103	M	30-39	27.13	28.35	9.13
+1104	5358	Jerry Kenney	Guilford	54	M	50-54	27.73	28.38	9.13
+1105	3283	Bruce Delmonico	Milford	46	M	45-49	27.9	28.38	9.15
+1106	2950	Paul Gilfillan	Bethany	24	M	60-64	27.52	28.4	9.15
+1107	3872	Kathryn Culbertson	Bethany	93	F	20-29	27.77	28.42	9.15
+1108	3314	Julie Weir	Wallingford	24	F	40-44	28.27	28.42	9.15
+1109	3721	Kiara Negreros	New Haven	127	F	13-19	27.95	28.43	9.15
+1110	5317	Andrea Munera	Hamden	52	F	30-39	28.32	28.43	9.15
+1111	3925	Alex English	Winsor Locks	210	M	13-19	28.1	28.43	9.15
+1112	3616	Kailee Hyde	Derby	94	F	20-29	27.87	28.43	9.15
+1113	4479	Carolina Guiral	West Hartford	95	F	20-29	27.82	28.45	9.17
+1114	4457	Olivia Salamone	Cheshire	128	F	13-19	28	28.47	9.17
+1115	2833	Monika Mosiej-Gagnon	Orange	25	F	40-44	28.4	28.47	9.17
+1116	3928	Matthew Klemets	Norwalk	62	M	40-44	28.3	28.48	9.17
+1117	2936	Suzanne Porter	Prospect	10	F	55-59	28.22	28.48	9.17
+1118	4464	Tim Eldridge	Old Saybrook	132	M	20-29	27.82	28.48	9.17
+1119	3521	Jason Lewis	Hamden	63	M	40-44	27.53	28.48	9.17
+1120	4424	Katie Farrell	Old Saybrook	96	F	20-29	27.85	28.5	9.18
+1121	4760	Will Kanders	Greenwich	211	M	13-19	28.33	28.5	9.18
+1122	4367	Justin Grande	Orange	64	M	40-44	27.5	28.5	9.18
+1123	4654	Michelle Taddie	Bethany	97	F	20-29	27.9	28.53	9.18
+1124	5450	Tamara Taggart	New Haven	53	F	30-39	27.9	28.53	9.18
+1125	4624	Shannon Wyman-Anctil	Naugatuck	19	F	45-49	28.02	28.53	9.18
+1126	5270	Robb Bajoros	New Haven	65	M	40-44	28.07	28.57	9.2
+1127	4638	Kathleen Harte	Cheshire	26	F	40-44	28.05	28.58	9.2
+1128	3438	Meredith Johnson	North Branford	129	F	13-19	28.18	28.58	9.2
+1129	3532	Sydney Hogan	Northford	130	F	13-19	28.18	28.58	9.2
+1130	3851	Kate Mrowka	Cheshire	98	F	20-29	28.13	28.58	9.2
+1131	4221	Anjali Rodrigues	Shelton	99	F	20-29	28.22	28.58	9.2
+1132	3779	Katie Autuori	Milford	54	F	30-39	28.42	28.6	9.22
+1133	3772	Richard Ford	New Haven	25	M	60-64	28.6	28.6	9.22
+1134	3426	Michael Scanlon	West Haven	7	M	65-69	28.23	28.62	9.22
+1135	4862	Derek Carless	New Haven	104	M	30-39	28.5	28.62	9.22
+1136	4362	Sarah Kravitz	Hamden	100	F	20-29	27.97	28.63	9.22
+1137	2806	Maddy Zimmerman	Spring City	101	F	20-29	28.18	28.63	9.22
+1138	3440	Eric Tuttle	Seymour	105	M	30-39	27.97	28.63	9.22
+1139	3729	Edward Scimia	Bethel	106	M	30-39	28.17	28.63	9.22
+1140	5155	Colleen Costello	Cheshire	131	F	13-19	28.57	28.65	9.23
+1141	3678	Mary Kuehl	Cheshire	132	F	13-19	28.57	28.65	9.23
+1142	3156	David Musto	Philadelphia	55	M	50-54	28.05	28.65	9.23
+1143	3624	Jack Cronan	Branford	8	M	65-69	28.42	28.65	9.23
+1144	5389	Jackie De Francesco	Northford	20	F	45-49	28	28.65	9.23
+1145	5105	Maria Romero	Bridgeport	55	F	30-39	28.63	28.67	9.23
+1146	4392	Xavier Murrell	New Haven	212	M	13-19	28.37	28.67	9.23
+1147	2952	Mike Smith	Naugatuck	2	M	70-74	28.6	28.67	9.23
+1148	5828	Carolyn Marks	North Haven	22	F	50-54	28.43	28.68	9.23
+1149	3385	Steven Germaine	Guilford	35	M	55-59	28.38	28.7	9.25
+1150	5135	Tracy Bellucci	Hamden	56	F	30-39	28.58	28.72	9.25
+1151	4391	Bob Felice	Woodbridge	36	M	55-59	28.25	28.72	9.25
+1152	3700	Danielle Hastings	New Haven	57	F	30-39	28.48	28.73	9.25
+1153	5248	Elier Martinez	New Haven	133	M	20-29	28.65	28.73	9.25
+1154	3951	Emilie Mojica	Plainville	102	F	20-29	28.25	28.73	9.25
+1155	3968	William Kilpatrick	New Haven	213	M	13-19	28.48	28.75	9.27
+1156	4426	Alexa Bettencourt	Cheshire	24	F	01-12	27.93	28.75	9.27
+1157	4572	Ed Keating	Killingworth	56	M	50-54	28.25	28.75	9.27
+1158	4864	Kristen Pearlman	Guilford	58	F	30-39	28.23	28.77	9.27
+1159	3336	Mike Dore	Westbrook	1	M	75-79	28.43	28.77	9.27
+1160	4514	Yesim Celebi	New Haven	133	F	13-19	28.6	28.78	9.27
+1161	4515	Grace Callander	New Haven	134	F	13-19	28.62	28.78	9.27
+1162	2706	Kristen Rychalsky	Seymour	59	F	30-39	28.58	28.78	9.27
+1163	5529	Michael Walters	Guilford	214	M	13-19	27.97	28.78	9.27
+1164	5312	Ralph Russo	Guilford	57	M	50-54	28.22	28.8	9.27
+1165	4332	Olivia Clarke	Guilford	135	F	13-19	28.12	28.82	9.28
+1166	5265	Jenna Grande	Branford	103	F	20-29	28.22	28.82	9.28
+1167	4217	Adrien Edwards	Hamden	134	M	20-29	28.18	28.83	9.28
+1168	4420	David Thompson	New Haven	26	M	60-64	28.12	28.83	9.28
+1169	4560	Eliana Ross	Hamden	136	F	13-19	28.33	28.83	9.28
+1170	3137	Howard Tenenbaum	Cheshire	37	M	55-59	28.33	28.85	9.28
+1171	3326	Rick Osak	Portland	38	M	55-59	28.52	28.85	9.28
+1172	3325	Shannon Osak	Portland	104	F	20-29	28.52	28.85	9.28
+1173	4892	Beth Peterson	West Haven	23	F	50-54	28.13	28.85	9.3
+1174	4185	Christine Bjork	Branford	21	F	45-49	28.22	28.85	9.3
+1175	3819	John Gibbons	Old Greenwich	3	M	70-74	28.75	28.87	9.3
+1176	2889	Craig Newick	New Haven	39	M	55-59	28.57	28.87	9.3
+1177	4857	Bob Cox	New Haven	27	M	60-64	28.42	28.87	9.3
+1178	2884	Phoebe Carias	New Haven	60	F	30-39	27.93	28.88	9.3
+1179	5299	Rachel Rinaldi	Cheshire	137	F	13-19	28.8	28.9	9.3
+1180	5330	Mark Zofack	Ansonia	47	M	45-49	28.42	28.9	9.3
+1181	4749	Rebecca Jawahar	Dover	138	F	13-19	28.68	28.92	9.32
+1182	5456	Volen Kolev	Broad Brook	135	M	20-29	28.15	28.92	9.32
+1183	2867	Kirk Norton	East Haven	66	M	40-44	28.28	28.92	9.32
+1184	2738	Cami Makula	Guilford	139	F	13-19	28.22	28.93	9.32
+1185	4985	Grace Plunkett	Branford	140	F	13-19	28.25	28.93	9.32
+1186	4932	Mike Crocco	North Haven	67	M	40-44	27.85	28.95	9.32
+1187	5285	Ronald Pitcher	Meriden	107	M	30-39	28.08	28.97	9.33
+1188	5579	Marty Lendroth	East Haven	58	M	50-54	27.82	28.97	9.33
+1189	5590	Summer Colossale	Branford	141	F	13-19	28.67	28.97	9.33
+1190	3258	Jason Gamsby	New Haven	108	M	30-39	28.32	28.98	9.33
+1191	4971	Norm Forrester	New Haven	59	M	50-54	28.48	28.98	9.33
+1192	2719	Alan Graham	Hamden	9	M	65-69	28.73	28.98	9.33
+1193	5070	Angel Mendez	New Haven	215	M	13-19	28.45	29	9.33
+1194	4350	Bill Camelio	Wallingford	109	M	30-39	28.43	29	9.33
+1195	5581	Grace Cervone	Milford	22	F	45-49	28.67	29	9.33
+1196	5580	Gabriella Cerrone	Milford	142	F	13-19	28.68	29	9.33
+1197	3713	Kirsten Slade	Cheshire	143	F	13-19	28.48	29.02	9.35
+1198	4292	David Provencher	Guilford	68	M	40-44	28.22	29.02	9.35
+1199	3728	Bryan Lees	Branford	60	M	50-54	27.83	29.03	9.35
+1200	3380	Michael Soileau	Philadelphia	61	M	50-54	28.13	29.03	9.35
+1201	3500	Lauren McEachern	Hamden	105	F	20-29	28.72	29.05	9.35
+1202	3390	Jody Podell Damsky	Hamden	61	F	30-39	28.18	29.07	9.37
+1203	4866	Breanna Clark	Cheshire	144	F	13-19	28.7	29.07	9.37
+1204	3391	Bill Damsky	Hamden	110	M	30-39	28.12	29.07	9.37
+1205	4710	Camille Bisson	Cheshire	145	F	13-19	28.7	29.07	9.37
+1206	3866	Matthew Redding	Hamden	136	M	20-29	28.48	29.08	9.37
+1207	4443	Soukdavanh Outhavong	West Haven	69	M	40-44	28	29.1	9.37
+1208	4442	Eva Outhavong	West Haven	27	F	40-44	28	29.1	9.37
+1209	2798	Kaela Heaslip	Hamden	62	F	30-39	28.22	29.1	9.37
+1210	5802	Katie Paolella	Branford	63	F	30-39	28.9	29.12	9.38
+1211	4593	Neil Johnstone	Bethany	137	M	20-29	28.65	29.12	9.38
+1212	4592	Katelyn Powell	East Haven	106	F	20-29	28.65	29.12	9.38
+1213	4656	Ryan Vedrani	Clinton	70	M	40-44	28.15	29.12	9.38
+1214	5127	Elizabeth Ruddy	Needham	146	F	13-19	28.97	29.13	9.38
+1215	4769	Stephanie Mallard	New Haven	23	F	45-49	29.02	29.13	9.38
+1216	5603	Christina Marcualli	Cheshire	24	F	45-49	29.08	29.13	9.38
+1217	3250	Kathryn Miller-Jensen	New Haven	28	F	40-44	28.68	29.13	9.38
+1218	2839	Anne Eddy	Cheshire	147	F	13-19	28.77	29.13	9.38
+1219	3513	Barry Doohan	New Haven	28	M	60-64	28.85	29.15	9.38
+1220	4134	Christina Bartzokis	Los Angeles	148	F	13-19	28.48	29.15	9.38
+1221	4368	Dick Walsh	Old Lyme	2	M	75-79	29	29.15	9.38
+1222	3769	Nicole Tepley	Guilford	149	F	13-19	28.78	29.17	9.38
+1223	3172	Rosemary Wuestefeld	Woodbridge	24	F	50-54	28.57	29.17	9.38
+1224	2756	Nolan Jermain	Hamden	68	M	01-12	28.52	29.17	9.4
+1225	3542	Jim Eagan	Bethany	10	M	65-69	28.75	29.17	9.4
+1226	5180	Natalie Krakow	Milford	64	F	30-39	28.77	29.17	9.4
+1227	4073	Joe Tine	Bethany	62	M	50-54	28.68	29.17	9.4
+1228	4633	Kayla Sansone	Cheshire	150	F	13-19	28.78	29.17	9.4
+1229	3626	Mark Lukawsky	New Britain	111	M	30-39	28.48	29.18	9.4
+1230	3303	Tatiana Niebuhr	Trumbull	151	F	13-19	28.48	29.2	9.4
+1232	4976	Varman Samuel	New Haven	48	M	45-49	28.88	29.2	9.4
+1233	4859	Tonis Talviste	Northford	4	M	70-74	27.82	29.22	9.4
+1234	3108	Debra Conte	Branford	25	F	50-54	28.93	29.22	9.4
+1235	2784	Lana Kessell	Middletown	107	F	20-29	28.9	29.22	9.42
+1236	4079	Daisy Ramos	McFarland	108	F	20-29	28.77	29.22	9.42
+1237	3144	Teresa Massimino	Orange	26	F	50-54	28.98	29.22	9.42
+1238	4908	Mylene Mabasa	Seymour	65	F	30-39	28.53	29.23	9.42
+1239	5346	Ryan Gilbert	West Haven	138	M	20-29	29.02	29.23	9.42
+1240	5094	Janine Johnson	Hamden	66	F	30-39	28.37	29.23	9.42
+1241	4033	Ava Hunt	New Haven	109	F	20-29	29.05	29.23	9.42
+1242	4052	Danielle Stamer	Pleasant Valley	110	F	20-29	29.07	29.23	9.42
+1243	2807	Meaghan Murphy	New Haven	111	F	20-29	28.3	29.25	9.42
+1244	4440	Brian Hannan	Hamden	49	M	45-49	28.85	29.25	9.42
+1245	3022	Meghan Landon	North Branford	152	F	13-19	28.88	29.25	9.42
+1246	3523	Nathan Pipeling	West Haven	69	M	01-12	28.78	29.25	9.42
+1247	2942	Nicholas Takoudes	Guilford	70	M	01-12	28.75	29.25	9.42
+1248	4103	Barbara Wade	Wallingford	25	F	45-49	29.27	29.27	9.43
+1249	3575	Shane McCutchen	West Haven	71	M	40-44	28.13	29.27	9.43
+1250	5399	Robin Tedesco	Wethersfield	112	F	20-29	28.7	29.3	9.43
+1251	4777	Rhiannon Zergiebel	Guilford	153	F	13-19	28.6	29.3	9.43
+1252	4473	Sarah Merchant	New Haven	113	F	20-29	28.68	29.3	9.43
+1253	4087	Claire Huebner	New Haven	114	F	20-29	28.85	29.3	9.43
+1254	4906	Aniko Szabo	Vernon	67	F	30-39	28.72	29.3	9.43
+1255	2943	Thomas Takoudes	Guilford	50	M	45-49	28.82	29.3	9.43
+1256	3895	Elle Shaw	Cheshire	25	F	01-12	28.5	29.32	9.43
+1257	2945	Christopher Takoudes	Guilford	71	M	01-12	28.82	29.32	9.45
+1258	4960	Madison Montanaro	North Branford	26	F	01-12	28.72	29.32	9.45
+1259	3371	Michelle Vieira	Southington	68	F	30-39	28.88	29.32	9.45
+1260	3916	Kristine Klarman	Branford	27	F	50-54	29	29.32	9.45
+1261	3328	Jess Reynolds	Guilford	154	F	13-19	28.77	29.33	9.45
+1262	3244	Leah Cohen	New Haven	11	F	55-59	29.2	29.33	9.45
+1263	5584	Americo Zuzunaga	New Haven	139	M	20-29	29	29.35	9.45
+1264	3392	Edward Whitman	Orange	51	M	45-49	28.92	29.35	9.45
+1265	5483	Charlotte Ariyan	New York	27	F	01-12	28.63	29.37	9.45
+1266	3689	Catherine Garrett	Darien	155	F	13-19	28.42	29.37	9.45
+1267	4863	Daniel Balls	Milford	72	M	40-44	28.42	29.37	9.45
+1268	3636	Kendra Luden	Guilford	156	F	13-19	28.67	29.37	9.47
+1269	2851	Molly Brett	Berlin	157	F	13-19	28.72	29.38	9.47
+1270	4754	Kathleen Daley	Branford	28	F	50-54	28.77	29.42	9.47
+1271	3080	Egan Turner	New Haven	72	M	01-12	29.13	29.42	9.47
+1272	3848	Chris Romano	Mansfield	52	M	45-49	28.88	29.42	9.48
+1273	3081	John Turner	New Haven	53	M	45-49	29.13	29.43	9.48
+1274	5601	Chelsea Ellington	New Haven	115	F	20-29	29.15	29.47	9.5
+1275	4660	Paul Garlinghouse	New Haven	63	M	50-54	29.37	29.47	9.5
+1276	5210	Christine Bailey	Southington	26	F	45-49	29.37	29.48	9.5
+1277	5505	Hernandez Anabel	Meriden	69	F	30-39	29.35	29.48	9.5
+1278	3414	Molly Gale	New Haven	116	F	20-29	28.97	29.52	9.5
+1279	3733	Alyssa Waligroski	Northford	158	F	13-19	29.12	29.52	9.5
+1280	4629	Melanie Norton	North Branford	159	F	13-19	29.12	29.52	9.5
+1281	3363	Qi Li	New Haven	29	F	40-44	29.32	29.52	9.5
+1282	5589	Audrey Kamen	Guilford	28	F	01-12	29.15	29.52	9.5
+1283	5099	Olivia McMahon	Guilford	29	F	01-12	29.15	29.53	9.52
+1284	4566	Emily Ross	Branford	160	F	13-19	28.8	29.53	9.52
+1285	3989	Ali Fadhil	New Haven	73	M	01-12	29.28	29.53	9.52
+1286	3350	Paul Flinter	Branford	11	M	65-69	28.95	29.55	9.52
+1287	4546	Ben Kieff	New Haven	216	M	13-19	29.37	29.55	9.52
+1288	4104	Isabel Gonzalez	New Haven	161	F	13-19	29.05	29.55	9.52
+1289	2940	Joseph Guerra	Guilford	64	M	50-54	29.2	29.55	9.52
+1290	4296	John Picard	Madison	65	M	50-54	29.17	29.55	9.52
+1291	3858	Bruce Alexander	New Haven	5	M	70-74	29.2	29.55	9.52
+1292	4868	Nichole Vazquez	Stratford	117	F	20-29	28.83	29.57	9.52
+1293	3155	Paul Misencik	Stratford	40	M	55-59	28.65	29.57	9.52
+1294	4553	Shady M. Qubaty	New Haven	217	M	13-19	29.4	29.57	9.52
+1295	5535	Molly Harrison	Kensington	118	F	20-29	29.27	29.58	9.53
+1296	3826	Rebecca Yan	Suwanee	162	F	13-19	29.02	29.58	9.53
+1297	5003	Gena McGuire	North Haven	30	F	40-44	28.45	29.58	9.53
+1298	3397	Dawn Jacobson	North Branford	29	F	50-54	29.2	29.58	9.53
+1299	3602	Peter Kihara	Stratford	54	M	45-49	28.75	29.58	9.53
+1300	3949	Anjali Desai	Cheshire	163	F	13-19	29.07	29.58	9.53
+1301	4318	Isabella Marino	Kensington	164	F	13-19	28.87	29.58	9.53
+1302	4147	Jiahui Hu	New Haven	119	F	20-29	29.07	29.6	9.53
+1303	3628	Shayna Kendall	New Haven	70	F	30-39	28.52	29.6	9.53
+1304	4841	Jocelyn Lionetti	New Haven	120	F	20-29	29.27	29.62	9.53
+1305	5380	Lillian Childress	New Haven	121	F	20-29	29.08	29.62	9.53
+1306	4724	Michael Glendon	Milford	112	M	30-39	29.05	29.62	9.53
+1307	6764	Sarah Galvani-Townsar	Woodbridge	30	F	01-12	29.23	29.62	9.53
+1308	3276	Melissa Milardo	East Hampton	71	F	30-39	29.18	29.63	9.55
+1309	4113	Sophie Freeman	New Haven	122	F	20-29	29.12	29.63	9.55
+1310	5218	Ann Hurlbut	New Haven	30	F	50-54	29.32	29.63	9.55
+1311	4158	Elena Cohen	Cheshire	165	F	13-19	29.08	29.63	9.55
+1312	5287	Corinne Sadinsky	Woodbridge	166	F	13-19	29.48	29.65	9.55
+1313	5117	Annie Harper	New Haven	27	F	45-49	29.33	29.65	9.55
+1314	5072	Mengzhao Xue	New Haven	123	F	20-29	29.55	29.65	9.55
+1315	4620	Elena Parkerson	Cheshire	167	F	13-19	29.62	29.65	9.55
+1316	3012	Wendy Hubbard	W. Windsor	31	F	50-54	29.48	29.65	9.55
+1317	3776	Randy Ruotolo	New Haven	12	M	65-69	28.58	29.65	9.55
+1318	4111	Mengting Gu	New Haven	124	F	20-29	29.57	29.67	9.55
+1319	3368	Adrianna Perez	Northbranford	168	F	13-19	29.35	29.67	9.55
+1320	3775	Noa Marie Ruotolo	New Haven	31	F	01-12	28.58	29.67	9.55
+1321	4716	Grace Pascale	Madison	125	F	20-29	29.1	29.67	9.55
+1322	3275	Samantha Smith	East Hampton	126	F	20-29	29.23	29.67	9.55
+1323	3315	Ricarda Tomlin	Stratford	31	F	40-44	29.28	29.68	9.55
+1324	3379	Thomas Ude	Philadelphia	66	M	50-54	28.77	29.68	9.57
+1325	5153	Theodora Stanley	Guilford	169	F	13-19	29.08	29.68	9.57
+1326	3816	Julia Ellman	Guilford	170	F	13-19	29.07	29.68	9.57
+1327	3920	Michael Wadlinger	West Simsbury	29	M	60-64	29.37	29.7	9.57
+1328	4189	Emily Ruan	Woodbridge	171	F	13-19	29.48	29.7	9.57
+1329	3512	Allan Chernak	Seymour	113	M	30-39	28.97	29.7	9.57
+1330	4548	Lucy (xiangyu) Wang	New Haven	127	F	20-29	29.52	29.7	9.57
+1331	4746	Maria Paula Barbosa	Riverside	172	F	13-19	28.77	29.7	9.57
+1332	4995	Mikaila Lupoli	East Haven	173	F	13-19	29.03	29.7	9.57
+1333	5020	Claudia Reynolds	Hamden	5	F	60-64	28.98	29.72	9.57
+1334	2820	Meg Reynolds	Guilford	174	F	13-19	29.1	29.72	9.57
+1335	3793	Erin Keller	Southington	32	F	40-44	29.38	29.72	9.57
+1336	4001	Katie Defrancesco	Cheshire	128	F	20-29	29.4	29.72	9.57
+1337	5163	Emily Medeiros	Wilbraham	129	F	20-29	28.82	29.73	9.58
+1338	5151	Paley Adelson-Grodber	New Haven	32	F	01-12	29.43	29.75	9.58
+1339	3693	Dan Kinton	Woodbridge	73	M	40-44	28.92	29.77	9.58
+1340	5303	Christopher Lambert	Hamden	140	M	20-29	28.87	29.78	9.6
+1341	5594	Natholie Debraerts	Newtown	12	F	55-59	29.47	29.78	9.6
+1342	3048	Brian Campbell	Trumbull	74	M	40-44	29.18	29.82	9.6
+1343	5126	Erica Jermacans	Guilford	175	F	13-19	29.18	29.82	9.6
+1344	5001	Dominic Scarano Jr	North Haven	67	M	50-54	28.85	29.83	9.6
+1345	3106	Rochelle Stackhouse	Hamden	13	F	55-59	29.55	29.85	9.62
+1346	5276	Saul Fussiner	Hamden	68	M	50-54	28.93	29.87	9.62
+1347	4112	John Golding	New Haven	141	M	20-29	29.87	29.87	9.62
+1348	4552	Samantha Angle	Middletown	130	F	20-29	29.88	29.88	9.62
+1349	5205	Joshua Rosenstern	New Haven	114	M	30-39	29.72	29.88	9.62
+1350	4095	Wendy Feldman	Cheshire	33	F	40-44	28.92	29.9	9.63
+1351	4909	Mei Han	New Haven	176	F	13-19	29.67	29.9	9.63
+1352	2755	Terri Buganski	Rocky Hill	1	F	65-69	29.68	29.92	9.63
+1353	4127	Theresa Dell	Guilford	177	F	13-19	29.3	29.92	9.63
+1354	4986	Jamie Monahan	Litchfield	131	F	20-29	29.87	29.92	9.63
+1355	3021	Dominick Alberino	East Haven	115	M	30-39	29.02	29.92	9.63
+1356	3376	Darron Vigliotti	Hamden	116	M	30-39	29.55	29.93	9.63
+1357	4138	Dawn Kaplan	Cheshire	28	F	45-49	29.17	29.93	9.63
+1358	4820	Chastity Caldwell	Milford	34	F	40-44	29.63	29.93	9.63
+1359	3495	Michele Roberts	Wallingford	72	F	30-39	29.73	29.95	9.65
+1360	5124	Mary Ann Robinson	Beacon Falls	29	F	45-49	29.37	29.95	9.65
+1361	2729	Chris Tyler	Stratford	69	M	50-54	29.58	29.95	9.65
+1362	3083	Siobhan Jurczyk	Berlin	35	F	40-44	29.9	29.97	9.65
+1363	3845	Gwen Goumas	Oxford	32	F	50-54	29.18	29.98	9.65
+1364	4157	Sofia Verna	Wallingford	178	F	13-19	29.28	29.98	9.65
+1365	5822	David Toole	Shelton	70	M	50-54	29.47	30	9.67
+1366	3832	Megumi Tomita	New Haven	36	F	40-44	29.4	30	9.67
+1367	4089	Neil Goodman	New Haven	218	M	13-19	29.72	30.02	9.67
+1368	3301	Thomas Paterno	Trumbull	75	M	40-44	29.27	30.02	9.67
+1369	5144	Shannon Van Splunder	Columbus	73	F	30-39	29.18	30.02	9.67
+1370	4962	Aeryn Boyer	Hamden	179	F	13-19	29.58	30.03	9.67
+1371	5357	Nicholas Tomanlli	New Haven	142	M	20-29	29.9	30.03	9.67
+1372	3185	Joanna Bloom	Hamden	37	F	40-44	29.13	30.03	9.67
+1373	3153	Tony Savinelli	Clinton	30	M	60-64	29.38	30.03	9.67
+1374	3545	Nancy Bauer	Front Royal	38	F	40-44	29.47	30.03	9.67
+1375	3803	Kim Hastings	Madison	33	F	50-54	29.7	30.05	9.68
+1376	3072	Elizabeth Coyne	Madison	30	F	45-49	29.7	30.05	9.68
+1377	4232	Gabby Deutch	Boca Raton	132	F	20-29	29.52	30.07	9.68
+1378	3388	Rajani Subramanian	North Haven	180	F	13-19	29.33	30.07	9.68
+1379	5812	Kate Jonkman	Cromwell	31	F	45-49	29.45	30.08	9.68
+1380	3748	John Thomas	Hyde Park	3	M	75-79	29.82	30.08	9.68
+1381	5817	Joann Hong-Curtis	New Haven	39	F	40-44	29.17	30.1	9.7
+1382	4953	Steven Niccolai	Madison	219	M	13-19	29.85	30.1	9.7
+1383	3159	Kiley Jacksom	Cheshire	181	F	13-19	29.67	30.12	9.7
+1384	5816	Garretson Curtis	New Haven	74	M	01-12	29.17	30.12	9.7
+1385	5462	Lilah-Jane Challe	New Canaan	33	F	01-12	30.02	30.12	9.7
+1386	3184	David Bach	New Haven	76	M	40-44	29.42	30.12	9.7
+1387	5809	Joel Neleber	Guilford	220	M	13-19	30.07	30.13	9.7
+1388	5411	Chris Kenney	Essex	55	M	45-49	29.47	30.13	9.7
+1389	4090	Anthony Gagliardi	Bronx	143	M	20-29	29.97	30.13	9.7
+1390	3662	James V. Ruotolo	Waterbury	13	M	65-69	29.72	30.15	9.7
+1391	5316	Quinn Raymond	Branford	221	M	13-19	29.73	30.15	9.7
+1392	3037	Izabella Lopez-Kalapi	Fairfield	182	F	13-19	29.22	30.15	9.7
+1393	3183	Nico Bach	New Haven	75	M	01-12	29.43	30.15	9.72
+1394	5526	Zoe Mills	Branford	74	F	30-39	29.43	30.15	9.72
+1395	3056	Yue Yin	Fairfield	183	F	13-19	29.93	30.15	9.72
+1396	3178	Sophie Gangloff	New Haven	34	F	01-12	29.95	30.17	9.72
+1397	4294	Lori Trumbley	Naugatuck	32	F	45-49	29.13	30.17	9.72
+1398	3443	Tara Lauro	North Branford	184	F	13-19	29.8	30.18	9.72
+1399	3092	Lauren Hess	Guilford	185	F	13-19	29.83	30.18	9.72
+1400	3442	Stephanie Seymour	North Branford	186	F	13-19	29.82	30.18	9.72
+1401	2826	Caroline Jentzen	Cheshire	187	F	13-19	29.8	30.18	9.72
+1402	2721	Mike Trumbley	Naugatuck	77	M	40-44	29.15	30.18	9.72
+1403	3357	Alan Karp	Sparks	144	M	20-29	29.18	30.2	9.73
+1404	2711	Ellen Su	New Haven	133	F	20-29	30.03	30.2	9.73
+1405	5062	Tara Picard	West Haven	40	F	40-44	29.55	30.2	9.73
+1406	4956	Juliette Glass	Guilford	188	F	13-19	30	30.2	9.73
+1407	4177	Marietta Dejulio	Guilford	189	F	13-19	29.58	30.22	9.73
+1408	4011	Ava Gladwin	Guilford	190	F	13-19	29.57	30.22	9.73
+1409	3059	Zoe Zengeni	Milford	41	F	40-44	29.25	30.22	9.73
+1410	4383	Emily Torre	Guilford	191	F	13-19	29.58	30.23	9.73
+1411	3999	Lexie Gula	Cheshire	192	F	13-19	29.97	30.25	9.73
+1412	2713	Curtiss Griesing	Wallingford	71	M	50-54	29.73	30.25	9.73
+1413	2902	Olenna Truskett	Brewster	14	F	55-59	30	30.25	9.73
+1414	4531	Eve Sneider	New Haven	193	F	13-19	29.7	30.25	9.75
+1415	5429	Emily Klarman	Cheshire	194	F	13-19	30.17	30.25	9.75
+1416	4791	Sophie Edelstein	New Haven	195	F	13-19	30.13	30.25	9.75
+1417	3485	Howard Simpson	Redding	72	M	50-54	30.07	30.25	9.75
+1418	4352	Kevin Walsh	Bethany	31	M	60-64	29.52	30.27	9.75
+1419	5301	Dakota Miller	Cheshire	196	F	13-19	29.9	30.27	9.75
+1420	4808	Kaelie Moran	Cheshire	197	F	13-19	29.9	30.28	9.75
+1421	3611	Ashley Delvecchio	Fairfield	134	F	20-29	30.08	30.28	9.75
+1422	3020	David Simon	New Haven	56	M	45-49	29.77	30.28	9.75
+1423	3494	Becky Rutka	Cheshire	75	F	30-39	30.02	30.28	9.75
+1424	3291	Sam Simione	Cheshire	198	F	13-19	29.82	30.3	9.75
+1425	2918	Daniel Meagher	Wallingford	117	M	30-39	29.2	30.3	9.75
+1426	3177	Amy Caplan	New Haven	42	F	40-44	30.08	30.3	9.75
+1427	5448	Meaghan Hogan	Cheshire	199	F	13-19	29.8	30.3	9.77
+1428	3377	Gregory Tower	New Haven	145	M	20-29	29.57	30.32	9.77
+1429	3378	Kaitlynn Morgan	Branford	135	F	20-29	29.57	30.32	9.77
+1430	4315	Salvatore Lanzofano	Meriden	41	M	55-59	29.18	30.32	9.77
+1431	4901	Brooks Walsh	New Haven	57	M	45-49	29.12	30.33	9.77
+1432	3808	Glenn Roth	Norwalk	78	M	40-44	29.83	30.35	9.77
+1433	3011	T. Lindsay D_Anna	West Windsor	32	M	60-64	29.97	30.35	9.78
+1434	4773	Robert Testo	Milford	58	M	45-49	29.62	30.35	9.78
+1435	3293	Ashley Schloss	New Haven	136	F	20-29	29.43	30.37	9.78
+1436	2743	Michael Lacy	New Haven	146	M	20-29	29.52	30.37	9.78
+1437	3353	Danielle Williams	New Haven	137	F	20-29	29.43	30.37	9.78
+1438	4110	Sandra Geiger	Sherborn	43	F	40-44	29.75	30.37	9.78
+1439	4614	Isabella Palma	Northford	200	F	13-19	30.05	30.37	9.78
+1440	3953	Elysia Dahl	New Haven	76	F	30-39	30.12	30.38	9.78
+1441	5813	Tricia Guyon	Cromwell	44	F	40-44	29.78	30.38	9.78
+1442	2938	Aidan Wildes	Hamden	138	F	20-29	30.13	30.38	9.78
+1443	5464	Peggy Challe	New Canaan	33	F	45-49	30.3	30.4	9.78
+1444	5814	Ashley Guyon	Cromwell	35	F	01-12	29.78	30.4	9.78
+1445	5081	Caitlin Chatterton	Vernon	36	F	01-12	29.42	30.4	9.78
+1446	4348	Mark Firla	New Haven	59	M	45-49	29.87	30.4	9.78
+1447	4835	Nick Curry	New Haven	147	M	20-29	29.62	30.4	9.8
+1448	3631	Mike Doran	Hamden	79	M	40-44	30.2	30.4	9.8
+1449	4114	Michelle Lapadula	Pelham	139	F	20-29	29.88	30.42	9.8
+1450	3711	Grace Halsey	New Haven	34	F	45-49	29.55	30.43	9.8
+1451	3347	Mariah Sage	New Haven	45	F	40-44	29.75	30.43	9.8
+1452	4690	Lauren Goldberg	New Haven	34	F	50-54	30.22	30.43	9.8
+1453	2705	Tina Lee	Easton	46	F	40-44	29.53	30.45	9.8
+1454	5045	Anua Dawson	New Haven	37	F	01-12	30.4	30.45	9.8
+1455	4840	Tarana Eldredge	Cheshire	201	F	13-19	29.78	30.45	9.82
+1456	4130	Nina Bartmann	New Haven	140	F	20-29	30.33	30.47	9.82
+1457	4131	Hanna Ehrlich	Highland Park	141	F	20-29	30.33	30.47	9.82
+1458	3499	Carole Rutka	Cheshire	6	F	60-64	30.22	30.48	9.82
+1459	5065	Frances Harris	Mobile	142	F	20-29	29.57	30.5	9.82
+1460	2734	Stephanie Meadow	Cromwell	35	F	50-54	29.92	30.5	9.82
+1461	3462	Elizabeth McManus	Killingworth	202	F	13-19	30.4	30.5	9.82
+1462	4174	Matthew Kraynak	Shelton	60	M	45-49	30.2	30.5	9.82
+1463	2847	Megan Crowley	Cheshire	203	F	13-19	29.83	30.52	9.83
+1464	5585	Richard Patton	Ansonia	118	M	30-39	29.78	30.52	9.83
+1465	3300	Merceditas Villanueva	New Haven	15	F	55-59	29.92	30.52	9.83
+1466	2825	Stephen Lynaugh	Teaneck	14	M	65-69	30.08	30.53	9.83
+1467	5542	Mary Giamatti	New Haven	35	F	45-49	30.22	30.53	9.83
+1468	3361	Yigui Wang	New Haven	61	M	45-49	29.55	30.55	9.83
+1469	4271	Rick Smilow	Westport	33	M	60-64	29.97	30.55	9.83
+1470	5488	Todd Petronio	Cheshire	80	M	40-44	29.67	30.55	9.83
+1471	4222	Donald Filer	Madison	42	M	55-59	30.17	30.55	9.83
+1472	4968	Julins Bloom	New Haven	76	M	01-12	29.68	30.57	9.85
+1473	4557	Maria Melchor	East Haven	143	F	20-29	30.4	30.57	9.85
+1474	3198	Karen Della-Giustina	Orange	36	F	50-54	30.35	30.57	9.85
+1475	4160	Rachel Diglio	Cheshire	204	F	13-19	30.15	30.57	9.85
+1476	4626	Samantha Hines	Wallingford	205	F	13-19	30.48	30.57	9.85
+1477	4336	Steven Della-Giustina	Orange	148	M	20-29	29.95	30.58	9.85
+1478	4161	Emily Misencik	New York	144	F	20-29	29.7	30.58	9.85
+1479	3402	Todd Kennedy	New Haven	119	M	30-39	30.58	30.58	9.85
+1480	5189	Lucy Hanson	Branford	206	F	13-19	29.65	30.6	9.85
+1481	5393	Natalie Roach	Cheshire	207	F	13-19	30.53	30.6	9.85
+1482	4205	Claudia O_Connell	Hamden	2	F	65-69	30.52	30.6	9.85
+1483	4378	Christina Nguyen	Cheshire	208	F	13-19	30.57	30.6	9.85
+1484	4319	Nick Marino	Kensington	43	M	55-59	30.48	30.62	9.85
+1485	5199	Cole Marino	Berlin	77	M	01-12	30.5	30.62	9.87
+1486	4655	Brent Mertz	New Haven	222	M	13-19	30	30.62	9.87
+1487	5553	Sengio Garcia-Penez	Guilford	78	M	01-12	30.57	30.63	9.87
+1488	3789	Tiago Alves	New Haven	120	M	30-39	29.77	30.63	9.87
+1489	4062	Kirk Webb	Oxford	62	M	45-49	29.73	30.63	9.87
+1490	4980	Michael Lockett	Hamden	73	M	50-54	30.2	30.63	9.87
+1491	5362	Jaime Daly	New Haven	77	F	30-39	29.72	30.63	9.87
+1492	3634	Iris Quinones	Meriden	78	F	30-39	29.57	30.63	9.87
+1493	5539	Michele Belisle	Middlefield	79	F	30-39	29.83	30.65	9.87
+1494	3637	John O_Leary	Stratford	34	M	60-64	30.42	30.65	9.87
+1495	5554	Paula Ginter	Hamden	36	F	45-49	30.02	30.67	9.88
+1496	5396	Caitlin Bouchard	Deep River	209	F	13-19	30.4	30.67	9.88
+1497	5080	Carol Chatterton	Vernon	37	F	45-49	29.68	30.67	9.88
+1498	4310	Alfie Barlow	New Haven	149	M	20-29	30.4	30.68	9.88
+1499	5313	Christina Huang	New Haven	210	F	13-19	29.8	30.68	9.88
+1500	4927	Guadadlupe Herrera	New Haven	80	F	30-39	30.55	30.68	9.88
+1501	4167	Kari Watkins	Orange	145	F	20-29	30.07	30.7	9.88
+1502	3272	Ernie Asprelli	Woodbridge	74	M	50-54	30	30.7	9.88
+1503	3621	Stephen McGovern	West Haven	15	M	65-69	29.93	30.7	9.88
+1504	3935	Steven Judd	New Haven	63	M	45-49	30.27	30.72	9.88
+1505	3936	Matthew Judd	New Haven	79	M	01-12	30.27	30.72	9.88
+1506	2764	Lisa Edwards	Milford	47	F	40-44	30.18	30.72	9.9
+1507	2763	Lex Edwards	Milford	80	M	01-12	30.18	30.73	9.9
+1508	3976	Hector Rivera	New Haven	223	M	13-19	30.47	30.73	9.9
+1509	5522	Ashley Thomas	Ridgefield	146	F	20-29	30.33	30.73	9.9
+1510	3742	Phyllis Tatro	Woodbridge	16	F	55-59	30.45	30.73	9.9
+1511	4430	Gordon Hinshalwood	New Haven	75	M	50-54	30	30.75	9.9
+1512	3039	Roxanna Lopez	Hamden	48	F	40-44	29.92	30.75	9.9
+1513	3120	Eric Kaplan	Wallingford	64	M	45-49	30.35	30.77	9.9
+1514	3472	Katrina Sliwa	New Haven	147	F	20-29	30.57	30.77	9.92
+1515	3585	Lisa Murphy	West Hartford	49	F	40-44	30.22	30.78	9.92
+1516	3584	Gwen Wyatt	West Hartford	81	F	30-39	30.25	30.78	9.92
+1517	3588	Melanie Daniel	Farmington	50	F	40-44	30.27	30.78	9.92
+1518	4688	Laterrius Johnson	New Haven	121	M	30-39	30.67	30.8	9.92
+1519	4522	Megan McQueen	Santa Barbara	211	F	13-19	30.7	30.82	9.92
+1520	3396	Karl Jacobson	N Branford	65	M	45-49	29.87	30.82	9.92
+1521	4508	Tessa Vaccaro	Cranbury	212	F	13-19	30.72	30.82	9.93
+1522	4913	Michael Schrier	Hamden	76	M	50-54	30.25	30.83	9.93
+1523	5002	Finola Kane-Grade	New Haven	148	F	20-29	30.32	30.83	9.93
+1524	4507	Anna Zhou	Lexington	213	F	13-19	30.73	30.83	9.93
+1525	4083	Jonathan Roig	Vineland	150	M	20-29	30.3	30.83	9.93
+1526	4652	Rishi Ramnarine	Saint Alburns	122	M	30-39	30.33	30.85	9.93
+1527	3987	Karen Escalera	New Haven	214	F	13-19	29.98	30.85	9.93
+1528	4179	Julia Murphy	North Haven	38	F	01-12	30.57	30.85	9.93
+1529	3600	Mark Rapuano	Clinton	77	M	50-54	30.07	30.85	9.93
+1530	2700	Gabriela Merayo	Hamden	82	F	30-39	29.92	30.85	9.93
+1531	3395	Kelli Jacobson	N Branford	215	F	13-19	30.48	30.87	9.93
+1532	4431	Sandra Carrano	Stratford	83	F	30-39	30.35	30.87	9.93
+1533	4873	Wendy Duby	North Haven	38	F	45-49	30.53	30.87	9.93
+1534	2979	Gary Stegina	Madison	35	M	60-64	30.18	30.87	9.95
+1535	5568	Geald Blachard	Portland	78	M	50-54	30.55	30.87	9.95
+1536	3587	Alexa Purcell	Cheshire	216	F	13-19	30.35	30.88	9.95
+1537	4166	Jennifer Ford	Orange	39	F	45-49	30.67	30.88	9.95
+1538	3699	Lynn Del Savio	Katonah	37	F	50-54	30.75	30.88	9.95
+1539	3018	Benjamin Simon	New Haven	81	M	01-12	30.37	30.9	9.95
+1540	5306	Sammy Hughes	Woodbridge	151	M	20-29	29.95	30.9	9.95
+1541	3609	Ainsley MacKenzie	Guilford	217	F	13-19	30.8	30.9	9.95
+1542	3811	Isaac Callaghan	New Haven	224	M	13-19	30	30.9	9.95
+1543	4183	Naveed Khoshnood	New Haven	152	M	20-29	30.47	30.92	9.95
+1544	4727	Michael Kelleher	New Haven	82	M	01-12	30.35	30.93	9.97
+1545	3802	Nathan Wrann	West Haven	81	M	40-44	30.55	30.93	9.97
+1546	5588	Brian Schorendorfer	New Haven	153	M	20-29	30.3	30.95	9.97
+1547	5119	Alysse Mastriano	East Haven	218	F	13-19	30.25	30.95	9.97
+1548	3026	Christine Mulligan	North Branford	40	F	45-49	30.2	30.95	9.97
+1549	5252	Cash Carocci	New Haven	39	F	01-12	30.82	30.98	9.98
+1550	2880	Cathy Swift	Branford	7	F	60-64	30.5	31	9.98
+1551	4830	Kiernan Willis	Wallingford	149	F	20-29	30.28	31	9.98
+1552	4578	Julia Case	New Haven	219	F	13-19	30.82	31	9.98
+1553	3806	Jessica Simone	Orange	150	F	20-29	30.17	31	9.98
+1554	3406	Jade Barnes	Cheshire	220	F	13-19	30.62	31.02	9.98
+1555	3762	Evie Cai	Bryn Mawr	151	F	20-29	30.52	31.02	9.98
+1556	3763	Anna Smilow	Westport	152	F	20-29	30.47	31.03	10
+1557	2877	Raymond Pajer	Ipswich	16	M	65-69	30.7	31.03	10
+1558	4827	Thomas Uhlans	West Haven	44	M	55-59	30.35	31.05	10
+1559	4982	Chaucey Perreault	Meriden	41	F	45-49	30.5	31.05	10
+1560	3869	Zackary Schnitzer	Cheshire	83	M	01-12	30.77	31.07	10
+1561	3266	Marcos Yale	Cheshire	40	F	01-12	30.78	31.07	10
+1562	4099	Rachel Wofford	Port Orange	153	F	20-29	30.32	31.07	10
+1563	4097	Andrea Smith	Lebanon	154	F	20-29	30.32	31.07	10
+1564	3264	Sophie Kurtz	Cheshire	221	F	13-19	30.63	31.08	10
+1565	4133	Kimberly Guo	New Haven	155	F	20-29	30.32	31.08	10.02
+1566	4765	Julia Marcouiller	Cheshire	225	M	13-19	30.73	31.12	10.02
+1567	4959	Jacob Montanro	North Branford	226	M	13-19	30.1	31.13	10.03
+1568	5356	Jack Hrit	New Haven	45	M	55-59	30.67	31.13	10.03
+1569	3654	Katie Yates	New Haven	38	F	50-54	30.52	31.13	10.03
+1570	5427	Martley Edmunds	Cheshire	222	F	13-19	31.05	31.15	10.03
+1571	4875	Maria Gutierrez	New Haven	84	F	30-39	30.67	31.15	10.03
+1572	5430	Anne Klarman	Cheshire	223	F	13-19	31.05	31.15	10.03
+1573	5489	Michele Degiawmo	Hamden	42	F	45-49	30.68	31.15	10.03
+1574	4175	Debra Pasquini	Woodbridge	17	F	55-59	30.43	31.15	10.03
+1575	5372	Lynn Riordan	North Branford	39	F	50-54	30.73	31.17	10.03
+1576	4484	Debbie Swirsky	Orange	18	F	55-59	30.87	31.17	10.03
+1577	3939	Maryann Fontaine	Bethlehem	8	F	60-64	30.87	31.17	10.03
+1578	3810	Peter Follett	New Haven	66	M	45-49	30.75	31.18	10.05
+1579	5414	Kaelin Vasseur	Hamden	41	F	01-12	30.38	31.18	10.05
+1580	2966	Allison Audet	Gulilford	43	F	45-49	30.2	31.2	10.05
+1581	4846	Missy Hackett	Orange	40	F	50-54	30.4	31.2	10.05
+1582	4454	Emily Trocchi	Cheshire	224	F	13-19	31.12	31.22	10.05
+1583	3553	Abby Dziura	Cheshire	225	F	13-19	30.43	31.22	10.05
+1584	4395	Anthony Murrell	New Haven	67	M	45-49	30.93	31.23	10.05
+1585	4200	Trinity Ireland	Guilford	226	F	13-19	30.5	31.23	10.05
+1586	5326	Lesley Sandoval	Higganum	51	F	40-44	30.72	31.25	10.07
+1587	3878	Ava Bucci	Guilford	227	F	13-19	30.52	31.25	10.07
+1588	4063	Lauren Tucker	New Haven	156	F	20-29	30.72	31.25	10.07
+1589	3985	Stacey Correa	New Haven	228	F	13-19	30.42	31.27	10.07
+1590	2751	Ryder Holloway	Wallingford	84	M	01-12	30.18	31.28	10.07
+1591	4674	Angelina Ramada	North Branford	229	F	13-19	30.87	31.28	10.07
+1592	3566	Kaylee Velez	North Branford	230	F	13-19	30.88	31.3	10.08
+1593	3952	Larry Musso	Middletown	36	M	60-64	30.8	31.3	10.08
+1594	5141	Megan Fernandes	Guilford	231	F	13-19	30.63	31.3	10.08
+1595	5034	Thomas Maynard	East Haven	85	M	01-12	31	31.33	10.08
+1596	4814	Lauren Jacko	Hamden	85	F	30-39	30.87	31.33	10.08
+1597	5543	Doreen Stohler	Hamden	19	F	55-59	31.35	31.35	10.1
+1598	3043	Briana Amodio	East Haven	157	F	20-29	30.77	31.37	10.1
+1599	3449	John McGovern	North Haven	46	M	55-59	31	31.37	10.1
+1600	5496	Bryan McNamara	Newton	123	M	30-39	31.05	31.37	10.1
+1601	2813	Laura Thomas	Cheshire	232	F	13-19	30.87	31.38	10.1
+1602	4965	Jaime Cruz	East Haven	79	M	50-54	30.77	31.38	10.1
+1603	3114	Moira Cotlier-Cassell	New Haven	52	F	40-44	30.8	31.38	10.12
+1604	4801	Andrea Giaco	Holmes	86	F	30-39	30.93	31.38	10.12
+1605	4636	Richard Bryden	Cheshire	47	M	55-59	31.02	31.4	10.12
+1606	2995	Daniel Vincent	New Haven	124	M	30-39	30.33	31.4	10.12
+1607	5537	Opeld Matdme	New Haven	158	F	20-29	30.65	31.4	10.12
+1608	2823	Aaron Marshall	Hamden	154	M	20-29	30.48	31.42	10.12
+1609	2984	Nancy Boyd	North Haven	41	F	50-54	30.5	31.42	10.12
+1610	5067	Gavin Rodriguez	New Haven	227	M	13-19	30.52	31.42	10.12
+1611	5102	Kathleen Dipace-Gray	Wallingford	20	F	55-59	30.35	31.42	10.12
+1612	4902	Lauren Tobias	New Haven	87	F	30-39	30.23	31.43	10.12
+1613	4359	Inez Martinez	New Haven	88	F	30-39	30.83	31.43	10.12
+1614	3252	Shirin Bahmanyar	New Haven	89	F	30-39	30.98	31.43	10.12
+1615	5435	Stacey Goodwin	Jupiter	9	F	60-64	30.23	31.45	10.13
+1616	5436	Jeff Podell	Jupiter	37	M	60-64	30.23	31.47	10.13
+1617	4323	Joseph Driscoll	Prospect	48	M	55-59	30.42	31.47	10.13
+1618	3287	Sean Cotlier	New Haven	228	M	13-19	30.82	31.47	10.13
+1619	3040	Pablo Devos-Deak	Hamden	229	M	13-19	31.05	31.47	10.13
+1620	3536	Matthew Errickson	Newington	86	M	01-12	31.32	31.47	10.13
+1621	3893	Valerie Horsley	New Haven	53	F	40-44	30.58	31.48	10.13
+1622	3535	Robyn Errickson	Newington	54	F	40-44	31.33	31.48	10.13
+1623	3709	Ashley Tatro	Woodbridge	159	F	20-29	31.18	31.48	10.13
+1624	4648	Aria Zhang	Cheshire	233	F	13-19	30.92	31.5	10.15
+1625	4513	Jenny Xiao	Katy	234	F	13-19	30.63	31.5	10.15
+1626	5418	Natasha Fatu	Rocky Hill	90	F	30-39	30.92	31.5	10.15
+1627	5195	Michelle Young	Oxford	160	F	20-29	31.52	31.52	10.15
+1628	5216	Rhianne Lefevre	New Haven	91	F	30-39	31.52	31.52	10.15
+1629	5400	Kevin Tedesco	Wethersfield	125	M	30-39	30.88	31.55	10.17
+1630	4091	Sarah Mary-Ann Geach	New Haven	235	F	13-19	31.3	31.57	10.17
+1631	4182	Kaveh Khoshnood	New Haven	80	M	50-54	31.12	31.57	10.17
+1632	3063	Edgar Yanza	West Haven	82	M	40-44	31.42	31.57	10.17
+1633	5524	Patti Droney	Orange	42	F	50-54	30.8	31.58	10.17
+1634	3096	Michael Goldman	Scarsdale	1	M	80-89	31.5	31.58	10.17
+1635	2727	Edward Marczyszak	Seymour	38	M	60-64	30.82	31.58	10.17
+1636	2728	Jessica Branson	Seymour	161	F	20-29	30.82	31.58	10.17
+1637	3459	Casey Dorrough	Glastonbury	230	M	13-19	30.38	31.6	10.18
+1638	3458	Stephen Dorrough	Glastonbury	68	M	45-49	30.38	31.6	10.18
+1639	3192	John Marks	Wallingford	81	M	50-54	30.95	31.6	10.18
+1640	4744	Marjorie Marrone	Guilford	236	F	13-19	30.98	31.62	10.18
+1641	4322	Christine Driscoll	Prospect	21	F	55-59	30.57	31.62	10.18
+1642	5583	Danine Foley	Guilford	55	F	40-44	30.88	31.62	10.18
+1643	5465	Erin McCormack	Orange	237	F	13-19	31.47	31.62	10.18
+1644	3534	Anne Marie Zyskowski	Hamden	162	F	20-29	31.22	31.65	10.18
+1645	3917	Paul Kish	Bristol	69	M	45-49	31.35	31.65	10.2
+1646	2817	Therese Dematteo	Guilford	44	F	45-49	31.27	31.65	10.2
+1647	3732	Kenneth Guay	Watertown	49	M	55-59	31.05	31.65	10.2
+1648	3712	Suzanne Shaw	Branford	56	F	40-44	31.27	31.67	10.2
+1649	3755	Laura Durante	Branford	57	F	40-44	31.27	31.67	10.2
+1650	3778	Christopher Goggin	Wallingford	83	M	40-44	30.9	31.67	10.2
+1651	5490	Juliano Petronio	Cheshire	238	F	13-19	30.82	31.68	10.2
+1652	3412	Lawrence Jardine	Meriden	50	M	55-59	31.17	31.68	10.2
+1653	4253	Eva Landsberg	New Haven	163	F	20-29	31.58	31.68	10.2
+1654	2866	Sophie Seigel	Cheshire	239	F	13-19	31.27	31.68	10.2
+1655	4194	Richard Spears	New Haven	82	M	50-54	30.8	31.68	10.2
+1656	2982	Brian Somma	Bethany	126	M	30-39	30.93	31.7	10.2
+1657	3223	Meghan Kirck	Orange	42	F	01-12	31.28	31.7	10.2
+1658	5229	Emily Erb	New Haven	164	F	20-29	30.5	31.7	10.2
+1659	3481	Kiera Stankewich	Guilford	240	F	13-19	30.95	31.72	10.22
+1660	5415	Chaundra Vasseur	Hamden	58	F	40-44	31.52	31.72	10.22
+1661	4254	Emma Poole	New Haven	165	F	20-29	31.62	31.73	10.22
+1662	4181	Abigail Murphy	North Haven	43	F	01-12	31.43	31.73	10.22
+1663	4715	Mike Bruening	Trumbull	83	M	50-54	30.75	31.73	10.22
+1664	3084	Nancy Degennaro	Derby	10	F	60-64	31.68	31.73	10.22
+1665	4178	Victoria Murphy	North Haven	45	F	45-49	31.47	31.75	10.22
+1666	4252	Colleen Kenney	Williamsville	166	F	20-29	31.65	31.75	10.23
+1667	4904	Francesca Criscuolo	Wallingford	241	F	13-19	31.1	31.77	10.23
+1668	3093	Melanie Coggins	Hamden	59	F	40-44	31.57	31.78	10.23
+1669	2707	Kimberly Parkman	Oxford	60	F	40-44	30.87	31.78	10.23
+1670	3464	Nicole Kloevekorn	New York	92	F	30-39	31.08	31.8	10.23
+1671	3352	Stephen Gamboa	New Haven	155	M	20-29	30.97	31.82	10.25
+1672	4701	Sara White	Hamden	46	F	45-49	30.97	31.82	10.25
+1673	5500	Nick Decaprio	Branford	127	M	30-39	31.63	31.82	10.25
+1674	4268	Samantha Ciaburro	Branford	242	F	13-19	31.17	31.82	10.25
+1675	4317	Hannah Guth	Clinton	243	F	13-19	31.17	31.83	10.25
+1676	4999	Samantha Lee	Branford	244	F	13-19	31.1	31.83	10.25
+1677	5586	Jay Bovicit	Clinton	51	M	55-59	31.23	31.83	10.25
+1678	3216	Kristina Turcio	East Haven	93	F	30-39	30.9	31.83	10.25
+1679	4608	Chris Ryan	Orange	156	M	20-29	31.12	31.85	10.25
+1680	4048	Andy Spagnoletti	Wolcott	17	M	65-69	31.4	31.85	10.27
+1681	4199	Johanny Cintron	West Haven	61	F	40-44	30.75	31.87	10.27
+1682	4274	Vito A. Catalanotto	Cheshire	128	M	30-39	31.43	31.88	10.27
+1683	2971	Julia Montalvo	Moodus	47	F	45-49	30.93	31.9	10.27
+1684	4483	Christopher Brown	Cheshire	70	M	45-49	31.08	31.9	10.27
+1685	2972	Steve Cassella	Moodus	84	M	40-44	30.95	31.92	10.28
+1686	3503	Jeri Barney	Hamden	48	F	45-49	31.6	31.92	10.28
+1687	5821	Jacqueline Liebler	Southington	44	F	01-12	31.1	31.92	10.28
+1688	5165	Amee Lunn	North Haven	62	F	40-44	31.18	31.93	10.28
+1689	4967	Kenneth Rosenthal	Woodbridge	6	M	70-74	31.07	31.93	10.28
+1690	4850	Jais Lunn	North Haven	231	M	13-19	31.18	31.95	10.28
+1691	3274	Kutluk Uslu	Milford	71	M	45-49	31.73	31.95	10.28
+1692	5555	Holly Masi	Hamden	49	F	45-49	31.35	31.97	10.3
+1693	5262	Nissen Weisman	New Haven	157	M	20-29	31.25	31.97	10.3
+1694	5083	Alexandra Kerwin	Shelton	94	F	30-39	31.38	31.97	10.3
+1695	4787	Christina Deangelo	North Haven	245	F	13-19	31.33	31.98	10.3
+1696	3261	Kerry Marquis		95	F	30-39	31.43	31.98	10.3
+1697	4512	Gillian Monsky	New York	246	F	13-19	31.12	31.98	10.3
+1698	4269	Ali Ciaburro	Branford	247	F	13-19	31.33	31.98	10.3
+1699	4009	Maggie Devine	Cheshire	248	F	13-19	31.43	31.98	10.3
+1700	4478	Mike Wendrychowicz	Rocky Hill	129	M	30-39	31.08	32	10.3
+1701	3860	Lily MacKey	Guilford	249	F	13-19	31.23	32	10.3
+1702	4898	Omer Salem	New Haven	52	M	55-59	31.9	32	10.3
+1703	2951	Stephanie Critch	Bethany	11	F	60-64	31.82	32.02	10.3
+1704	5502	Kelly Michel	Orange	96	F	30-39	31.82	32.02	10.3
+1705	4532	Rachel Lackner	Amherst	167	F	20-29	31.77	32.02	10.32
+1706	4215	Art Hamm	Farmington	7	M	70-74	31.92	32.02	10.32
+1707	4076	Kayleigh Mulligan	Cheshire	250	F	13-19	31.45	32.02	10.32
+1708	3559	Allison Hadley	New Haven	168	F	20-29	31.83	32.02	10.32
+1709	4589	Mark Alexander	Cheshire	84	M	50-54	31.62	32.02	10.32
+1710	2761	Janet Loynes	Granby	43	F	50-54	31.28	32.03	10.32
+1711	2848	Maureen Crowley	Cheshire	44	F	50-54	31.42	32.05	10.32
+1712	3629	Ruth Davenport	Stratford	50	F	45-49	31.98	32.05	10.32
+1713	5212	Cameron Casey	Cheshire	251	F	13-19	31.53	32.07	10.33
+1714	4547	Sheri Steinmetz	Woodbridge	22	F	55-59	31.57	32.07	10.33
+1715	3312	Michael Christie	Monroe	85	M	50-54	31.33	32.07	10.33
+1716	5571	Francesca Lador	Hamden	45	F	01-12	31.47	32.07	10.33
+1717	5818	Abby Ganzle	Cheshire	252	F	13-19	31.53	32.07	10.33
+1718	4543	Andrea Benjamin	Woodbridge	23	F	55-59	31.57	32.08	10.33
+1719	3270	Dan Reilly	Guilford	39	M	60-64	31.48	32.08	10.33
+1720	5819	Felicia Liebler	Southington	63	F	40-44	31.27	32.1	10.33
+1721	3570	Catherine Panter-Bric	New Haven	24	F	55-59	31.9	32.1	10.33
+1722	4412	Robert Hawke	New Haven	130	M	30-39	31.4	32.12	10.35
+1723	4413	Barbara Hawke	New Haven	46	F	01-12	31.38	32.13	10.35
+1724	3997	Hannah Jacob	Milford	97	F	30-39	31.63	32.13	10.35
+1725	5491	Mariah Cretella	Guilford	253	F	13-19	31.5	32.13	10.35
+1726	3908	Bob Sullivan	Southwick	53	M	55-59	31.77	32.15	10.35
+1727	5022	Cassie Clayton	Guilford	254	F	13-19	31.53	32.17	10.35
+1728	4209	Sarah Feldman	Cheshire	255	F	13-19	31.13	32.17	10.35
+1729	2957	Sunnie Scarpa	Wallingford	98	F	30-39	31.17	32.17	10.37
+1730	4029	Rebecca Spadory	East Haven	169	F	20-29	31.17	32.2	10.37
+1731	5469	Kathy Matus	Durham	51	F	45-49	32	32.22	10.38
+1732	4795	Brittany Bailey	New Haven	256	F	13-19	31.27	32.23	10.38
+1733	5333	Zach Macey	Woodbridge	87	M	01-12	31.92	32.23	10.38
+1734	3489	Vin Darcy	Avon	54	M	55-59	31.82	32.23	10.38
+1735	4890	Jaime Murphy	Wallingford	99	F	30-39	31.65	32.25	10.38
+1736	5808	Amy Blumenreder	Southington	100	F	30-39	31.65	32.25	10.38
+1737	4878	Margie Bissell	Wallingford	45	F	50-54	32.02	32.25	10.38
+1738	5437	Liz Anthony	East Haven	25	F	55-59	32.08	32.27	10.38
+1739	3404	Joseph Miller	Madison	86	M	50-54	32	32.27	10.4
+1740	3403	Maeve Miller	Madison	257	F	13-19	32	32.27	10.4
+1741	3429	Ken Parcella	Meriden	131	M	30-39	31.57	32.28	10.4
+1742	3190	Laurel Peterson	New Haven	101	F	30-39	31.32	32.28	10.4
+1743	3488	Sandy Darcy	Avon	26	F	55-59	31.85	32.28	10.4
+1744	4188	Benjamin Johnson	New Haven	132	M	30-39	31.33	32.28	10.4
+1745	3582	Shari Millen	Cheshire	52	F	45-49	31.53	32.3	10.4
+1746	4302	Dan Wagner	Hamden	133	M	30-39	31.4	32.3	10.4
+1747	4603	Colleen Lawler	Wallingford	64	F	40-44	31.68	32.3	10.4
+1748	3317	Yingying Cai	New Haven	170	F	20-29	31.53	32.32	10.4
+1749	4377	Darcie Roy	Wallingford	53	F	45-49	31.68	32.32	10.4
+1750	2850	Kelly Brett	Berlin	258	F	13-19	31.6	32.32	10.4
+1751	5009	Brian Miller	Alexandria	87	M	50-54	31.9	32.33	10.42
+1752	5012	Rosalie Miller	Alexandria	47	F	01-12	31.9	32.33	10.42
+1753	4941	Shaylin Marshall	Derby	259	F	13-19	31.67	32.33	10.42
+1754	3000	Davina Ismail	Meriden	102	F	30-39	32.08	32.33	10.42
+1755	4002	Aiden Suski	Durham	88	M	01-12	32.23	32.35	10.42
+1756	3477	Amy Shortelle	Wallingford	171	F	20-29	32.02	32.35	10.42
+1757	4910	Jerry Mabasa	Milford	85	M	40-44	31.67	32.37	10.42
+1758	4360	Jorge Juan Cortes	New Haven	134	M	30-39	31.77	32.37	10.42
+1759	3475	Bill Lombardi	Milford	40	M	60-64	31.9	32.37	10.42
+1760	3076	Thomas Lehtonen	New Haven	18	M	65-69	32.02	32.37	10.43
+1761	3360	Monique Nemarich	Branford	12	F	60-64	31.95	32.38	10.43
+1762	3835	Mehul Dalal	New Haven	86	M	40-44	31.77	32.38	10.43
+1763	3836	Vikram Dalal	New Haven	89	M	01-12	31.78	32.38	10.43
+1764	4940	Mario Ponzio	Hamden	135	M	30-39	31.62	32.4	10.43
+1765	3107	Joe Conte	Alexandria	158	M	20-29	32.03	32.42	10.43
+1766	3019	Anna Simon	New Haven	260	F	13-19	31.57	32.42	10.43
+1767	3660	Seth Huffman	Bristol	232	M	13-19	31.92	32.42	10.43
+1768	5572	Daniela Ladore	Hamden	65	F	40-44	31.82	32.42	10.43
+1769	3596	Ryan Philipp	Bristol	159	M	20-29	31.87	32.45	10.45
+1770	4756	Isabella Tufaro	Derby	261	F	13-19	31.78	32.45	10.45
+1771	2842	Kiera Bova	Orange	262	F	13-19	31.9	32.45	10.45
+1772	2757	Lilly Jermain	Hamden	48	F	01-12	31.8	32.47	10.45
+1773	4889	Brielle Kendrioski	Guilford	263	F	13-19	32.05	32.47	10.45
+1774	4950	Laura Troidle	Branford	88	M	50-54	31.83	32.48	10.47
+1775	3598	Leah Philipp	Bristol	172	F	20-29	31.92	32.48	10.47
+1776	3604	Keith Cotlier	Cheshire	87	M	40-44	32.12	32.5	10.47
+1777	3900	Zoeann Day	Cheshire	264	F	13-19	32.12	32.5	10.47
+1778	5125	Grace Arneson	Cheshire	265	F	13-19	32.1	32.5	10.47
+1779	4287	Gabrielle Messeder	Cheshire	266	F	13-19	32.12	32.5	10.47
+1780	4196	Austin Colegio	Cheshire	90	M	01-12	31.73	32.52	10.47
+1781	3251	Stephanie Eisenbarth	Cheshire	66	F	40-44	31.73	32.52	10.47
+1782	3318	Adam Williams	Cheshire	136	M	30-39	31.73	32.52	10.47
+1783	2961	Alecia Walkuski	Wolcott	103	F	30-39	31.53	32.55	10.48
+1784	3578	Kathy Petreski	Pound Ridge	46	F	50-54	32.43	32.55	10.48
+1785	4734	Abigail Dunsing	West Haven	173	F	20-29	31.8	32.57	10.48
+1786	2922	Laurie Kirck	Orange	67	F	40-44	32.15	32.57	10.48
+1787	3737	Heather Edwards	Seymour	54	F	45-49	31.7	32.57	10.48
+1788	5256	Laurie Arovas	Orange	55	F	45-49	32.22	32.57	10.48
+1789	3754	Marie-France Kern	Greenwich	56	F	45-49	32.48	32.58	10.5
+1790	4004	Renee Bauer	Durham	104	F	30-39	32.48	32.62	10.5
+1791	3034	Samantha Pacelli	North Branford	57	F	45-49	32.35	32.62	10.5
+1792	4601	Jacob Garfinkel	Watertown	160	M	20-29	31.73	32.62	10.5
+1793	3102	Ann Tramontana-Veno	New Haven	13	F	60-64	32.47	32.63	10.5
+1794	4685	Lye Meng Lee	Manchester	58	F	45-49	31.43	32.65	10.52
+1795	3971	Aekrama Ahmed	New Haven	267	F	13-19	31.72	32.65	10.52
+1796	3132	Taryn Disorbo	Cheshire	105	F	30-39	32.12	32.67	10.52
+1797	2916	Rebecca Samuels	East Haven	174	F	20-29	32.6	32.68	10.53
+1798	4047	Matthew Coetzee	New Haven	161	M	20-29	32.27	32.7	10.53
+1799	3088	James Fairfield-Sonn	Old Lyme	19	M	65-69	32.5	32.72	10.53
+1800	5497	Erica Courtmanche	Newtown	175	F	20-29	31.87	32.72	10.53
+1801	3407	Susan Kerley	New Haven	3	F	65-69	32.02	32.72	10.53
+1802	4641	Isabella Pilato	East Haven	268	F	13-19	31.6	32.72	10.53
+1803	4080	Aurora Fonseca	Athens	176	F	20-29	32.28	32.73	10.53
+1804	3865	Jacqueline Aras	Wahiawa	106	F	30-39	31.9	32.73	10.53
+1805	4822	Deirdre Oneill	New Haven	68	F	40-44	32.08	32.73	10.55
+1806	3182	Almudena Villanueva	New Haven	59	F	45-49	32.1	32.75	10.55
+1807	4438	Leigh Porterfield	Hamden	107	F	30-39	32.48	32.75	10.55
+1808	3369	Jessica Palmer	East Haven	177	F	20-29	31.75	32.75	10.55
+1809	4070	Christine Tine	Bethany	47	F	50-54	32.25	32.75	10.55
+1810	4082	Jennifer Fagan	North Haven	108	F	30-39	31.65	32.75	10.55
+1811	5224	Maria Casanovas	New Haven	109	F	30-39	32.17	32.77	10.55
+1812	4370	Kate Kelly	Hamden	110	F	30-39	32.52	32.77	10.55
+1813	3345	Acadia Kocher	Columbia	178	F	20-29	32.2	32.77	10.55
+1814	3367	Kristina Yim	New Haven	179	F	20-29	32.2	32.77	10.55
+1815	3995	Lisa Rieger	Hamden	27	F	55-59	32.25	32.8	10.57
+1816	3254	Adrienne Nelson	New Haven	111	F	30-39	31.87	32.8	10.57
+1817	3790	Helene Von Bogen	New Haven	180	F	20-29	32.45	32.82	10.57
+1818	5548	Kenny Jacques	Wallingford	60	F	45-49	32.43	32.82	10.57
+1819	2789	Lexie Hemstock	Cheshire	269	F	13-19	32.45	32.83	10.57
+1820	3734	Earle Giovanniello	Orange	55	M	55-59	32.3	32.85	10.58
+1821	4869	Martha Braun	New Haven	181	F	20-29	32.4	32.9	10.6
+1822	3546	Moira Myers	Southington	28	F	55-59	32.27	32.9	10.6
+1823	2860	Adriana Blanco	Clinton	69	F	40-44	32.4	32.9	10.6
+1824	2859	Samantha Bernstein	Clinton	49	F	01-12	32.4	32.9	10.6
+1825	2857	Richard Bernstein	Clinton	56	M	55-59	32.45	32.9	10.6
+1826	4709	Bonnie Longley	East Haven	61	F	45-49	32.17	32.92	10.6
+1827	3269	Emily Gisvold	West Haven	182	F	20-29	32.1	32.93	10.6
+1828	4027	Eleanor Handler	Woodbridge	183	F	20-29	32.38	32.95	10.62
+1829	4074	Julietta Garbasz	New York	184	F	20-29	32.4	32.95	10.62
+1830	3744	Cara Gould	Hamden	48	F	50-54	32.37	32.95	10.62
+1831	4447	Corey Martin	Cheshire	233	M	13-19	31.8	32.95	10.62
+1832	3042	David Wright	Hamden	57	M	55-59	32.18	32.97	10.62
+1833	2948	Joe Bouchard Sr.	Fairfield	41	M	60-64	31.83	32.97	10.62
+1834	3168	Stanley Latkowski	Branford	89	M	50-54	32.25	32.97	10.62
+1835	3167	Linda Brauchler	Kew Gardens Hills	49	F	50-54	32.25	32.98	10.62
+1836	3061	Deb Risisky	Hamden	62	F	45-49	32.02	32.98	10.62
+1837	2802	Shane Sardella	New Haven	162	M	20-29	32.82	32.98	10.62
+1838	4337	David Grudberg	North Haven	58	M	55-59	32.83	33	10.63
+1839	4726	Sean Kelleher	New Haven	91	M	01-12	32.38	33	10.63
+1841	2752	Jess Holloway	Wallingford	70	F	40-44	31.92	33.02	10.63
+1842	4926	Mallory Peters	Guilford	270	F	13-19	32.3	33.02	10.63
+1843	2753	Ty Holloway	Wallingford	92	M	01-12	31.93	33.02	10.63
+1844	3104	Alfred Jessel	New Haven	20	M	65-69	31.82	33.02	10.63
+1845	3448	Jerri Trumbley	Prospect	112	F	30-39	31.88	33.03	10.63
+1846	5392	James Moody	Jewett City	59	M	55-59	32.82	33.03	10.63
+1847	4250	Alexis Chang	New Haven	271	F	13-19	32.48	33.03	10.63
+1848	3957	Izzy Marchand	Hamden	272	F	13-19	32.13	33.05	10.63
+1849	3958	Jennifer Marchand	Hamden	71	F	40-44	32.13	33.05	10.63
+1850	2737	Susan Makula	Guilford	50	F	50-54	32.38	33.05	10.63
+1851	3447	Matt Trumbley	Prospect	137	M	30-39	31.88	33.05	10.63
+1852	4098	Alexandra Newberry	New Haven	273	F	13-19	32.78	33.05	10.65
+1853	2965	McKenzie Audet	Guilford	274	F	13-19	32.4	33.05	10.65
+1854	4152	Julia Nemec	Guilford	275	F	13-19	32.38	33.07	10.65
+1855	4653	Constance Thurmond	Miami	185	F	20-29	32.78	33.07	10.65
+1856	5005	Rachel Marczak	Hamden	72	F	40-44	31.95	33.07	10.65
+1857	5209	Alyssa Covas	Morgantown	186	F	20-29	31.95	33.07	10.65
+1858	4559	Kenney Johnson	Northford	60	M	55-59	32.3	33.08	10.65
+1859	4307	Madeline Costantino	Guilford	276	F	13-19	32.5	33.1	10.65
+1860	5373	Tommy Henry	Chesire	93	M	01-12	32.07	33.1	10.65
+1861	5143	Kyle Pan	New Haven	163	M	20-29	32.33	33.12	10.67
+1862	3639	Natalia Ranfone	Guilford	277	F	13-19	32.52	33.12	10.67
+1863	3736	Nathan Nguyen	San Jose	164	M	20-29	32.25	33.13	10.67
+1864	3607	Kymberlie Lee	Oxford	278	F	13-19	32.28	33.13	10.67
+1865	5288	Linda Sadinsky	Woodbridge	51	F	50-54	32.93	33.15	10.68
+1866	3741	Kaixuan Lin	New Haven	187	F	20-29	32.25	33.17	10.68
+1867	4849	Tushar Ghuwalewa	Prospect	88	M	40-44	32.47	33.17	10.68
+1868	3239	Rhonda Johnson	Hamden	29	F	55-59	33.1	33.2	10.7
+1869	5336	Joseph Shin	New Haven	90	M	50-54	32.73	33.2	10.7
+1870	5405	Chrish Burnn	Guilfod	52	F	50-54	32.95	33.22	10.7
+1872	2780	Emily Orbin	Pittsburgh	113	F	30-39	33.08	33.23	10.7
+1873	3531	James Kuhl	Fairfield	234	M	13-19	32.55	33.23	10.7
+1874	4647	Elannah Devin	Guilford	279	F	13-19	32.65	33.25	10.72
+1875	5240	Al Paolillo	New Haven	89	M	40-44	32.15	33.27	10.72
+1876	2779	Neil Orbin	Pittsburgh	138	M	30-39	33.13	33.27	10.72
+1877	4452	Robyn Martin	Orange	53	F	50-54	32.75	33.27	10.72
+1878	3335	Carla Juhas	Bethel	54	F	50-54	32.35	33.28	10.72
+1879	4439	Karen Saint John	New Haven	4	F	65-69	32.57	33.28	10.72
+1880	3095	Steve Arnold	New Haven	91	M	50-54	33.12	33.28	10.72
+1881	3614	Kevin Hurley	Wallingford	42	M	60-64	32.82	33.3	10.72
+1882	3123	Nicole Dibella	New Haven	114	F	30-39	32.33	33.3	10.72
+1883	3111	Juan Alvarez	Waterbury	139	M	30-39	32.42	33.32	10.73
+1884	5064	Nikhil Samuel	New Haven	235	M	13-19	33.03	33.33	10.73
+1885	3130	Elizabeth Alexander	Cheshire	63	F	45-49	33.3	33.33	10.73
+1886	5201	Heather Martin	Guilford	115	F	30-39	32.65	33.33	10.73
+1887	5197	Marc Goldberg	Hamden	92	M	50-54	32.62	33.33	10.73
+1888	4150	Maryjane McGoldrick	Fairfield	5	F	65-69	32.98	33.35	10.73
+1889	2927	Meggie Czepiel	Hamden	280	F	13-19	32.6	33.37	10.75
+1890	3131	Samantha Alexander	Cheshire	281	F	13-19	33.27	33.37	10.75
+1891	4329	Michael Prestash	Middletown	94	M	01-12	32.75	33.37	10.75
+1893	4328	Heidi Prestash	Middletown	73	F	40-44	32.75	33.38	10.75
+1894	4874	Christopher Duby	North Haven	72	M	45-49	32.77	33.4	10.75
+1895	4851	Dawn Tebbetts	North Haven	55	F	50-54	32.7	33.42	10.77
+1896	3933	Karin Christley	Hamden	116	F	30-39	33.2	33.42	10.77
+1897	4748	David Jawahar	Dover	93	M	50-54	33.25	33.42	10.77
+1898	3672	Sydney Provencher	Guilford	282	F	13-19	32.8	33.42	10.77
+1899	3606	Jerry Liba	Shelton	8	M	70-74	33.23	33.43	10.77
+1900	5410	Michelle Puskar	East Hampton	117	F	30-39	33.45	33.45	10.77
+1901	3632	Christa Doran	Hamden	118	F	30-39	33.23	33.45	10.77
+1902	4970	George Wildridge	Hamden	236	M	13-19	32.93	33.47	10.78
+1903	3091	Amelia Tatarian	New Haven	188	F	20-29	32.43	33.47	10.78
+1904	3812	Rebecca Gratz	New Haven	64	F	45-49	32.57	33.47	10.78
+1905	4785	Regina Foster	Yonkers	119	F	30-39	33.3	33.48	10.78
+1906	4032	Jaelynn Handy	New Haven	50	F	01-12	32.47	33.5	10.78
+1907	3548	Rachel Klein	New Haven	189	F	20-29	32.48	33.52	10.8
+1908	3564	Gail Reynolds	Higganum	14	F	60-64	33.23	33.55	10.8
+1909	2967	Romeo Voira	New Haven	43	M	60-64	33.28	33.58	10.82
+1910	2926	Kathy Czepiel	Hamden	56	F	50-54	32.83	33.6	10.82
+1911	5378	Giuseppe Gazzola	New Haven	73	M	45-49	33.28	33.6	10.82
+1912	3761	Madelyn Fumiatti	West Haven	190	F	20-29	32.77	33.62	10.83
+1913	3659	Shawn Huffman	Bristol	237	M	13-19	33.13	33.63	10.83
+1914	3310	Arnita Christie	Monroe	57	F	50-54	33.42	33.65	10.83
+1915	5810	Jaime Neleber	Guilford	238	M	13-19	32.98	33.67	10.83
+1916	3684	William Connolly	North Haven	74	M	45-49	33.27	33.67	10.83
+1917	3480	Nolan Stankewich	Guilford	95	M	01-12	32.92	33.67	10.85
+1918	4026	Stephanie Levine	Miami	283	F	13-19	33.17	33.68	10.85
+1919	3482	Colleen Stankewich	Guilford	65	F	45-49	32.92	33.68	10.85
+1920	3685	Brady Connolly	North Haven	96	M	01-12	33.28	33.68	10.85
+1921	3304	Kelly Balanca	West Haven	191	F	20-29	33.17	33.72	10.87
+1922	5591	Dominic Colossale	Branford	75	M	45-49	33.33	33.75	10.87
+1923	3888	Isaac Brown	New Haven	97	M	01-12	33.2	33.78	10.88
+1924	4911	Octavio Balbarin	New Haven	98	M	01-12	33.4	33.78	10.88
+1925	5557	Jena Wooding	Middletown	66	F	45-49	32.98	33.8	10.88
+1926	4343	Kevin Reilly	Boonton	76	M	45-49	33.77	33.8	10.88
+1927	4401	Joel Roy	Morris	61	M	55-59	32.85	33.8	10.88
+1928	5811	Samuel Heenan	New Haven	99	M	01-12	33.42	33.82	10.88
+1929	4912	Mateo Balbarin	New Haven	100	M	01-12	33.42	33.82	10.88
+1930	2834	Madison Diglio	Cheshire	284	F	13-19	33.43	33.82	10.9
+1931	3165	Mia Sloan	New Haven	285	F	13-19	33.42	33.83	10.9
+1932	4402	Kathy Roy	Morris	30	F	55-59	32.97	33.83	10.9
+1933	4920	Vincent Balbarin	New Haven	77	M	45-49	33.43	33.83	10.9
+1934	3166	Wyatt Sloan	New Haven	101	M	01-12	33.43	33.85	10.9
+1935	5028	Leah Moore	New Haven	286	F	13-19	33.82	33.87	10.9
+1936	2992	Eric Johnson Jr	Bridgeport	165	M	20-29	32.73	33.9	10.92
+1937	3747	Guy Pulino	Moodus	9	M	70-74	33.45	33.9	10.92
+1938	3757	Raymond Comstock	North Branford	44	M	60-64	32.6	33.9	10.92
+1939	4044	Sarah Minuit	Guillford	287	F	13-19	33.17	33.92	10.92
+1940	5597	Bill Goettler	Woodbridge	62	M	55-59	33.02	33.95	10.93
+1941	3567	Dawn Demeo	New Haven	74	F	40-44	33.7	33.97	10.93
+1942	3975	Johanile Hurtado	New Haven	288	F	13-19	33.13	33.97	10.93
+1943	3723	Michele Monteiro	New Haven	120	F	30-39	33.88	33.98	10.95
+1944	4848	Laura Smith	Branford	192	F	20-29	33.45	33.98	10.95
+1945	3846	Reyna Schaechter	New Haven	193	F	20-29	33.85	34	10.95
+1946	3490	Pia Gero	East Haven	58	F	50-54	32.95	34	10.95
+1947	2914	Tyler Smith	Branford	166	M	20-29	33.18	34.02	10.95
+1948	4534	Angelica Vera	National City	289	F	13-19	33.57	34.02	10.95
+1949	3770	Daniel Ruben	New York	102	M	01-12	33.6	34.03	10.97
+1950	4326	Megan Girald	Darien	121	F	30-39	33.83	34.03	10.97
+1951	3233	Kristy MacCi	Orange	122	F	30-39	32.93	34.05	10.97
+1952	5193	Veronica Chase	Hamden	31	F	55-59	33.52	34.07	10.97
+1953	3146	Jessica Vinall	Bristol	123	F	30-39	33.55	34.08	10.97
+1954	4468	Ken Liebeskind	Brooklyn	45	M	60-64	33.93	34.08	10.98
+1955	3154	Allison Simpson	New Haven	194	F	20-29	33.9	34.08	10.98
+1956	5459	Stuart Gailey	Durham	94	M	50-54	33.55	34.08	10.98
+1957	3074	Tom Sullivan	Ledyard	4	M	75-79	33.53	34.1	10.98
+1958	5188	Sheila Schreck	Hamden	75	F	40-44	33.58	34.12	10.98
+1959	3017	Douglas Skalka	Woodbridge	63	M	55-59	33.38	34.12	10.98
+1960	2849	Lydia Metcalf	Hamden	290	F	13-19	33.2	34.12	10.98
+1961	4921	Jordan Regan	North Branford	291	F	13-19	33.8	34.13	11
+1962	4466	Emily Olsen	North Branford	292	F	13-19	33.72	34.13	11
+1963	3441	Mackenzie Kaiser	Northford	293	F	13-19	33.77	34.13	11
+1964	4881	Jose Rojas	West Haven	239	M	13-19	33.67	34.13	11
+1965	2934	Nick Demorest	New Haven	167	M	20-29	33.42	34.15	11
+1966	3290	Bianca D_Onofrio	Northford	294	F	13-19	33.73	34.15	11
+1967	4698	Kelly Blanchat	New Haven	124	F	30-39	34.08	34.15	11
+1968	5055	Alona Taylor		51	F	01-12	34.1	34.17	11
+1969	4303	Geoff Peters	New Haven	168	M	20-29	33.38	34.22	11.02
+1970	4580	Benjamin Danehy	New York	103	M	01-12	33.78	34.23	11.02
+1971	2714	Katherine Schave	Wallingford	67	F	45-49	33.43	34.25	11.03
+1972	5541	Lauren Garrett	Hamden	125	F	30-39	33.12	34.25	11.03
+1973	5298	Minerva Cano	Ny	126	F	30-39	33.78	34.27	11.03
+1974	2876	Melissa McCarter	New York	127	F	30-39	33.52	34.28	11.03
+1975	3372	Lawrence Kuperstein	Hamden	46	M	60-64	33.6	34.3	11.05
+1976	3890	Sahar Usmani-Brown	New Haven	76	F	40-44	33.73	34.3	11.05
+1977	3069	Neal Wellins	Cheshire	10	M	70-74	33.78	34.3	11.05
+1978	2947	Mark Levine	West Haven	21	M	65-69	33.62	34.32	11.05
+1979	5042	Runner Unknown		240	M	13-19	34.27	34.33	11.05
+1980	4398	Maria Diuk	Tappan	68	F	45-49	33.62	34.35	11.07
+1981	3610	Claire MacKenzie	Guilford	295	F	13-19	33.42	34.37	11.07
+1982	4696	Susan Centone	Hamden	69	F	45-49	33.85	34.38	11.07
+1983	3126	John Ferraro	Hamden	47	M	60-64	34	34.4	11.08
+1984	5146	Denise Smith	Orange	70	F	45-49	33.87	34.42	11.08
+1985	4306	Francine Shannon	Southbury	59	F	50-54	33.58	34.42	11.08
+1986	4664	Bob Wellington	Meriden	64	M	55-59	33.97	34.43	11.08
+1987	5075	Jennifer Leiser	Oakdale	128	F	30-39	33.3	34.43	11.08
+1988	3188	Lindsay McCook	Baltimore	129	F	30-39	33.85	34.47	11.1
+1989	3016	Rachel Skalka	Woodbridge	195	F	20-29	34.23	34.47	11.1
+1990	5010	Mary Miller	Alexandria	60	F	50-54	34.03	34.47	11.1
+1991	5013	Brian Miller	Alexandria	104	M	01-12	34.03	34.48	11.1
+1992	3187	Matthew Flament	Baltimore	140	M	30-39	33.85	34.48	11.1
+1993	3539	Carolynn Pechmann	Cheshire	296	F	13-19	33.9	34.5	11.12
+1994	3049	Christin Campbell	Trumbull	77	F	40-44	33.88	34.52	11.12
+1995	4933	Zoe Fritz	Cheshire	297	F	13-19	33.92	34.52	11.12
+1996	3463	Tara Landino	West Haven	78	F	40-44	33.45	34.53	11.12
+1997	4342	Stephen Corbett	Shelton	65	M	55-59	33.45	34.53	11.12
+1998	2708	Marcia Maillard	Stratford	130	F	30-39	33.6	34.55	11.13
+1999	4939	Chloe Stancarone	Guilford	298	F	13-19	33.87	34.55	11.13
+2000	351	Ken McKay	East Haven	22	M	65-69	34.03	34.57	11.13
+2001	4330	Jodi Viezel	Orange	71	F	45-49	34.22	34.58	11.13
+2002	4314	Anthony T. Boone	New Haven	90	M	40-44	33.73	34.58	11.13
+2003	3581	Sarah Cook	North Branford	299	F	13-19	34.27	34.58	11.13
+2004	3214	Elsa Holahan	New Haven	52	F	01-12	33.72	34.62	11.15
+2005	4600	Skylar Takacs	New Haven	53	F	01-12	33.72	34.62	11.15
+2006	3179	Anna Thompson	Burlington	131	F	30-39	33.42	34.62	11.15
+2007	3282	Kaitlyn Kruglik	Northford	300	F	13-19	34.3	34.62	11.15
+2008	3670	Katelyn Carson	Northford	301	F	13-19	34.3	34.63	11.15
+2009	5293	Ronnie O_Hara	Guilford	32	F	55-59	34.43	34.63	11.15
+2010	5440	Alexandra Barakos	Cheshire	15	F	60-64	34.2	34.65	11.15
+2011	3783	Susan Surdykowski	Hamden	16	F	60-64	33.88	34.65	11.15
+2012	4418	Kristin Michanczyk	Southington	132	F	30-39	34.5	34.67	11.17
+2013	3937	Chang (julia) Wang	New Haven	196	F	20-29	34.67	34.67	11.17
+2014	4085	Matthew Bewley	New Haven	169	M	20-29	34.18	34.68	11.17
+2015	5277	Ashley Makar	New Haven	133	F	30-39	34.02	34.73	11.18
+2016	3461	Pamela McManus	Killingworth	33	F	55-59	34.63	34.73	11.18
+2017	4730	Kelly Hahn	Guilford	79	F	40-44	34.33	34.8	11.2
+2018	2928	Tom Missett	Southington	11	M	70-74	34.38	34.8	11.2
+2019	4729	Sydney Hahn	Guilford	54	F	01-12	34.35	34.8	11.2
+2020	3658	Kim Dibenedetto-Roger	New Haven	72	F	45-49	34.53	34.83	11.22
+2021	4903	Sara Martin	Wallingford	302	F	13-19	34.2	34.85	11.22
+2022	5320	Yingjie Wang	New Haven	197	F	20-29	33.6	34.85	11.22
+2023	4594	Tatum Courtmanche	Madison	303	F	13-19	34.2	34.87	11.23
+2024	3996	Megan Judge	Stratford	73	F	45-49	34.05	34.87	11.23
+2025	5385	Tracy Weiss	Wallingford	80	F	40-44	33.88	34.88	11.23
+2026	5319	Annie Bui	New Haven	198	F	20-29	33.63	34.88	11.23
+2028	2787	Richard Meagher	Wallingford	48	M	60-64	33.78	34.88	11.23
+2029	4805	Jessica Suckle-Nelson	Thomaston	81	F	40-44	34.07	34.88	11.23
+2030	3129	Kerry Brown	New Haven	134	F	30-39	34.03	34.9	11.23
+2032	5066	Vera Blaas	New Haven	135	F	30-39	34.38	34.9	11.23
+2033	5192	Maria Depaola	North Branford	82	F	40-44	34.15	34.92	11.25
+2034	3067	Carl Rochow	Cheshire	78	M	45-49	34.47	34.93	11.25
+2035	4460	Lexi Hitchcock	Guilford	304	F	13-19	34.17	34.93	11.25
+2036	4899	Ava Dagostino	North Branford	305	F	13-19	34.3	34.95	11.25
+2037	5014	Taylor Dostie	Northford	306	F	13-19	34.28	34.95	11.25
+2038	4521	Alexa Vaghenas	New Haven	307	F	13-19	34.85	34.95	11.25
+2039	4132	Antonio Colon	Cheshire	241	M	13-19	34.42	34.97	11.27
+2040	4739	Claire Donelan	Fairfield	308	F	13-19	34.32	34.97	11.27
+2041	4334	Susan Vollano	Northford	136	F	30-39	34.43	34.97	11.27
+2042	2871	Ben Purcell	Northford	242	M	13-19	34.77	34.98	11.27
+2043	5139	Samantha Ajello	North Haven	309	F	13-19	34.3	34.98	11.27
+2044	5577	Yulia Tsyrinski	New Haven	137	F	30-39	34	35	11.27
+2045	5576	Alen Tsyvinski	New Haven	141	M	30-39	34.02	35.02	11.27
+2046	4935	Verica Milivojevic	New Haven	138	F	30-39	34.73	35.02	11.28
+2047	3633	Carmen Hernandez	Hamden	199	F	20-29	34.82	35.03	11.28
+2048	3434	Charlotte Blair	Cheshire	61	F	50-54	34.13	35.05	11.28
+2049	3359	Susan Desrosiers	Trumbull	17	F	60-64	32.78	35.05	11.28
+2050	4813	Eric Smith	New Haven	79	M	45-49	34.23	35.05	11.28
+2051	4812	Zoe Smith	Orange	55	F	01-12	34.25	35.07	11.28
+2052	2908	Patty Carton	Stratford	1	F	75-79	34.9	35.07	11.28
+2053	4007	Kerry Andreozzi	Hamden	200	F	20-29	34.8	35.07	11.3
+2054	2981	Madalyn Gaffney	Hamden	56	F	01-12	34.78	35.07	11.3
+2055	4923	Isabella Tomassi	Guilford	310	F	13-19	34.38	35.07	11.3
+2056	4170	Julia Gangemi	Guilford	311	F	13-19	34.4	35.07	11.3
+2057	3302	Erin Brough	Hamden	139	F	30-39	34.48	35.08	11.3
+2058	4918	Monica Worden	Waterbury	201	F	20-29	33.87	35.08	11.3
+2059	5374	Robert Henry	Chesire	74	F	45-49	34.12	35.15	11.32
+2060	4554	Richard Kaplan	Woodbridge	23	M	65-69	34.67	35.18	11.33
+2061	2874	Pat Anthony	Naugutak	49	M	60-64	34.4	35.2	11.33
+2062	5179	Maggie Egan	East Haven	312	F	13-19	35.05	35.22	11.35
+2063	4493	Magda Lena Griffel	New Haven	57	F	01-12	34.7	35.23	11.35
+2064	4833	Christian Perez	New Haven	142	M	30-39	34.52	35.25	11.35
+2065	4492	Hannah Geyer	New Haven	58	F	01-12	34.72	35.25	11.35
+2066	3608	Monica Lee	Oxford	140	F	30-39	34.45	35.3	11.37
+2067	3351	Errol Saunders	New Haven	143	M	30-39	34.47	35.3	11.37
+2068	5323	Jose Correia	Hamden	95	M	50-54	34.23	35.32	11.37
+2069	5100	Alexis Liptrot	Hamden	313	F	13-19	34.65	35.32	11.37
+2070	2987	Rebeca Wilson	Hamden	141	F	30-39	35.18	35.33	11.38
+2071	4519	Alissa Ji	Marietta	314	F	13-19	35.25	35.35	11.38
+2072	4837	Jim MacIas	Unionville	80	M	45-49	35.22	35.37	11.38
+2073	3215	Maeve Grattan	Guilford	315	F	13-19	35	35.38	11.4
+2074	4053	Janie Danaher	Guilford	316	F	13-19	34.65	35.38	11.4
+2075	3642	Tracie Samuelson	Trumbull	62	F	50-54	34.52	35.38	11.4
+2076	5322	Maria Borques-Correia	Hamden	63	F	50-54	35.08	35.4	11.4
+2077	5379	Dina Ardito	New Haven	64	F	50-54	34.77	35.4	11.4
+2078	3320	Joseph Baldini	Hamden	170	M	20-29	34.52	35.42	11.4
+2079	4390	Robin Baldino	New Haven	83	F	40-44	34.65	35.43	11.42
+2080	3950	Samantha Miller	Stratford	142	F	30-39	34.95	35.45	11.42
+2081	4725	Kelly Hebrank	New Haven	143	F	30-39	34.77	35.47	11.42
+2082	3103	Inderpal Grewal	New Haven	18	F	60-64	35	35.55	11.45
+2083	4705	Edward Norris	Milford	171	M	20-29	35.47	35.57	11.45
+2084	4704	Thomas Norris	Milford	50	M	60-64	35.48	35.58	11.45
+2085	3657	Edgar D Rogers	New Haven	172	M	20-29	35.3	35.62	11.47
+2086	4568	Kayla Murphy	New Haven	317	F	13-19	35.43	35.62	11.47
+2087	5170	Mila Ditman	Woodbridge	59	F	01-12	34.92	35.62	11.47
+2088	3387	Ramya Subramanian	North Haven	65	F	50-54	34.78	35.62	11.47
+2089	4115	Minh Nguyen	New Haven	318	F	13-19	35.1	35.62	11.47
+2090	4240	Jay Cembruch	Branford	91	M	40-44	35.17	35.63	11.48
+2091	3533	James Debowes III	West Haven	24	M	65-69	34.7	35.65	11.48
+2092	5171	Fred Ginsberg	Woodbridge	51	M	60-64	34.95	35.65	11.48
+2093	3337	Mia Tilton	Guilfird	319	F	13-19	35.07	35.67	11.48
+2094	2810	Evelyn Quadrino	New Haven	84	F	40-44	34.58	35.67	11.48
+2095	4750	Sarah Jawahar	Dover	75	F	45-49	35.45	35.68	11.48
+2096	2835	Drew Manzi	Shrewsbury	60	F	01-12	35.08	35.7	11.5
+2097	5533	Sophia Nuterangelo	East Haven	320	F	13-19	35.45	35.7	11.5
+2098	2809	Christian Quadrino	New Haven	105	M	01-12	34.62	35.7	11.5
+2099	3825	Romy Vassilev	New York	202	F	20-29	35.13	35.7	11.5
+2100	3511	Lizzie Vignola	Cheshire	321	F	13-19	35.22	35.73	11.5
+2101	5107	Jeff Glagowski	New Haven	144	M	30-39	35.12	35.75	11.52
+2102	3068	Lauren Rochow	Cheshire	322	F	13-19	35.28	35.75	11.52
+2103	3486	Lynne Regan	New Haven	34	F	55-59	35.02	35.78	11.52
+2104	4975	Kyaw Sint	New Haven	145	M	30-39	34.92	35.78	11.52
+2105	5369	Erin Cassidy Donohue	New Haven	61	F	01-12	35.55	35.78	11.52
+2106	3519	Abbey Vilaseca	Guilford	323	F	13-19	35.4	35.8	11.53
+2107	3630	Celia Mariconda	Guilford	324	F	13-19	35.05	35.8	11.53
+2108	3189	Cynara McPhail	Wallingford	35	F	55-59	34.77	35.8	11.53
+2109	2803	Jayne Barese	Hamden	6	F	65-69	35.08	35.82	11.53
+2110	5318	Corrie Chan	New Haven	203	F	20-29	34.87	35.82	11.53
+2111	4806	Carmen Lebron	Bridgeport	144	F	30-39	34.97	35.85	11.55
+2112	3640	Patricia Baron	Bridgeport	145	F	30-39	34.98	35.85	11.55
+2113	2701	Corinne Evans	Hamden	325	F	13-19	34.9	35.85	11.55
+2114	4436	Lelah Conway	Wilton	326	F	13-19	34.8	35.87	11.55
+2115	4290	Emma Crameri	Wilton	327	F	13-19	34.8	35.88	11.55
+2116	2745	Melissa Walsh	West Haven	146	F	30-39	34.97	35.88	11.55
+2117	3707	Sophie Perez	Greenwich	328	F	13-19	34.88	35.92	11.57
+2118	3990	Aboubacar Kourouma	New Haven	106	M	01-12	35.7	35.93	11.57
+2119	3170	Lisa Catala	Wallingford	66	F	50-54	35.28	35.95	11.57
+2120	3830	Susan Mayer	Middlebury	67	F	50-54	34.9	35.95	11.57
+2121	4448	Ashley Anderson	Northford	329	F	13-19	35.52	35.95	11.58
+2122	5307	Kirk Hughes	Woodbridge	96	M	50-54	35.02	35.97	11.58
+2123	4149	Maria Arroyo	Rockfall	85	F	40-44	35.72	35.97	11.58
+2124	3421	Stephanie Grilo	North Haven	204	F	20-29	35.2	35.98	11.58
+2125	4260	Julie Greenwood	New Haven	86	F	40-44	35.02	36	11.6
+2126	4839	Roberta Durant	New Haven	76	F	45-49	34.98	36.07	11.62
+2127	2836	Christine Manzi	Shrewsbury	77	F	45-49	35.45	36.07	11.62
+2128	4435	Silvia Sanguano Loor	Wallingford	205	F	20-29	35.25	36.07	11.62
+2129	2932	Michelle Bellucci	Milford	147	F	30-39	35.35	36.12	11.63
+2130	3715	Fionn Naples	Hamden	107	M	01-12	35.8	36.13	11.63
+2131	3206	Jake Fejos	Hamden	108	M	01-12	35.77	36.13	11.63
+2132	2720	Bill Lanzoni	Wallingford	52	M	60-64	36.03	36.15	11.63
+2133	3087	Pam Landry	New Haven	19	F	60-64	36.05	36.15	11.65
+2134	2829	Maya Toal	Newtown	68	F	50-54	35.1	36.17	11.65
+2135	233	Teresa Sheetz	Prospect	78	F	45-49	35.43	36.17	11.65
+2136	3115	Fern Feldman	Cheshire	1	F	70-74	35.13	36.17	11.65
+2137	5174	Polly Sather	Lyme	79	F	45-49	35.63	36.18	11.65
+2138	3603	Trisha Wysoczanski	Cheshire	206	F	20-29	35.83	36.18	11.65
+2139	3612	Cathleen Augusto	Chestnut Hill	207	F	20-29	35.83	36.18	11.65
+2140	4192	Charles Baines	Camden	5	M	75-79	35.32	36.22	11.67
+2142	2704	Michelle Rychalsky	Seymour	148	F	30-39	36	36.23	11.67
+2143	3205	Arpad Fejos	Hamden	81	M	45-49	35.9	36.27	11.68
+2144	4061	Tina Newman	Hamden	80	F	45-49	35.93	36.27	11.68
+2145	4324	Maricarmen Rodriguez	Hamden	87	F	40-44	35.62	36.3	11.68
+2146	3525	Thomas Trumbley	Beacon Falls	82	M	45-49	36.22	36.32	11.7
+2147	4602	Walter Pieper	Guilford	12	M	70-74	35.4	36.32	11.7
+2148	3522	Nathan Trumbley	Beacon Falls	109	M	01-12	36.22	36.33	11.7
+2149	5207	Cameron Robinson	Hamden	243	M	13-19	35.37	36.35	11.7
+2150	3408	Oscar Colegio	East Haven	92	M	40-44	35.57	36.35	11.7
+2151	4197	Xavier Colegio	Cheshire	110	M	01-12	35.57	36.35	11.7
+2152	5241	Ana Cuapio	New Haven	208	F	20-29	35.47	36.37	11.72
+2153	3667	Hector Perales	West Haven	93	M	40-44	35.52	36.37	11.72
+2154	2890	Anthony Miranda	Bethany	244	M	13-19	35.52	36.38	11.72
+2155	3145	Amelia Raucci	North Branford	62	F	01-12	35.95	36.38	11.72
+2156	5412	Kia Whitaker	Cheshire	149	F	30-39	35.65	36.38	11.72
+2157	3768	Emilie Wilkinson	Northford	330	F	13-19	35.98	36.4	11.72
+2158	4778	Marjo Anderson	New Haven	20	F	60-64	36.07	36.45	11.73
+2159	3978	Atzi Cervantes	New Haven	63	F	01-12	35.6	36.48	11.75
+2160	4261	Charlotte Armour	New Haven	209	F	20-29	35.52	36.48	11.75
+2161	3960	Tiffany Cervantes	New Haven	331	F	13-19	35.63	36.48	11.75
+2162	3422	Olav Sorenson	Hamden	83	M	45-49	35.37	36.52	11.77
+2163	2892	Bruce Miner	Wethersfield	13	M	70-74	35.67	36.52	11.77
+2164	2788	Andi Sherman	New Haven	150	F	30-39	35.7	36.52	11.77
+2165	3355	Alison Wolf	Darien	81	F	45-49	35.55	36.55	11.77
+2166	5269	Michael Shewaye	Hamden	111	M	01-12	35.63	36.57	11.77
+2167	5353	Cecelia Grisofe	Salem	21	F	60-64	36.15	36.57	11.77
+2168	3204	Bianca Noecker	Fairfield	64	F	01-12	36.47	36.57	11.78
+2169	4797	Maria Landers	New Haven	69	F	50-54	35.78	36.58	11.78
+2170	5367	Karolina Jasaitis	New Haven	65	F	01-12	36.4	36.63	11.8
+2171	4145	Nala Annes	Hamden	66	F	01-12	36.32	36.65	11.8
+2172	4144	Eric Annes	Hamden	146	M	30-39	36.33	36.65	11.8
+2173	3460	Alison Dorrough	Glastonbury	332	F	13-19	35.47	36.68	11.82
+2174	3555	Ainsley Dziura	Cheshire	67	F	01-12	35.92	36.73	11.83
+2175	5413	Bridgette Russell	New Haven	36	F	55-59	36.02	36.75	11.83
+2176	3777	Lisa Carlson	Woidbridge	82	F	45-49	36.38	36.75	11.83
+2177	3090	Cheryl Smith	Northford	37	F	55-59	35.98	36.75	11.83
+2178	2774	Alison Lee-Dubon	Stamford	88	F	40-44	36.7	36.77	11.83
+2179	3047	Constance Catrone	Cheshire	22	F	60-64	35.87	36.77	11.83
+2180	5329	Jacob Hakanson	Ansonia	245	M	13-19	36.37	36.78	11.85
+2181	3510	Prakash Thomas	Hamden	94	M	40-44	36.17	36.8	11.85
+2182	3509	Gabriel Thomas	Hamden	112	M	01-12	36.17	36.82	11.85
+2183	3203	Georgette Pascale	Fairfield	89	F	40-44	36.77	36.87	11.87
+2184	5097	J Grimes Ogbar	Hartford	151	F	30-39	34.9	36.87	11.87
+2185	4441	Calvin Riley Jr.	New Haven	173	M	20-29	35.93	36.88	11.87
+2186	3766	Melissa Marquis	Plainville	152	F	30-39	36.17	36.9	11.88
+2187	5587	Kelly Squitieri	Wilton	70	F	50-54	36.78	36.9	11.88
+2188	4219	Allan Rodrigues	Shelton	66	M	55-59	35.98	36.92	11.88
+2189	3209	Diana Cabrera	New Haven	210	F	20-29	36.15	36.92	11.88
+2190	4060	Jennifer Lacey	East Haven	153	F	30-39	34.75	36.93	11.88
+2191	3208	Katie Crandall	New Haven	211	F	20-29	36.17	36.93	11.9
+2192	2973	Lisa Walke	Wallingford	83	F	45-49	36.2	36.98	11.92
+2193	3520	Ian Haile	New Haven	246	M	13-19	36.53	37	11.92
+2194	4952	Messiah Gordon	New Haven	247	M	13-19	36.72	37.02	11.92
+2195	4525	Bindhu Panicker	Trumbull	154	F	30-39	36.52	37.02	11.92
+2196	3157	Jonah Musto	Philadelphia	174	M	20-29	36.42	37.02	11.92
+2197	4245	Rhea Kumar	New Haven	212	F	20-29	35.3	37.07	11.93
+2198	5395	Rachel Dona	Essex	333	F	13-19	36.83	37.1	11.95
+2199	4686	Kassandra Johnson	New Haven	155	F	30-39	37.08	37.13	11.95
+2200	2785	Jennifer Pinto	Stratford	156	F	30-39	36.12	37.13	11.95
+2201	3427	Randall Boucher	West Haven	53	M	60-64	36.13	37.13	11.97
+2202	3444	Alexander Dorrough	White Plains	175	M	20-29	35.95	37.17	11.97
+2203	3150	Timothy J Orcutt	Cheshire	97	M	50-54	36.28	37.17	11.97
+2204	2804	Gayle Bessenoff	West Haven	90	F	40-44	36.38	37.18	11.97
+2205	4779	Scott Prudhomme	Woodbridge	84	M	45-49	36.4	37.2	11.98
+2206	4003	John Suski	Marion	85	M	45-49	37.1	37.22	11.98
+2207	3956	Ken Ziman	Orange	25	M	65-69	36.67	37.25	12
+2208	5294	Sharen McKay	Hamden	71	F	50-54	36.98	37.27	12
+2209	3243	Olivia Hay	Guilford	334	F	13-19	36.7	37.28	12
+2210	4276	Jeanette Faber	North Haven	84	F	45-49	37.13	37.28	12
+2211	3199	Tracy Edwards	Hamden	85	F	45-49	36.18	37.3	12.02
+2212	3992	Edward Hurston	Middletown	67	M	55-59	36.65	37.3	12.02
+2213	3014	Julie Reynolds	Guilford	335	F	13-19	36.73	37.3	12.02
+2214	4088	Michael Parker	Newington	95	M	40-44	37.17	37.32	12.02
+2215	3064	Allison Schaefer	Woodbridge	157	F	30-39	36.48	37.32	12.02
+2216	3066	Kate Coyne	Woodbridge	158	F	30-39	36.48	37.32	12.02
+2217	3557	Michael Yao	Trumbull	98	M	50-54	36.4	37.32	12.02
+2218	3468	Carla Lombardo	Derby	91	F	40-44	36.77	37.33	12.02
+2219	4929	Anne Ford	Wethersfield	2	F	70-74	37.12	37.35	12.03
+2220	5280	Jennifer Ndjomou	Cheshire	336	F	13-19	37.25	37.37	12.03
+2221	3439	Katie Tuttle	Seymour	159	F	30-39	36.42	37.37	12.03
+2222	5397	Tara Bouchard	Deep River	86	F	45-49	37.1	37.38	12.03
+2223	3473	Elissa Nuzzo	North Branford	337	F	13-19	37.07	37.38	12.03
+2224	4587	Amanda Maiorino	Wallingford	213	F	20-29	36.52	37.38	12.03
+2225	4108	Ilse Martin	Fairfield	3	F	70-74	36.52	37.38	12.03
+2226	2767	Amanda Robinson	Seymour	214	F	20-29	37.23	37.42	12.05
+2227	3196	Paul Scholz	Hamden	99	M	50-54	36.1	37.43	12.05
+2228	3162	Anthony Hargett	New Haven	26	M	65-69	36.37	37.43	12.05
+2229	3197	Amy Scholz	Hamden	160	F	30-39	36.12	37.45	12.07
+2230	4123	Cayleen Defaranos	Northford	338	F	13-19	37.13	37.45	12.07
+2231	3323	Endre Sarkany	New Haven	6	M	75-79	36.83	37.48	12.07
+2232	4297	Joanna Phabmixay	Northford	339	F	13-19	37.03	37.5	12.08
+2233	4775	Kylie Albert	Guilford	68	F	01-12	36.88	37.53	12.08
+2234	5090	Michael Mfuko	Hamden	113	M	01-12	36.43	37.53	12.08
+2235	5089	Micah Mfuko	Hamden	114	M	01-12	36.47	37.57	12.1
+2236	3484	Margaret Batson	Darien	72	F	50-54	37.45	37.57	12.1
+2237	3547	Emily Greco	East Haven	215	F	20-29	36.98	37.58	12.1
+2238	5408	Dewn Carothers	Fairfield	161	F	30-39	36.45	37.58	12.1
+2239	3010	Abraham Cordero	East Haven	176	M	20-29	36.83	37.6	12.1
+2240	4376	Drew Carothers	Fairfield	147	M	30-39	36.45	37.6	12.1
+2241	3309	Oliver Law	New Haven	115	M	01-12	36.75	37.6	12.1
+2242	3307	Anthony Law	New Haven	100	M	50-54	36.78	37.62	12.12
+2243	3680	William Armstrong	North Haven	27	M	65-69	37.05	37.62	12.12
+2244	3306	Amy Wrzesniewski Law	New Haven	92	F	40-44	36.83	37.63	12.12
+2245	3308	Eleanor Law	New Haven	69	F	01-12	36.83	37.65	12.13
+2246	4235	Geraldine Kilkelly	Astoria	93	F	40-44	36.83	37.67	12.13
+2247	5231	Roann Christmann	New Haven	116	M	01-12	37.33	37.67	12.13
+2248	4237	Kelly Sabini	Astoria	70	F	01-12	36.85	37.67	12.13
+2249	5232	Ian Christmann	New Haven	96	M	40-44	37.33	37.67	12.13
+2250	3267	Kent Jackson	Branford	101	M	50-54	36.9	37.7	12.13
+2251	4776	Barbie Albert	Guilford	94	F	40-44	37.08	37.73	12.15
+2252	3529	John Kuhl	Fairfield	117	M	01-12	37.08	37.73	12.15
+2253	3703	Jim Whittaker	Shelton	68	M	55-59	36.98	37.77	12.17
+2254	3565	Matthew Goldstone	Watertown	86	M	45-49	36.92	37.77	12.17
+2255	5283	Jack Wynne	Trumbull	87	M	45-49	36.97	37.77	12.17
+2256	4216	Tanya Bell	Hamden	73	F	50-54	36.8	37.77	12.17
+2257	3704	Kathie Whittaker	Shelton	38	F	55-59	36.97	37.77	12.17
+2258	4084	Josephine Rossomando	Hamden	7	F	65-69	37.57	37.77	12.17
+2259	3764	Andrew Hoffman	New York	102	M	50-54	36.92	37.78	12.17
+2260	5493	Lan Lin	New Haven	95	F	40-44	37.57	37.78	12.17
+2261	3544	Mary-Kate Torgerson	Northford	340	F	13-19	37.37	37.8	12.17
+2262	3767	Brianna Raccii	North Branford	341	F	13-19	37.33	37.8	12.17
+2263	2837	Pablo Cruz	New Haven	118	M	01-12	37.75	37.8	12.17
+2264	2887	Randall Rode	New Haven	69	M	55-59	36.92	37.82	12.18
+2265	4919	Mary Lui	New Haven	87	F	45-49	37.45	37.83	12.18
+2266	5088	Bunmi Mfuko	Hamden	162	F	30-39	36.73	37.83	12.18
+2267	5407	Eneida Martinez	Beverly	216	F	20-29	36.62	37.85	12.18
+2268	3163	Leslie Stone	New Haven	74	F	50-54	37.42	37.85	12.18
+2269	4239	Ermelinda Lopez	New Haven	96	F	40-44	36.63	37.88	12.2
+2270	3859	James Gilbert	Stratford	28	M	65-69	37.58	37.88	12.2
+2271	4069	Marley Finley	Falls Church	342	F	13-19	37.42	37.92	12.22
+2272	4278	Khalila Flynn	New Haven	88	F	45-49	36.83	37.92	12.22
+2273	5368	Riley Teagan Donohue	New Haven	71	F	01-12	37.72	37.95	12.22
+2274	5578	Lou Petreski	Pound Ridge	103	M	50-54	37.25	37.95	12.22
+2275	5213	Nathan Pawlos	Hamden	119	M	01-12	37.02	37.95	12.22
+2276	3331	Gracie Chometa	Bethany	72	F	01-12	37.33	37.97	12.22
+2277	3296	Stephanie Romano	New Haven	163	F	30-39	37.03	37.98	12.23
+2278	4333	Diane Puglia	Madison	89	F	45-49	37.67	37.98	12.23
+2279	4742	Michele Burlakoff	Guilford	90	F	45-49	36.98	38	12.23
+2280	4467	Kimberly Brinton	Bethany	91	F	45-49	37.37	38	12.23
+2281	5823	Lisa Funaro	New Haven	164	F	30-39	37.5	38.02	12.25
+2282	2974	Jaime Savo	Northford	165	F	30-39	37.5	38.02	12.25
+2283	4470	Emma Macy	Guilford	343	F	13-19	37.37	38.05	12.25
+2284	5000	Jessica Warner	Guilford	344	F	13-19	37.38	38.07	12.25
+2285	3492	Brittney Johnson	North Haven	217	F	20-29	36.9	38.07	12.25
+2286	4236	George Sabini	Astoria	88	M	45-49	37.27	38.08	12.27
+2287	3505	Lamar Byam	New Haven	148	M	30-39	36.82	38.13	12.28
+2288	4854	Stella Burton	Waterbury	39	F	55-59	37.83	38.13	12.28
+2289	3506	Renee Byam	New Haven	166	F	30-39	36.82	38.13	12.28
+2290	4456	Jessica Greenberg	Morganville	345	F	13-19	37.47	38.18	12.3
+2291	2891	Julia Perez	Bethany	167	F	30-39	37.32	38.18	12.3
+2292	5479	Katherine Baker	New Haven	168	F	30-39	37.68	38.22	12.3
+2293	2715	Ya-Na Chen	New Haven	218	F	20-29	37.23	38.27	12.32
+2294	4282	Amelia Cox	New Haven	73	F	01-12	37.68	38.27	12.32
+2295	2960	Andrea Olkin	Springfield	97	F	40-44	37.3	38.3	12.33
+2296	5236	Punarvasan Garani	Hamden	120	M	01-12	37.6	38.3	12.33
+2297	5237	Celeste Toomey	Redondo Beach	40	F	55-59	37.6	38.3	12.33
+2298	2931	Sandy Resnick	New Haven	92	F	45-49	37.53	38.33	12.33
+2299	3349	Krystal Diaz	Hamden	169	F	30-39	37.55	38.35	12.35
+2300	3348	Otilio Green	Hamden	149	M	30-39	37.55	38.35	12.35
+2301	2703	Konnie Rychalsky	Seymour	54	M	60-64	38.12	38.37	12.35
+2302	4741	Hannah Burlakoff	Guilford	74	F	01-12	37.68	38.37	12.35
+2303	3052	Erica Braca	Bridgeport	170	F	30-39	37.23	38.38	12.37
+2304	3053	Adrienne Braca	Bridgeport	171	F	30-39	37.25	38.38	12.37
+2305	5203	Wendy Hoffmann	Milford	75	F	50-54	37.28	38.4	12.37
+2306	4803	Sadie Smith	Guilford	346	F	13-19	37.7	38.4	12.37
+2307	3530	Kristie Kuhl	Fairfield	93	F	45-49	37.75	38.42	12.37
+2308	2811	Jennifer Serricchio	Fairfield	172	F	30-39	37.47	38.42	12.37
+2309	4272	Caitlyn Cunneen	Guilford	347	F	13-19	37.77	38.43	12.37
+2310	3540	Ella Garbarsky	Meriden	75	F	01-12	37.47	38.43	12.37
+2311	4005	Kendall Suski	Durham	348	F	13-19	38.3	38.43	12.38
+2312	4736	Chloe Grimes	Guilford	349	F	13-19	37.77	38.43	12.38
+2313	4416	Paul Jorgensen	Milford	89	M	45-49	37.45	38.43	12.38
+2314	4415	Tammy Jorgensen	Milford	94	F	45-49	37.47	38.45	12.38
+2315	5282	Ruben Atilho	Shelton	177	M	20-29	37.4	38.45	12.38
+2316	4122	Kirsten Knecht	Wallingford	219	F	20-29	37.4	38.47	12.38
+2317	4125	Leann Bickford	Wallingford	220	F	20-29	37.4	38.47	12.38
+2318	4126	Phil Kim	Manchester	178	M	20-29	37.4	38.47	12.38
+2319	5558	James Gargano	Hamden	90	M	45-49	37.68	38.48	12.4
+2320	2872	Maurice Mahoney	Stratford	2	M	80-89	37.47	38.5	12.4
+2321	5595	Allison Mahoney	Medford	95	F	45-49	37.47	38.5	12.4
+2322	3801	Bonnie Pepper	Hamden	98	F	40-44	37.47	38.52	12.4
+2323	4286	Robert Cox	New Haven	104	M	50-54	37.93	38.53	12.42
+2324	2904	Cary Liptak	New Haven	179	M	20-29	37.37	38.55	12.42
+2325	5366	Kara Jasaitis	New Haven	76	F	01-12	38.32	38.57	12.42
+2326	3847	Yun Tang	New Haven	221	F	20-29	38.1	38.58	12.42
+2327	3818	Terri Knight	Norwalk	41	F	55-59	37.82	38.68	12.45
+2328	3469	Anne Whitman	Orange	96	F	45-49	37.9	38.68	12.45
+2329	3105	Luretha Tolson	Prospect	173	F	30-39	37.83	38.72	12.47
+2330	3260	Emily Puglielli		174	F	30-39	38.2	38.75	12.48
+2331	5200	Sid Levine	North Haven	14	M	70-74	37.9	38.77	12.48
+2332	3717	Annie Hartigan	Stowe	4	F	70-74	38.27	38.82	12.5
+2333	2766	Jennifer Urbon	Seymour	222	F	20-29	38.12	38.82	12.5
+2334	2895	Diane Cain	North Stonington	42	F	55-59	38.05	38.83	12.5
+2335	3972	Melissa Marquez	New Haven	350	F	13-19	38.1	38.95	12.53
+2336	3212	Robin Pellish	Woodbridge	23	F	60-64	38.12	38.95	12.55
+2337	4828	Nina Stachenfeld	West Haven	43	F	55-59	38.05	38.95	12.55
+2338	3393	Alexandria Benzi	North Branford	223	F	20-29	37.8	38.95	12.55
+2339	3655	Gerard Casanova	New Haven	55	M	60-64	38.83	38.98	12.55
+2340	5026	Gary Moore	New Haven	91	M	45-49	72.47	38.98	12.55
+2341	5025	Michele Moore	New Haven	97	F	45-49	38.98	38.98	12.55
+2342	4382	Amanda Linsky	North Haven	224	F	20-29	38.43	39.02	12.57
+2343	3580	Charlene Campbell	Hamden	175	F	30-39	38	39.05	12.57
+2344	4670	Eric Gramse	Bridgeport	97	M	40-44	38	39.05	12.57
+2345	4018	Pearl Richards	Bridgeport	24	F	60-64	38.9	39.05	12.57
+2346	4171	Anthony Garcia	Cheshire	70	M	55-59	38.65	39.1	12.58
+2347	4888	Jenell Smith Janes	Old Lyme	76	F	50-54	38.73	39.12	12.6
+2348	3537	Jeff Pechmann	Cheshire	92	M	45-49	38.23	39.13	12.6
+2349	4821	Leah Powell	New Haven	8	F	65-69	38.33	39.15	12.62
+2350	3483	Jaime Matthews	Northford	351	F	13-19	38.77	39.15	12.62
+2351	2828	Victor Toal	Newtown	93	M	45-49	38.15	39.17	12.62
+2352	3289	Izabella Mott	Northford	352	F	13-19	38.77	39.17	12.62
+2353	3110	Elizabeth Heng	East Haven	225	F	20-29	38.28	39.18	12.62
+2354	3815	Lily Mitkowski	Stratford	98	F	45-49	38.9	39.18	12.62
+2355	3294	Mahide Akman	Milford	77	F	50-54	38.93	39.22	12.63
+2356	4669	Nya Lunn	North Haven	77	F	01-12	38.77	39.23	12.63
+2357	3873	Alexandria Smith	Branford	226	F	20-29	38.07	39.27	12.65
+2358	3089	John Holland	Northford	105	M	50-54	38.25	39.28	12.65
+2359	4472	Ivy Ren	New Haven	353	F	13-19	38.85	39.33	12.67
+2360	4153	Lineida Nunez	North Haven	78	F	50-54	39.28	39.35	12.67
+2361	3758	Candace Walter	Meriden	99	F	40-44	39.3	39.37	12.68
+2362	4379	Wanda Geer	Bridgeport	44	F	55-59	38.45	39.42	12.7
+2363	3919	Donna Pellegrino	Cheshire	79	F	50-54	38.57	39.43	12.7
+2364	3222	Talia Chester	North Haven	78	F	01-12	39	39.45	12.7
+2365	4826	Jaclyn Price	Palm Harbor	354	F	13-19	39.37	39.5	12.72
+2366	3568	Melissa Zambo	Norwalk	176	F	30-39	38.3	39.5	12.72
+2367	3224	Eric Chester	North Haven	94	M	45-49	39.07	39.52	12.72
+2368	5253	Marlin Lawrence	New Haven	95	M	45-49	38.88	39.53	12.73
+2369	3874	Brian Smith	Branford	106	M	50-54	38.37	39.55	12.73
+2370	3638	Jade Fischbach	Guilford	355	F	13-19	38.92	39.58	12.75
+2371	3322	James Hopkins	New Haven	29	M	65-69	39.05	39.72	12.78
+2372	5487	Roberta Wachelhausen	South Windsor	45	F	55-59	38.87	39.72	12.78
+2373	3234	Carol Rosen	Woodbridge	5	F	70-74	39.18	39.73	12.8
+2374	5169	Mikki Meadows-Oliver	Hamden	100	F	40-44	39.37	39.78	12.82
+2375	3344	Tracy D_Anna	Milford	46	F	55-59	38.98	39.78	12.82
+2376	4305	Irena Samsel	Hamden	177	F	30-39	38.88	39.78	12.82
+2377	3594	Allison Reilly-Bombar	Farmington	80	F	50-54	39.45	39.8	12.82
+2378	3792	Qiana Burgess	Woodbridge	178	F	30-39	39.37	39.8	12.82
+2379	4955	Melissa Montanaro	North Branford	99	F	45-49	38.8	39.82	12.82
+2380	4270	Rebecca Barry Ramia	Bethany	179	F	30-39	38.88	39.85	12.83
+2381	3135	Vicki Acker	Orange	100	F	45-49	39	39.87	12.83
+2382	2741	Sandra Sergeant	Enfield	47	F	55-59	39.12	39.92	12.85
+2383	3340	Stephanie Luekens	Indianapolis	9	F	65-69	38.95	39.92	12.85
+2384	3082	Victoria Zigmont	West Haven	180	F	30-39	38.98	39.97	12.87
+2385	4915	Sara Sheiffele	North Branford	181	F	30-39	38.88	39.98	12.88
+2386	3706	Alex Chavira	Hamden	248	M	13-19	39.18	40	12.88
+2387	3705	Ricardo Chavira	Hamden	96	M	45-49	39.23	40.05	12.9
+2388	4313	Saniyah Boone	New Haven	356	F	13-19	39.6	40.13	12.92
+2389	4163	Lisa Bono	Chapel Hill	182	F	30-39	39.33	40.13	12.93
+2390	3875	Sandy Shaner	New Haven	25	F	60-64	39.42	40.17	12.93
+2391	4363	Tom Martin	Ridgefield	71	M	55-59	39.27	40.2	12.95
+2392	4364	Eric Martin	Ridgefield	249	M	13-19	39.28	40.22	12.95
+2393	5254	Shaelees Bell	New Haven	183	F	30-39	39.38	40.25	12.97
+2394	4942	Alice Zhao	New Haven	227	F	20-29	40.07	40.32	12.98
+2395	3814	Laura Wexler	Hamden	10	F	65-69	39.35	40.33	12.98
+2396	3813	Rebecca Wexler	Nyc	184	F	30-39	39.33	40.33	12.98
+2397	5570	Janet Laudati	Branford	26	F	60-64	39.38	40.38	13
+2398	3668	Michelle Tafuto	West Haven	101	F	40-44	39.52	40.38	13
+2399	4659	Shirley Logan	New Haven	185	F	30-39	39.47	40.38	13
+2400	5534	John Thomas	Pawling	30	M	65-69	40.13	40.38	13
+2401	5250	Clifton Holloway	New Haven	31	M	65-69	39.37	40.38	13
+2402	3896	Abbey Shaw	Cheshire	79	F	01-12	39.57	40.42	13.02
+2403	3556	Charlotte Dziura	Cheshire	80	F	01-12	39.57	40.42	13.02
+2404	5110	Ania Washington	Bethany	357	F	13-19	39.52	40.53	13.05
+2405	3284	Steven Sherman	West Haven	107	M	50-54	39.52	40.6	13.07
+2406	2896	Katharine Palmer	Guilford	27	F	60-64	39.88	40.6	13.08
+2407	2883	Cindy Camp	Putney	101	F	45-49	39.55	40.63	13.08
+2408	4142	Karen Jurczyk	Wallinford	28	F	60-64	39.63	40.65	13.08
+2409	4585	Unedra Muley	New Haven	102	F	45-49	40.08	40.67	13.1
+2410	4393	Jack Miklos	New Haven	121	M	01-12	40.12	40.68	13.1
+2411	3202	Carlo Noecker	Fairfield	122	M	01-12	40.6	40.72	13.12
+2412	5507	Jason Price	New Haven	123	M	01-12	40.02	40.73	13.12
+2413	3694	Nikolas Hui	Philadelphia	124	M	01-12	40.15	40.75	13.12
+2414	3697	Simson Hui	Philadelphia	98	M	40-44	40.17	40.75	13.12
+2415	4794	Donald Bailey Iv	New Haven	125	M	01-12	39.82	40.77	13.13
+2416	3226	Alexandra Johns	Hamden	358	F	13-19	40.1	40.78	13.13
+2417	3201	Robert Noecker	Fairfield	108	M	50-54	40.67	40.8	13.13
+2418	3200	Lucia Noecker	Fairfield	81	F	01-12	40.68	40.8	13.13
+2419	5006	Mildred Phillips	Monroe	81	F	50-54	39.73	40.83	13.15
+2420	4753	Donovan Small	New Haven	180	M	20-29	39.98	40.83	13.15
+2421	5508	Christina Price	New Haven	186	F	30-39	40.22	40.85	13.15
+2422	4793	Michelle Benson	New Haven	187	F	30-39	39.93	40.9	13.17
+2423	3255	Lee Jung	Guilford	32	M	65-69	40.18	40.95	13.18
+2424	4731	Shikha Sharma	Westport	103	F	45-49	40.22	41	13.2
+2425	4735	Chrisann Miranda	Guilford	102	F	40-44	40.15	41.02	13.22
+2426	3905	Dale Canale	Cheshire	181	M	20-29	40.67	41.05	13.22
+2427	3904	Doug Wipfler	Cheshire	72	M	55-59	40.67	41.05	13.22
+2428	4349	Brandon Pervis	New Haven	150	M	30-39	40.08	41.1	13.23
+2429	3541	Melinda Torgerson	Northford	103	F	40-44	40.7	41.17	13.25
+2430	3141	Gayle Onorato	Guilford	29	F	60-64	40.75	41.18	13.27
+2431	3142	Candace Menninger	Gaston	11	F	65-69	40.75	41.2	13.27
+2432	5360	Katelynn Canesth	Wallingford	359	F	13-19	40.2	41.33	13.32
+2433	3773	Charlen Cagang	New Haven	188	F	30-39	40.3	41.37	13.32
+2434	5309	Talia Remnick	New Haven	360	F	13-19	40.37	41.47	13.35
+2435	5308	Lisa Fernandez	New Haven	48	F	55-59	40.37	41.48	13.35
+2436	4707	Jacqueline Levine	Woodbridge	228	F	20-29	40.82	41.48	13.37
+2437	4463	Aliana Glatt	Cheshire	361	F	13-19	41.47	41.53	13.37
+2438	4445	Jennifer Glatt	New Britain	104	F	40-44	41.47	41.53	13.37
+2439	4784	Roger Levine	Woodbridge	56	M	60-64	40.92	41.6	13.4
+2440	4388	Isabella Baldino	New Haven	362	F	13-19	40.9	41.67	13.42
+2441	3333	Pete Chometa	Bethany	99	M	40-44	41.05	41.68	13.42
+2442	3002	Jack Doyle	Hamden	7	M	75-79	41.05	41.68	13.42
+2443	3980	Taniya Gray	New Haven	363	F	13-19	40.73	41.72	13.43
+2444	4321	Brenda Sorge	North Haven	49	F	55-59	40.58	41.72	13.43
+2445	3663	Amy Marx	New Haven	105	F	40-44	40.97	41.73	13.43
+2446	4279	Marvin Albright	New Haven	109	M	50-54	40.93	41.75	13.45
+2447	3613	Betsy Schulman	New Haven	106	F	40-44	40.98	41.75	13.45
+2448	3664	Rob Schonberger	New Haven	100	M	40-44	41	41.77	13.45
+2449	2733	Velvet Claud	Hamden	189	F	30-39	40.83	41.78	13.45
+2450	3661	Kathleen Rodriguez	Waterbury	30	F	60-64	41.52	41.93	13.5
+2451	4455	Erin Rose	Agawam	190	F	30-39	41.02	41.97	13.52
+2452	4136	Renee Bacon	New Haven	107	F	40-44	41.38	41.98	13.52
+2453	2903	Lina Alpert	New Haven	12	F	65-69	41.17	42.08	13.55
+2454	2793	Patty Pinto	Stratford	50	F	55-59	41.12	42.13	13.57
+2455	4427	Madeleine Diker	Cheshire	51	F	55-59	41.3	42.22	13.6
+2456	4834	Bruce Johnson	New Haven	8	M	75-79	41.88	42.23	13.6
+2457	4031	Randi Goldman	Brookline	191	F	30-39	41.63	42.45	13.67
+2458	3424	Sol Sorenson	Hamden	82	F	01-12	41.17	42.45	13.67
+2459	3423	Constanca Estevessore	Hamden	104	F	45-49	41.18	42.47	13.67
+2460	5073	Jack McHugh	Hamden	126	M	01-12	41.53	42.57	13.7
+2461	1036	Laura Ment	New Haven	13	F	65-69	41.52	42.57	13.7
+2462	5552	Ann White	Hamden	192	F	30-39	41.57	42.58	13.72
+2463	2863	Michelle McHugh	Hamden	193	F	30-39	41.57	42.58	13.72
+2464	3839	Clayton Johnson	Fairfield	127	M	01-12	41.57	42.6	13.72
+2465	4249	Talia Chang	New Haven	83	F	01-12	42.03	42.62	13.72
+2466	5227	Emerson Erb	New Haven	128	M	01-12	41.35	42.63	13.73
+2467	4223	Isa Stratton	New Haven	84	F	01-12	41.43	42.63	13.73
+2468	5230	Chris Erb	New Haven	101	M	40-44	41.37	42.65	13.73
+2469	5228	Madeleine Erb	New Haven	85	F	01-12	41.47	42.65	13.73
+2470	4244	William Garfinkel	Watertown	57	M	60-64	42	42.65	13.73
+2471	3984	Terrace Gray	New Haven	364	F	13-19	41.78	42.77	13.77
+2472	3897	Katie Shaw	Cheshire	108	F	40-44	41.95	42.8	13.78
+2473	3552	Maria Dziura	Cheshire	109	F	40-44	41.95	42.8	13.78
+2474	3457	Simon Medina-Pinango	New Haven	129	M	01-12	42.15	42.8	13.78
+2475	3354	Luke Karp	Darien	130	M	01-12	41.85	42.87	13.8
+2476	2736	Candace Barrington	New Haven	52	F	55-59	41.78	42.92	13.82
+2477	2735	Mike Shea	New Haven	58	M	60-64	41.78	42.95	13.83
+2478	4320	Dawn Severino	North Haven	53	F	55-59	41.83	42.97	13.83
+2479	2824	William Long	New Haven	33	M	65-69	41.93	43	13.85
+2480	3417	Theo Baron	New Haven	131	M	01-12	42.2	43.03	13.85
+2481	3418	James Baron	New Haven	59	M	60-64	42.18	43.05	13.87
+2482	2718	Eduardo Torrealba	East Haven	97	M	45-49	42.12	43.05	13.87
+2483	3491	Jan Gero	Nyc	3	M	80-89	42.07	43.08	13.87
+2484	3656	Edgar A Rogers	New Haven	105	F	45-49	42.03	43.13	13.88
+2485	4973	Rita Krupp	Northford	54	F	55-59	42.38	43.27	13.93
+2486	3416	Jen Grace Baron	New Haven	110	F	40-44	42.47	43.32	13.95
+2487	3271	Beril Uslu	Milford	111	F	40-44	43.07	43.33	13.95
+2488	4065	J Stacey Yarbrough	North Haven	112	F	40-44	42.18	43.35	13.95
+2489	4697	William Farrell	New Haven	60	M	60-64	43.17	43.4	13.97
+2490	2968	Thomas Ullmann	New Haven	34	M	65-69	42.57	43.4	13.97
+2491	4316	Stephanie Makar	East Hartford	113	F	40-44	42.92	43.43	13.98
+2492	5111	Kathy Villacis	Derby	194	F	30-39	42.45	43.47	14
+2493	3538	Priscilla Pechmann	Cheshire	106	F	45-49	42.4	43.48	14
+2494	4582	Karen Rowland	Oxford	55	F	55-59	42.92	43.6	14.03
+2495	3358	Jeremy Karp	North Bethesda	182	M	20-29	42.63	43.63	14.05
+2496	3356	Lauren Keeley	North Bethesda	229	F	20-29	42.62	43.65	14.05
+2497	3191	Stephanie Ruck	Hanover	230	F	20-29	43.2	43.67	14.05
+2498	3193	Samantha Mogck	New Haven	231	F	20-29	43.22	43.67	14.07
+2499	4767	John Marusa	West Haven	15	M	70-74	43.23	43.67	14.07
+2500	2999	Christen Alberino	East Haven	195	F	30-39	42.92	43.82	14.12
+2501	4128	Anna Deming	New Haven	232	F	20-29	42.85	43.95	14.15
+2502	4129	Katharine Goodbody	New Haven	14	F	65-69	42.87	43.95	14.15
+2503	3966	Princess Davenport	New Haven	86	F	01-12	43.05	44.03	14.18
+2504	5829	Alicia Taylor	West Haven	196	F	30-39	43.98	44.03	14.18
+2505	2790	Les Cole	Seymour	73	M	55-59	43.72	44.07	14.18
+2506	5159	Elizabeth Holman	New Haven	233	F	20-29	43.3	44.07	14.18
+2507	4400	Thomas Holman	New Haven	61	M	60-64	43.88	44.1	14.2
+2508	4937	Kyleen Crowe	North Branford	365	F	13-19	43.47	44.12	14.2
+2509	2772	Nancy Cole	Seymour	56	F	55-59	43.77	44.12	14.2
+2510	2955	Rebecca Alberino	Meriden	197	F	30-39	43.28	44.18	14.23
+2511	5546	Brundy Gordon	Branford	132	M	01-12	43.17	44.2	14.23
+2512	5547	Russell Gordon	Branford	74	M	55-59	43.17	44.2	14.23
+2513	5074	Emma Kennedy	Hamden	366	F	13-19	43.75	44.22	14.23
+2514	3840	Kieran Johnson	Fairfield	250	M	13-19	43.28	44.33	14.28
+2515	4423	Josh Mennone	Hamden	151	M	30-39	43.48	44.4	14.3
+2516	5184	John Howell	Easton	4	M	80-89	44.07	44.4	14.3
+2517	3370	Amie Smith	Hamden	198	F	30-39	43.48	44.4	14.3
+2518	2717	Tony Medeiros	Westerly	5	M	80-89	44.08	44.53	14.33
+2519	4798	Renee Landers	Watertown	31	F	60-64	43.92	44.72	14.4
+2520	3213	Patrick O_Connor	Woodbridge	62	M	60-64	43.98	44.82	14.43
+2521	3324	Sarah Tudesco	New Haven	114	F	40-44	44.1	44.83	14.43
+2522	2959	Larsson Youngberg	New Haven	152	M	30-39	43.7	44.83	14.43
+2523	3679	Jacqueline Kuehl	Cheshire	107	F	45-49	43.68	44.87	14.45
+2524	4015	Erica Mason	Hamden	199	F	30-39	42.77	44.95	14.48
+2525	4449	Kim Riley	New Haven	57	F	55-59	44.78	45.05	14.5
+2526	3415	Cristina Jardine	South Hadley	200	F	30-39	44.08	45.1	14.52
+2527	4389	Sophia Baldino	New Haven	367	F	13-19	44.35	45.15	14.53
+2528	4043	Maria Corenki	Bethany	6	F	70-74	45.22	45.3	14.58
+2529	4042	Rose Monaco	Bethany	7	F	70-74	45.22	45.3	14.58
+2530	3765	Amy Findorak	Stratford	201	F	30-39	44.57	45.55	14.67
+2531	3889	Josiah Brown	New Haven	98	M	45-49	44.98	45.57	14.67
+2532	3887	Athena Brown	New Haven	87	F	01-12	45	45.57	14.67
+2533	3809	Grace Pisano	Norwalk	82	F	50-54	44.65	45.65	14.7
+2534	4386	Alice Coleman	Hamden	58	F	55-59	45.43	45.73	14.72
+2535	3032	B. Monica Bowen	New Haven	202	F	30-39	45.77	45.82	14.75
+2536	2760	Carla MacMullen	New Haven	83	F	50-54	44.73	45.92	14.78
+2537	3024	Theresa Voss	Hamden	84	F	50-54	45.02	46.03	14.82
+2538	3841	Daisy Johnson	Fairfield	368	F	13-19	45.02	46.07	14.83
+2539	3838	Molly Johnson	Fairfield	85	F	50-54	45	46.07	14.83
+2540	4218	Tina Chan	New Haven	115	F	40-44	45.62	46.1	14.85
+2541	4679	Susan Thomas	Higganum	108	F	45-49	45.23	46.13	14.85
+2542	2913	Stacy Fontana	Orange	116	F	40-44	45.4	46.17	14.87
+2543	4304	Jennifer Alfaro	Orange	109	F	45-49	45.4	46.17	14.87
+2544	4396	Geoff Bye	Guilford	6	M	80-89	45.82	46.18	14.87
+2545	3321	Judith Hopkins	New Haven	15	F	65-69	44.9	46.22	14.88
+2546	3134	Jamie Bowman	Cheshire	234	F	20-29	45.93	46.3	14.9
+2547	4877	Rick Ross	Branford	99	M	45-49	45.5	46.35	14.92
+2548	2921	Heather Reynolds	New Haven	16	F	65-69	46.38	46.53	14.98
+2549	5041	Cameron Haywood		133	M	01-12	46.72	46.72	15.05
+2550	4894	Mary Dillon Johnson	New Haven	2	F	75-79	46.45	46.77	15.07
+2551	3774	Tom Richards	Mystic	35	M	65-69	45.93	46.78	15.07
+2552	2929	Barry Panensky	New York	16	M	70-74	45.92	46.78	15.07
+2553	5069	Angel Galarza	New Haven	134	M	01-12	46.33	46.83	15.08
+2554	3241	Felicia Williams	New Haven	117	F	40-44	46	47.07	15.15
+2555	4676	Elisabeth Kennedy	Hamden	59	F	55-59	46.08	47.13	15.17
+2556	4792	Samara Livingston	New Haven	110	F	45-49	46.08	47.17	15.18
+2557	4172	Christina Garcia	Cheshire	86	F	50-54	46.37	47.38	15.25
+2558	5598	Jennifer Rawlings	New Haven	235	F	20-29	47.22	47.4	15.27
+2559	3045	Isabel Reid	New Haven	111	F	45-49	47.22	47.4	15.27
+2560	4944	Veronica Marion	New Haven	87	F	50-54	47.25	47.4	15.27
+2561	4251	Sandy Chang	New Haven	118	F	40-44	47.02	47.67	15.35
+2562	4852	Hyun Ja Shin	New Haven	88	F	50-54	47.02	47.67	15.35
+2563	4886	Amelia Depino	North Haven	369	F	13-19	47.03	47.72	15.37
+2564	2925	Brittany Palmer	Hamden	236	F	20-29	47.42	47.75	15.37
+2565	2875	Nicholas Anthony	New York	153	M	30-39	47.53	48.3	15.55
+2566	2812	Melissa Antonucci	East Haven	119	F	40-44	47.53	48.3	15.55
+2567	2775	J. Ann Lee	Stamford	3	F	75-79	48.23	48.32	15.55
+2568	4414	Andrea Murrell	New Haven	120	F	40-44	47.03	48.32	15.55
+2569	2797	Shevonne Mack	New Haven	203	F	30-39	48.05	48.38	15.58
+2570	2993	Karen Hill-Johnson	Bridgeport	89	F	50-54	47.37	48.52	15.62
+2571	5272	Mary Warner	North Haven	88	F	01-12	47.37	48.53	15.63
+2572	2799	Mary Findorak	Stratford	32	F	60-64	47.62	48.62	15.65
+2573	5545	Michelle Murro	Branford	90	F	50-54	47.77	48.82	15.72
+2574	2990	Dylan Johnson	Bridgeport	251	M	13-19	47.8	48.95	15.77
+2575	3249	Ida Powell	Chapel Hill	237	F	20-29	48.1	49.23	15.85
+2576	2962	Deborah Craig	Hamden	33	F	60-64	48.52	49.3	15.87
+2577	4897	Clara Geffs	Greenwich	370	F	13-19	48.35	49.43	15.92
+2578	5162	Olivia Luther	Fairfield	371	F	13-19	48.35	49.43	15.92
+2579	2991	Eric Johnson Sr	Bridgeport	100	M	45-49	48.45	49.6	15.97
+2580	5331	Alin Spearman	New Haven	89	F	01-12	48.9	49.62	15.97
+2581	5332	Brett Spearman	New Haven	102	M	40-44	48.93	49.62	15.97
+2582	3228	Debra Johns	Hamden	60	F	55-59	49.13	49.9	16.07
+2583	3857	Mitch Beauregard	Hampton	75	M	55-59	49.47	49.97	16.08
+2584	5567	Jessica Panzarella	Wallingford	238	F	20-29	48.92	49.97	16.08
+2585	4786	Annalise Buckert	Hamden	239	F	20-29	48.95	50	16.1
+2586	4309	Jasmin Ali	New Haven	90	F	01-12	48.98	50.02	16.1
+2587	4981	Blaine Boxwell	Milford	76	M	55-59	48.85	50.08	16.12
+2588	4884	Annetta Depino	North Haven	112	F	45-49	49.57	50.27	16.18
+2589	4885	Ana Depino	North Haven	372	F	13-19	49.58	50.27	16.18
+2590	2758	Myron Genel	Woodbridge	7	M	80-89	49.28	50.32	16.2
+2591	2782	Meghan Jackson	Derby	121	F	40-44	49.72	50.4	16.23
+2592	4124	Christine Williams	Cheshire	8	F	70-74	49.37	50.42	16.23
+2593	4195	Terry Williams	Cheshire	17	M	70-74	49.38	50.45	16.25
+2594	3752	Robert Goodman	New Haven	8	M	80-89	49.62	50.62	16.3
+2595	3726	Ashley Carrano	Branford	204	F	30-39	49.65	50.67	16.32
+2596	4597	Cindy Bova	North Haven	91	F	50-54	49.68	50.7	16.32
+2597	4596	Janet Spadory	North Haven	92	F	50-54	49.68	50.7	16.32
+2598	5504	Ellen Rubin	New Haven	17	F	65-69	50.48	50.7	16.33
+2599	2920	Melody Hancock	Richland Hills	93	F	50-54	50.22	51.47	16.57
+2600	2710	Sandy Spector	Hamden	34	F	60-64	50.98	51.55	16.6
+2601	3038	Megan Manfredi	Wakefield	240	F	20-29	50.87	51.68	16.63
+2602	3549	Frank Manfredi	Wallingford	9	M	80-89	50.87	51.68	16.65
+2603	4365	Lesley Johnstone	Fort Myers	18	F	65-69	51.38	51.88	16.7
+2604	4375	Doreen Johnstone	Fort Myers	1	F	80-89	51.42	51.88	16.7
+2605	3902	Alfred Smith	Woodbridge	63	M	60-64	50.83	51.9	16.72
+2606	3901	Adrienne Micci-Smith	Woodbridge	35	F	60-64	51.62	51.9	16.72
+2607	3374	Larraine Romano	North Branford	9	F	70-74	50.73	51.92	16.72
+2608	3373	Joan Nargi	North Branford	19	F	65-69	50.75	51.95	16.73
+2609	4228	Erin Brady	Cheshire	241	F	20-29	50.73	51.97	16.73
+2610	4229	Dawn Marcucci	Northford	94	F	50-54	50.75	51.98	16.73
+2611	2900	Charna Edwards	Meriden	242	F	20-29	51.02	52.13	16.78
+2612	2933	Shelby Grosenick	New Haven	243	F	20-29	51.18	52.15	16.78
+2613	3682	Betty Holroyd	Wallingford	1	F	90-99	51.85	52.65	16.95
+2614	4584	Valerie Proto	East Haven	36	F	60-64	51.83	53	17.07
+2615	3394	Jean Benzi	North Branford	95	F	50-54	51.9	53.07	17.08
+2616	5186	Eric Hanson	Branford	110	M	50-54	52.03	53.12	17.1
+2617	5194	Poppy Hanson	Branford	373	F	13-19	52.05	53.13	17.1
+2618	5196	Gunnar Hanson	Branford	252	M	13-19	52.07	53.15	17.12
+2619	3727	Erica Carrano	Branford	205	F	30-39	52.28	53.33	17.17
+2620	3593	Janet Hooper	Goshen	10	F	70-74	52.83	53.62	17.27
+2622	2909	Herman Bershtein	Hamden	1	M	90-99	54.12	54.2	17.45
+2623	3601	Leah Katz	Orange	91	F	01-12	53.67	54.3	17.48
+2624	3516	Tiffany Katz	Orange	122	F	40-44	53.67	54.3	17.48
+2625	4394	Luke Miklos	New Haven	135	M	01-12	54.12	54.7	17.62
+2626	4577	Taryn Case	New Haven	92	F	01-12	54.48	54.73	17.62
+2627	5178	Olivia Egan	East Haven	93	F	01-12	54.5	54.73	17.62
+2628	3124	James Cramond	Monroe	36	M	65-69	54.03	55.08	17.73
+2629	5177	Lisa Egan	East Haven	96	F	50-54	55.02	55.27	17.8
+2630	4299	Emalie Mayo	New Haven	123	F	40-44	54.43	55.55	17.88
+2631	2970	Edward Regner	Torrington	10	M	80-89	55.35	55.88	18
+2632	4570	Maryanne Guarco	Granby	61	F	55-59	55.05	55.98	18.02
+2633	4361	Devan Miller	West Haven	244	F	20-29	54.98	56.08	18.05
+2634	4752	Kenisha Dingle	New Haven	124	F	40-44	55.05	56.32	18.13
+2635	2882	Art Camp	Putney	77	M	55-59	55.73	56.9	18.32
+2636	2949	Drew Cucuzza	New Haven	111	M	50-54	55.77	56.92	18.33
+2637	5359	Kelly Sherman	West Havn	97	F	50-54	55.78	56.93	18.33
+2638	5242	Brandon Johnson	Philadelphia	154	M	30-39	56.38	57.43	18.5
+2639	5243	Lindsay Poulin	Philadelphia	245	F	20-29	56.48	57.45	18.5
+2640	5244	Michele Johnson	New Haven	37	F	60-64	56.5	57.45	18.5
+2641	5247	Erin Johnson	New Haven	206	F	30-39	55.78	57.45	18.5
+2642	2796	Sharon Palmer	Hamden	207	F	30-39	57.52	57.85	18.63
+2643	3259	Lisa Gamsby	New Haven	208	F	30-39	57.47	58.72	18.9
+2644	4227	Doreen Stokes	North Haven	62	F	55-59	57.5	58.77	18.92
+2645	4718	Glenn Stokes		78	M	55-59	57.52	58.78	18.93
+2646	4758	Teresa Rieger	New Haven	20	F	65-69	59.05	60.08	19.35
+2647	3674	Louise Higgins	New Haven	21	F	65-69	59.07	60.08	19.35
+2648	4198	Michele Valerio	New Haven	113	F	45-49	62.5	63.67	20.5
+2649	3740	Beverly Francis	North Haven	11	F	70-74	62.52	63.68	20.5
+2650	4721	Ann Louise Onton	Shelton	12	F	70-74	63.68	64.43	20.75
+2651	3725	Shanna Sapiente	New Haven	209	F	30-39	65.1	65.4	21.05
+2652	4922	Karen Yao	Pepper Pike	374	F	13-19	69.93	70.35	22.65
+2654	5556	Felipe Zarama	Shelton	112	M	50-54	107.33	108.57	34.95
+

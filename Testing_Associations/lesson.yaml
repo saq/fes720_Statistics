@@ -1,0 +1,559 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Testing_Associations
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "Welcome to the third lesson in the FES720 Statistics series! In this series of lessons, we are
+    looking at how to do various common statistical tests in R, leading to more complex 
+    data and modelling approaches."
+
+- Class: text
+  Output: "So far we have looked at solely categorical data (Testing Ratios) and continuous 
+    data from categories (Testing Populations)."
+
+- Class: text
+  Output: "In this lesson, we will look at methods to test whether two or more
+    samples of continuous data are positively or negatively associated. We will also 
+    consider having multiple predictor variables. Our fundamental question is:"
+    
+    
+- Class: text    
+  Output: "# Is There An Association Between Two (or More) Variables?"  
+    
+- Class: text
+  Output: "# Categorical Variables"
+
+- Class: text
+  Output: "For categorical variables, we can use a Chi-Squared test of association. 
+    See the [Testing Ratios](../statistics/testing-ratios.html) lesson for more details."
+
+- Class: text
+  Output: "# Two Continuous Variables"
+
+- Class: text
+  Output: "Consider that we have two (2) continuous variables. A first question might be:
+    'Do these samples come from the same distribution?' we can use a Kolmogorov-Smirnov Test
+    to answer this."
+    
+- Class: text
+  Output: "The function `ks.test()` performs a two-sample test of the null hypothesis that 
+    x and y were drawn from the same continuous distribution."
+
+- Class: cmd_question
+  Output: "Let's generate some random data that we can use to test this function. Use the function
+    `rnorm()` to generate 50 values drawn randomly from a normal distribution. Remember that `rnorm()` requires
+    the number of samples (`n = `). You can also change the mean and standard deviation. In this case,
+    just generate 50 values with the defaults. Assign this to `x`."
+  CorrectAnswer: x <- rnorm(50)
+  AnswerTests: any_of_exprs('x <- rnorm(50)', 'x <- rnorm(n = 50)')
+  Hint: Plop 50 into rnorm()
+    
+- Class: cmd_question
+  Output: "Now, generate a vector or 50 values from a _uniform_ distribution, and
+    assign this to `y`."
+  CorrectAnswer: y <- runif(50)
+  AnswerTests: any_of_exprs('y <- runif(50)', 'y <- runif(n = 50)')
+  Hint: If in doubt, look at the help file for runif().
+    
+- Class: cmd_question
+  Output: "The `ks.test()` function takes `x = ` and `y = `. Put our two new
+    objects in there and test if they are from the same distribution."
+  CorrectAnswer: ks.test(x, y)
+  AnswerTests: any_of_exprs("ks.test(x, y)", "ks.test(x = x, y = y)")
+  Hint: Use ks.test()
+    
+- Class: text
+  Output: "The p-value less than 0.001 suggests that x and y are indeed drawn from 
+    different distributions (as we suspected ... )."
+
+
+- Class: text
+  Output: "## Correlation"
+
+- Class: text
+  Output: "Whether we run correlation or a regression depends on how we think
+    the two variables are related. If we think that there is no *causal* relationship
+    between the two, then we would test for a correlation. If we think that there
+    *is* a causal relationship between the two, then we would run a regressin."
+    
+- Class: text    
+  Output: "As they saying goes 'correlation does not imply causation'."
+
+- Class: text
+  Output: "The function `cor()` returns the correlation coefficient of two
+    variables. It requires an `x = ` and a `y = `, and a `method = `. 
+    Pearson's product moment correlation coefficient (`method = 'pearson'`) 
+    is the parametric version used for normal data (and the default). Kendall's tau 
+    (`method = 'kendall'`) or Spearman's rho (`method = 'spearman'`) are
+    used for non-parametric data."
+
+- Class: text
+  Output: "The function `cor.test()` tests for association---correlation---between
+    paired samples, using one of Pearson's product moment correlation coefficient, 
+    Kendall's tau, or Spearman's rho, as above. The three methods each estimate 
+    the association between paired samples and compute a test of the value being
+    zero (indicating no association)."
+  
+- Class: text
+  Output: "In the New Haven Road Race data, it would seem sensible that Net time
+    and Pace are correlated. They are both measures of how long each person
+    spent running, but a faster Pace does not cause a faster net time."
+
+- Class: cmd_question
+  Output: "The race data are loaded with the lesson. Calculate the 
+    correlation coefficient of Net time and Pace."
+  CorrectAnswer: cor(x = race$Nettime_mins, y = race$Pace_mins)
+  AnswerTests: any_of_exprs('cor(x = race$Nettime_mins, y = race$Pace_mins)', 
+    'cor(race$Nettime_mins, race$Pace_mins)', 'cor(race$Pace_mins, race$Nettime_mins)',
+    'cor(x = race$Pace_mins, y= race$Nettime_mins)')
+  Hint: use cor().
+
+- Class: cmd_question
+  Output: "Now test if this correlation coefficient is greater than 0."
+  CorrectAnswer: cor.test(x = race$Nettime_mins, y = race$Pace_mins)
+  AnswerTests: omnitest(correctExpr=' cor.test(x = race$Nettime_mins, y = race$Pace_mins)')
+  Hint: cor.test() ...
+
+- Class: text
+  Output: "As usual, you can assign this to an object, and extract the various parts
+    of the object, such as the coefficient, p-value, etc."
+    
+- Class: text
+  Output: "## Simple Linear Regression"
+  
+- Class: text
+  Output: "Ok, now we are coming to the statistical model that you will probably use 
+    most of all. If we think that one variable/s is driving variation in the other, 
+    we should use regression rather than correlation."
+
+- Class: text
+  Output: "The function `lm()` is used to develop linear models. 
+    At its simplest, it takes one argument: `formula = `. This argument
+    is the first one, and so folks rarely even write out the `formula = ` part."
+    
+- Class: text
+  Output: "However, this formula is how models (i.e., statistical relationships 
+    between variables) are specified, symbolically.  
+    A typical model has the form `response ~ terms`, 
+    where `response` is the response (or dependent) variable and 
+    `terms` is (a series of) term/s which specifies a linear 
+    predictor (or independent) variable."
+    
+- Class: text
+  Output: "The response variable is fitted *as a function of* the predictor variable. 
+    The *tilde* symbol (`~`) signifies 'as a function of', and separates the response 
+    and predictor variables. Adding further predictor variables to the right hand side
+    is also possible (see [Formulae](../statistics/formulae.html))."
+
+- Class: text
+  Output: "For now, we will carry out a simple regression of a single predictor 
+    and response. This model estimates values for the three elements of the equation:
+    y ~ beta0 + beta1 * x + sigma."
+
+
+- Class: text
+  Output: "In other words: y ~ intercept + slope * x + sd of the error. 
+    We will come back to this later."
+    
+- Class: text
+  Output: "We will illustrate the use of `lm()` using the sparrow data, loaded with this
+    lesson (even though we know there is actually no causality here)."
+    
+- Class: cmd_question
+  Output: "First, as always, look at the data. Display the head of the sparrow data, `sparrow`."
+  CorrectAnswer: head(sparrow)
+  AnswerTests: omnitest(correctExpr="head(sparrow)")
+  Hint: Remember to use your `head()` ...
+
+- Class: cmd_question
+  Output: "Second, let's plot the data that we want to model. Plot Tarsus 
+    as a function of Wingcrd, making sure that you use a formula and 
+    the `data = ` argument."
+  CorrectAnswer: plot(Tarsus ~ Wingcrd, data = sparrow)
+  AnswerTests: omnitest(correctExpr="plot(Tarsus ~ Wingcrd, data = sparrow)")
+  Hint: plot(y ~ x, data = ???)
+
+- Class: cmd_question
+  Output: "It looks like there is a positive relationship between the two.
+    Ok, now we are ready to run the actual model. Call the output `m0`,
+    and use `lm()` to model Tarsus as a function of Wingcrd. Notice that you can
+    use almost the same code as you used to plot the data."
+  CorrectAnswer: m0 <- lm(Tarsus ~ Wingcrd, data = sparrow)
+  AnswerTests: omnitest(correctExpr="m0 <- lm(Tarsus ~ Wingcrd, data = sparrow)")
+  Hint: Use lm().
+
+- Class: cmd_question
+  Output: "Ok, so our model is stored in the object `m0`. We can use 
+    several functions to extract all or part of this object. As usual, 
+    we can use `str()` to look at everything contained in the 
+    model object `m0`. Try that."
+  CorrectAnswer: str(m0)
+  AnswerTests: omnitest(correctExpr="str(m0)")
+  Hint: str(m0)
+
+- Class: cmd_question
+  Output: "There is a lot in there! Given that it is a list,
+    we can access any part of it as we would any other list.
+    For example, we could use `m0$coefficients` to pull out the 
+    model coefficients. Try that."
+  CorrectAnswer: m0$coefficients
+  AnswerTests: omnitest(correctExpr="m0$coefficients")
+  Hint: m0$coefficients
+
+- Class: cmd_question
+  Output: "There are also a number of generic functions that
+    are built to work on any model object. One of these generic
+    functions is `coef()`, which we can use to pull out the
+    coefficient estimates
+    of the model. Try putting `m0` in a call to `coef()`."
+  CorrectAnswer: coef(m0)
+  AnswerTests: omnitest(correctExpr="coef(m0)")
+  Hint: coef(m0)
+    
+- Class: text
+  Output: "Both `m0$coefficients` and `coef(m0)` return a (identical) named vector: The names of each 
+    coefficient estimate are given for each element of the vector. The intercept
+    is the intercept, i.e., when x = 0, at what point the regression line
+    crosses the y-axis. The slope of the regression line is given by the
+    element named for the predictor variable in the model (in this case Wingcrd).
+    The slope means for a unit change in x, what the change in y is. In this case,
+    a 1-unit change in Wingcrd leads to an increase of 0.23 in Tarsus."
+
+- Class: cmd_question
+  Output: "Let's look at a more traditional output of the statistical model. 
+    We can use `summary()` to return that. Do so."
+  CorrectAnswer: summary(m0)
+  AnswerTests: omnitest(correctExpr="summary(m0)")
+  Hint: summary(m0)
+    
+- Class: text
+  Output: "Here we see several parts to the model output. First, the 
+    model itself (Call), then a summary of the residuals (Residuals),
+    then details of the coefficients (Coefficients), their values, standard 
+    errors, t values, and p values. The p-values correspond to specific tests.
+    First, the test is if the intercept is significantly different from 0. We
+    are not too often interested in this value or significance. What we are 
+    usually more interested in is if there is indeed a positive or negative
+    relationship between the two variables in the model. The p-value in this
+    case tells us if the slope is significantly different from 0. In this case it
+    is, and so we infer that as Wingcrd increases, so does Tarsus."
+
+- Class: text
+  Output: "Below this, we also get some information on the remaining
+    unexplained variation, R2 values, and F tests."
+    
+    
+- Class: text
+  Output: " The other useful parts of the model that you may want to 
+    look at, at least for model-checking, are the residuals, using either
+    `m0$residuals` or the generic function `residuals()`. Try either of those."
+  CorrectAnswer: residuals(m0)
+  AnswerTests: any_of_exprs("residuals(m0)", "m0$residuals")
+  Hint: residuals(m0)
+    
+- Class: text
+  Output: "Both of these return all residuals values for each data point ... you 
+    may want to assign this to another object, e.g., `m0.resid` in future, or just 
+    use them as is, if needed."
+    
+- Class: text
+  Output: "### Adding the fitted line to the plot"
+    
+- Class: text
+  Output: "We have our plot, we have our model; now we want to combine them.
+    Usually, you would not add non-significant fitted regression lines to a plot.
+    This model was significant, so we can feel doing so. The function to 
+    add a *straight* line to a plot is `abline()` (which I think is supposed
+    to be pronounced 'a-b-line', but 'ab-line' rolls off the tongue much more
+    easily to me ...)."
+    
+- Class: text
+  Output: "`abline()` can take a variety of inputs. For plotting a fitted line, 
+    you would either provide `coef = ` (a vector 
+    of length two giving the intercept and slope), or `a = ` and `b = ` (the intercept 
+    and slope, as single values). Usefully, `abline()` can also extract the intercept
+    and slope automagically from a model object. Pass `m0` to `abline()` and watch 
+    the plotting window ..."
+  CorrectAnswer: abline(m0)
+  AnswerTests: omnitest(correctExpr="abline(m0)")
+  Hint: abline(m0)
+    
+- Class: text
+  Output: "If you look at the help page for `abline()`, you will
+    see that it has elipses (...)  as its final argument. You can 
+    therefore access all the plotting commands that would affect
+    the appearance of the line from within the call to `abline()`.
+    Make another call to `abline()`, but make the line twice as wide,
+    and red."
+  CorrectAnswer: abline(m0, lwd = 2, col = 'red')
+  AnswerTests: any_of_exprs("abline(m0, lwd = 2, col = 'red')", "abline(m0, col = 'red', lwd = 2)")
+  Hint: Remember that line width is specified with lwd =, and colour with col =
+        
+- Class: text
+  Output: "# More than one predictor variable: Multiple regression"
+
+- Class: text
+  Output: "In the ANOVA and simple regression models that we have run 
+    so far, they have all had single response/dependent variable as a 
+    function of a single predictor/independent variable. 
+    But in many cases we know that there are several things that could 
+    reasonably influence the response variable. For example, species and 
+    sex could both affect sparrow size; age and sex could both influence 
+    running time."
+
+- Class: text
+  Output: "It is straightforward to include multiple predictors in a model. 
+    We start with the simple, special (!), case of Analysis of Covariance (ANCOVA)."
+
+- Class: text
+  Output: "## One continuous and one categorical predictor: Analysis of Covariance"
+
+- Class: text
+  Output: "Statisticians realised early on that ANOVA was merely the beginning of 
+    analysing experiments---other factors apart from the experimental treatment
+    might influence the response variable they were interested in. This issue is 
+    especially pertinent when considering change, i.e., does our experimental 
+    treatment affect growth or survival? The starting point of each sample is 
+    important. If we are measuring growth of seedlings, how big that seedling 
+    is at the start of the experiment will have a big effect on its' growth. 
+    Moreover, if by chance all the big seedlings ended up in one treatment and 
+    the small ones in another, we may erroneously assign significance to the treatment."
+
+- Class: text
+  Output: "Thus, analysis of variance with a continuous covariate was born (i.e., 
+    Analysis of Covariance), and we can ask if our treatment had a significant 
+    effect, accounting for the measured variation in initial conditions (seedling
+    initial size, for example)."
+
+- Class: figure
+  Output: "We can illustrate with the sparrow data, and ask if male sparrows tend 
+    to have larger heads than female sparrows. From the plot, it looks like they 
+    may do."
+  Figure: headPlot.R
+  FigureType: new  
+    
+- Class: cmd_question
+  Output: "What does the model tell us? Nest the call to `lm()` within the 
+    `summary()` function, to output the result table in one line of code."
+  CorrectAnswer: summary(lm(Head ~ Sex, data = sparrow))
+  AnswerTests: omnitest(correctExpr="summary(lm(Head ~ Sex, data = sparrow))")
+  Hint: summary(lm( ... ))
+  
+- Class: text
+  Output: "This model suggest that male sparrows have larger heads than 
+    female sparrows. In more detail, because we called `lm()`, the results
+    show us the mean value for females (`(Intercept)`) and the *difference* 
+    between males and females (`SexMale`) (because the predictor variable
+    is categorical)."
+
+- Class: text
+  Output: "(Note that we ran an ANOVA here with the `lm()` function ... 
+    *crazy!* ... Actually, ANOVA is essentially a special case of a linear
+    model, so we can use `lm()` and `aov()` interchangeably to run an ANOVA.
+    The only real effect will be how things like `summary()` work. To look at 
+    the ANOVA table after a call to `lm()`, you would need to use `summary.aov()`;
+    to look at the linear model table after a call to `aov()`, you would
+    need to use `summary.lm()`. Simples ... )"
+    
+- Class: text
+  Output: "However, we could reasonably assume that larger sparrows in general
+    will have larger heads. Accounting for sparrow size as we compare 
+    sex might be a good idea. We can include a different measure of sparrow 
+    size, such as Tarsus length, in the model."
+    
+- Class: cmd_question
+  Output: "The simplest model we can make with two variables is an *additive* model.
+    Here, we specify `response ~ variable1 + variable2`. What we are actually 
+    asking is if there is a difference between the mean values of variable1
+    and variable2 at the intercept (i.e., testing if the fitted lines
+    for each variable have different intercepts). Modify your previous model to 
+    add Tarsus after Sex."
+  CorrectAnswer: summary(lm(Head ~ Sex + Tarsus, data = sparrow))
+  AnswerTests: omnitest("summary(lm(Head ~ Sex + Tarsus, data = sparrow))")
+  Hint: Add `+ Tarsus` to your previous line of code.
+    
+- Class: text
+  Output: "The model summary shows that now, Sex is not significant but Tarsus is, i.e.,
+    male and female sparrows do not have significantly different Head size accounting
+    for Tarsus size, and also that the relationship between Head and Tarsus is
+    significant and positive. We could also think about this the other way:
+    the relationship between Head and Tarsus is the same for males and females, 
+    i.e., there is no morphological difference between sparrow sexes."
+    
+- Class: cmd_question
+  Output: "One final detail. Run the same model within `summary()`, but using 
+    `aov()` instead of `lm()`..."
+  CorrectAnswer: summary(aov(Head ~ Sex + Tarsus, data = sparrow))
+  AnswerTests: omnitest("summary(aov(Head ~ Sex + Tarsus, data = sparrow))")
+  Hint: summary(aov(Head ~ Sex + Tarsus, data = sparrow))
+  
+- Class: cmd_question
+  Output: "Now run the same model again, but swap the places of Sex and Tarsus."
+  CorrectAnswer: summary(aov(Head ~ Tarsus + Sex, data = sparrow))
+  AnswerTests: omnitest("summary(aov(Head ~ Tarsus + Sex, data = sparrow))")
+  Hint: summary(aov(Head ~ Sex + Tarsus, data = sparrow))
+  
+- Class: text
+  Output: "You should have two ANOVA tables displayed in the console. You
+    appear to have run the same model (Head as a function of Sex and Tarsus),
+    yet the results are quite different."
+    
+- Class: text
+  Output: "R conducts ANOVA tests (`aov()`) *sequentially*.
+    Thus in the model `Head ~ Tarsus + Sex`, it removes
+    (or accounts) for the effect of Tarsus _before_ testing
+    for differences between the sexes. In this second model,
+    then, the effect of Sex is not significant, which is also
+    what we saw in the output from `lm()` above (it makes no
+    difference what order the variables are in for `lm()`)."
+  
+- Class: text
+  Output: "Ok, we can use this simple model structure to ask
+    not only if males and females have 
+    different head sizes on average, but also if the relationship 
+    between Head and Tarsus differes between the sexes (i.e., are
+    the slopes significantly different)."
+    
+- Class: cmd_question
+  Output: "We can run this *interaction* model by replacing
+    the ` + ` in the model formula with a ` * `. Try that, modifying your
+    previous model that used `lm()`, still within `summary()`."
+  CorrectAnswer: summary(lm(Head ~ Sex * Tarsus, data = sparrow))
+  AnswerTests: omnitest("summary(lm(Head ~ Sex * Tarsus, data = sparrow))")
+  Hint: Scroll up and change + to *!
+    
+- Class: text
+  Output: "Let's walk through these results. As before, we have the model
+    and a summary of the residuals. Next is the coefficient table."
+    
+- Class: text
+  Output: "This table shows the coefficient estimates, standard error, 
+    and the t values and associated p values for significance tests. 
+    The way that the coefficients and tests are presented are different 
+    between categorical and continuous variables."
+    
+- Class: text
+  Output: "In this case, the first row of the output (`(Intercept)`) shows the mean
+  Head size of females ('female' comes before 'male' alphanumerically). The test
+  is whether this mean value is different from 0 (not usually that useful)."
+  
+- Class: text
+  Output: "The *difference* between the mean Head size of males and the mean Head 
+    size of females is shown in the row indicated by `SexMale`. The test
+    is whether this difference is 0 (here, there is no significant difference).
+    To obtain the actual mean value of male Head size, you need to add the 
+    estimate for males to the estimate for females: 15.725 + 1.215."
+    
+- Class: text
+  Output: "The other two rows in the results table describe the slopes of the 
+    two fitted relationships. The row `Tarsus` shows the slope of the
+    continuous variable (Tarsus) for the first level of the factor `$Sex` (females, 0.76).
+    The test is whether this slope is different from 0 (yes, it is)."
+    
+- Class: text
+  Output: "The row indicated by `Tarsus:SexMale` shows the *difference in the slope*
+    between males and females. The test is whether this difference is different from 0
+    (i.e., do females and males have different slopes). (they don't). 
+    To get the actual slope for males, you have to take the slope for females (0.76)
+    and add this difference (0.76 + -0.057)."
+    
+- Class: cmd_question
+  Output: "Now, let's plot! Make a plot of Head on Tarsus."
+  CorrectAnswer: plot(Head ~ Tarsus, data = sparrow)
+  AnswerTests: omnitest(correctExpr="plot(Head ~ Tarsus, data = sparrow)")
+  Hint: plot(y ~ x, data = ???)
+
+    
+- Class: cmd_question
+  Output: "To plot the regression lines on our plot of Head ~ Tarsus, we have to extract 
+    them from the model output. Make a new model, m1, using `lm()` to model
+    Head as a function of the interaction between Sex and Tarsus."
+  CorrectAnswer: m1 <- lm(Head ~ Sex * Tarsus, data = sparrow)
+  AnswerTests: omnitest("m1 <- lm(Head ~ Sex * Tarsus, data = sparrow)")
+  Hint: m1 <- lm(Head ~ Sex * Tarsus, data = sparrow)
+    
+- Class: cmd_question
+  Output: "Extract the coefficients using `coef()`."
+  CorrectAnswer: coef(m1)
+  AnswerTests: omnitest("coef(m1)")
+  Hint: coef(m1)  
+    
+- Class: cmd_question
+  Output: "Now using the named elements of `coef(m1)`, subset out the 
+    value for mean female Head size (i.e., the intercept)."
+  CorrectAnswer: coef(m1)['(Intercept)']
+  AnswerTests: omnitest("coef(m1)['(Intercept)']")
+  Hint: Use [] ...
+  
+- Class: cmd_question
+  Output: "Now extract the value for the slope of females."
+  CorrectAnswer: coef(m1)['Tarsus']
+  AnswerTests: omnitest("coef(m1)['Tarsus']")
+  Hint: coef(m1)  
+  
+- Class: cmd_question
+  Output: "Now, put these two sections of code into a call to `abline()` and
+    add the fitted line for female sparrows to the plot, using the 
+    arguments `a = ` and `b = `."
+  CorrectAnswer: abline(a = coef(m1)['(Intercept)'], b = coef(m1)['Tarsus'])
+  AnswerTests: omnitest("abline(a = coef(m1)['(Intercept)'], b= coef(m1)['Tarsus'])")
+  Hint: abline(a = the intercept code, b = the slope code )
+    
+- Class: cmd_question
+  Output: "We can modify this call to `abline()` to add the fitted
+    line for males. Remember that the two values given for males
+    are the *differences* between males and females. All within a new 
+    call to `abline()`, add in the calculation to obtain the absolute 
+    values for males to plot the fitted line. Make the line red."
+  CorrectAnswer: abline(a = (coef(m1)['(Intercept)'] + coef(m1)['SexMale']), b = (coef(m1)['Tarsus'] + coef(m1)['SexMale:Tarsus']), col = 'red')
+  AnswerTests: omnitest(correctExpr = "abline(a = (coef(m1)['(Intercept)'] + coef(m1)['SexMale']), b = (coef(m1)['Tarsus'] + coef(m1)['SexMale:Tarsus']), col = 'red')")
+  Hint: a = (coef(m1)['(Intercept)'] + coef(m1)['SexMale'])
+
+- Class: text
+  Output: "## Multiple regression with continuous predictors"
+  
+- Class: text
+  Output: "Multiple regression allows us to see the relationship between 
+    two variables, accounting for other variables in the model."
+    
+- Class: cmd_question
+  Output: "Let's continue with the sparrow data to illustrate this. Run an
+    additive linear model (`lm()`) of Head as a function of Wingcrd, Tarsus, 
+    Culmen and Nalospi. Assign the output to `m2`."
+  CorrectAnswer: m2 <- lm(Head ~ Wingcrd + Tarsus + Culmen + Nalospi, data = sparrow)
+  AnswerTests: omnitest(correctExpr = "m2 <- lm(Head ~ Wingcrd + Tarsus + Culmen + Nalospi, data = sparrow)")
+  Hint: m2 <- lm(Head ~ Wingcrd + Tarsus + Culmen + Nalospi, data = sparrow)
+
+- Class: cmd_question
+  Output: "Look at the summary of this model."
+  CorrectAnswer: summary(m2)
+  AnswerTests: omnitest("summary(m2)")
+  Hint: summary(m2)
+
+- Class: text
+  Output: "Here, we see the common intercept for all the four predictors, as well as their
+    individual slopes (we have no categorical variables in this model, so there are 
+    no differences between levels to worry about)."
+
+- Class: text
+  Output: "Check the [multiple regression](http://www.simonqueenborough.info/R/statistics/multiple-regression) page
+    to see how you might go about making a figure of these data."
+    
+- Class: text
+  Output: "This is the end. You should now be able to make a wide variety
+    of simple additive and interaction models using continuous
+    and categorical variables."
+    
+- Class: mult_question
+  Output: "Please submit the log of this lesson to Google Forms so
+    that Simon may evaluate your progress."
+  AnswerChoices: I am not a robot.
+  CorrectAnswer: I am not a robot.
+  AnswerTests: submit_log()
+  Hint: hint
+
+
