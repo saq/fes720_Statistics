@@ -1,0 +1,582 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Binomial Data
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "Many statistical problems involve binary response variables. 
+    For example, we could classify individuals as alive/dead, healthy/unwell, 
+    employ/unemployed, left/right, right/wrong, ... etc. A regression of
+    binary data is possible if at least one of the predictors is continuous
+    (otherwise you would use some kind of categorical test, such as a Chi-squared test)."
+
+- Class: text
+  Output: "The response variable contains only 0s and 1s (e.g., dead = 0, alive = 1)
+    in a single vector. R treats such binary data is if each row came from a binomial
+    trial with sample size 1. If the probability that an individual is dead is *p*,
+    then the probability of obtaining *y* (where *y* is either dead or alive, 0 or 1)
+    is given by an abbreviated form of the binomial distribution with n = 1, known as 
+    the Bernoulli distribution."
+
+- Class: text
+  Output: "Binomial data can either be modelled at the individual (binary response) 
+    or group (proportion) level. If you have unique values of one or more explanatory
+    variables for each and every individual case, then a model with a binary response
+    variable will work. If not, you should aggregate the data until you do have such
+    explanatory variables (e.g., at the level of the household, town, state, population, ...)."
+
+- Class: text
+  Output: "# A. Individual-level: binary response (0/1) = **logistic regression**"
+
+- Class: text
+  Output: "At the individual level we can model each individual in terms of 
+    dead or alive (male/female, tall/short, green/red, ...), using logistic regression 
+    (or logit model). In the [logit](https://en.wikipedia.org/wiki/Logit) model, 
+    the **log odds** (logarithm of the odds) of the outcome is modeled as a linear
+    combination of the predictor variables. If *p* is a probability, then *p/(1 − p)*
+    is the corresponding odds; the logit of the probability is the logarithm of the odds."
+
+- Class: text
+  Output: "To model a binary response variable, we first need (or need to create) a  
+    single vector of 0 and 1s. We then model this vector with `glm()` and `family = 'binomial'`.
+    We can compare models using a test for a change in deviance with chi-squared.
+    Overdispersion is not an issue with a binary response variable."
+
+- Class: cmd_question
+  Output: "Let's look at the incidence (presence/absence) of a breeding bird on various islands. Examine
+    the top 6 rows of the isolation dataset."
+  CorrectAnswer: head(isolation)
+  AnswerTests: omnitest(correctExpr="head(isolation)")
+  Hint: Use your 'head()' ...
+
+- Class: text
+  Output: "The data show the `$incidence` of the bird (present = 1, absent = 0) on 
+    islands of different sizes (`$area` in km2) and distance (`$distance` in km) 
+    from the mainland."
+
+- Class: text
+  Output: "We can easily imagine how we might be more likely to find a specific bird on
+    larger islands that are closer to the mainland, and less likely to find that
+    bird on smaller islands further away from the mainland."
+
+- Class: cmd_question
+  Output: "Now let's plot the data. First, plot
+  `$incidence` as a function of `$distance`." 
+  CorrectAnswer: plot(incidence ~ distance, data = isolation)
+  AnswerTests: omnitest(correctExpr = "plot(incidence ~ distance, data = isolation)")
+  Hint: Plot() incidence as a function of distance.
+
+- Class: text
+  Output: "Because we only have two options for the y-axis (response variable), 0 or 1,
+    we have two lines of data points at different distances (x-axis). It looks like there
+    are more 1's than 0's at lower values of distance and fewer 1's than 0's at higher 
+    values of distance."
+
+- Class: cmd_question
+  Output: "Now make a similar plot for `$area`."
+  CorrectAnswer: plot(incidence ~ area, data = isolation)
+  AnswerTests: omnitest(correctExpr = "plot(incidence ~ area, data = isolation)")
+  Hint: Plot() incidence as a function of area.
+
+- Class: text
+  Output: "You can see that area has the opposite effect: as area increases, 
+    we see fewer 0's and more 1's.  Let's test these relationships 
+    using a generalized linear model."
+
+- Class: cmd_question
+  Output: "We can begin examining these patterns in more detail
+    by fitting a model of incidence as a function of area and distance. 
+    We will first consider the additive model (i.e., area and distance are independent).
+    Use `glm()` to run this model, and call it `m0`. Remember to use a
+    formula, set the `data = ` argument, *and* the `family = binomial` argument."
+  CorrectAnswer: m0 <- glm(incidence ~ area + distance, family = binomial, data = isolation)
+  AnswerTests: omnitest(correctExpr = "m0 <- glm(incidence ~ area + distance, family = binomial, data = isolation)")
+  Hint: Use `glm()`
+
+- Class: text
+  Output: "What are we actually stating in this additive model? We are saying that area and distance
+    have the same effect on incidence, but that the intercept may be different between them.
+    If we plotted both on the same graph, they would have the same slope, but maybe different
+    intercepts."
+
+- Class: cmd_question
+  Output: "Ok, what if we think that there is an interaction between area and distance, i.e., 
+    the slope of each variable varies as well as the intercept? Run the model of an
+    interaction between area and distance, called `m2`."
+  CorrectAnswer: m1 <- glm(incidence ~ area * distance, family = binomial, data = isolation)
+  AnswerTests: omnitest(correctExpr = "m1 <- glm(incidence ~ area * distance, family = binomial, data = isolation)")
+  Hint: Remember that `*` indicates an interaction.`
+
+- Class: cmd_question
+  Output: "We can compare these two models using ANOVA. The function `anova()`
+    computes analysis of variance (or deviance) tables for one or more fitted
+    model objects. Run this function on `m0` and `m1`.
+    In the case of binary data, we need to do a Chi-squared test (`test = 'Chi'`)."
+  CorrectAnswer: anova(m0, m1, test = "Chi")
+  AnswerTests: omnitest(correctExpr = "anova(m0, m1, test = 'Chi')")
+  Hint: anova(m0, m1, test = "Chi")
+
+- Class: text
+  Output: "The simpler model (m0) is not significantly worse (p = 0.6981), so we can go with that one."
+
+
+- Class: text
+  Output: "## Fitting and interpreting the model"
+
+- Class: cmd_question 
+  Output: "Let's look at the summary of model `m0`."
+  CorrectAnswer: summary(m0)
+  AnswerTests: omnitest(correctExpr = 'summary(m0)')
+  Hint: summary() ...
+
+- Class: text
+  Output: "As normal, we have the formula, the deviance residuals
+    (a measure of model fit), then the coefficient estimates,
+    their standard errors, the z-statistic (sometimes called a Wald 
+    z-statistic), and p-values. What exactly do the coefficients 
+    represent?"
+
+- Class: text
+  Output: "The coefficients as presented in the model
+    summary are the logits. We can then transform these logits to odds ratios if we want." 
+
+- Class: text
+  Output: "### Logit/log odds"
+
+- Class: text
+  Output: "The logistic regression coefficients give the *change in the log odds*
+    (i.e., the logarithm of the odds, called the *logit*)."
+
+- Class: text
+  Output: "For continuous predictors, the coefficients give the *change in the log odds*
+    of the outcome for a one unit increase in the predictor variable. For example,
+    for every 1km^2 increase in area, the log odds of the bird being present (versus absent)
+    increases by 0.58 and the log odds of the bird being present *decreases* by 1.37 
+    (i.e., -1.37) for every km of distance from the mainland."
+
+- Class: text
+  Output: "For categorical predictors, the coefficient estimate describes the change 
+    in the log odds for each level compared to the base level."
+
+- Class: cmd_question
+  Output: "As usual, confidence intervals around the coefficient
+    estimates can be calculated with the function `confint()`.
+    Calculate the CIs for `m0`."
+  CorrectAnswer: confint(m0) 
+  AnswerTests: omnitest(correctExpr = 'confint(m0)')
+  Hint: confint(m0) 
+
+- Class: text
+  Output: "Logits (log odds) are just one way of describing the model. 
+    We can easily convert the logits either to odds ratios or predicted probabilities."
+
+- Class: text
+  Output: "### Odds ratios"
+
+- Class: text
+  Output: "[Odds ratios](https://en.wikipedia.org/wiki/Odds_ratio) are a relative
+    measure of effect, which allows the comparison of two groups. It is a popular 
+    way of presenting results in medicine, especially of controlled trials. Here, 
+    the odds of one group (usually the control) is divided by the odds of another 
+    (the treatment) to give a ratio. In this case, if the odds of both groups are 
+    the same, the ratio will be 1, suggesting there is no difference. If the OR 
+    is > 1 the control is better than the other level. If the OR is < 1 the treatment 
+    is better than the control."
+
+- Class: text
+  Output: "However, in R, we are presented with *differences* or the *change* in 
+    log odds between groups (for categorical variables) or the change in log odds 
+    between *x* and *x + 1* (for continuous variables). The directionality is the 
+    opposite to the example above because R effectively compares the 'treatment' 
+    to the 'control'."
+
+- Class: text
+  Output: "Thus, for **categorical predictors**, an odds ratio of > 1 suggests a positive
+    difference between levels and the base level (the exponential of a positive number 
+    is greater than 1), i.e., the base level has a lower odds and the level has a 
+    higher odds. An odds ratio of < 1 suggests a negative difference (the exponential 
+    of a negative number lies between 0 and 1)."
+
+- Class: text 
+  Output: "For **continuous predictors**, the odds ratio is the odds of *x + 1* over 
+    *x* (i.e., the odds ratio for a unit increase in the continuous *x* predictor 
+    variable), and the interpretation is the same as for categorical."
+
+- Class: text
+  Output: "To obtain these odds ratios in R, we need to exponentiate the coefficient
+    estimates. Remember that these estimates are the log of the odds, so the exponent 
+    is the actual odds. The function `exp()` can do this for us."
+
+- Class: cmd_question
+  Output: "Remember that we can extract the coefficient estimates from any model
+    with the function `coef()`. Put `exp()` and `coef()` together to obtain the
+    odds ratios from m0."
+  CorrectAnswer: exp(coef(m0))
+  AnswerTests: omnitest(correctExpr = "exp(coef(m0))")
+  Hint: exp(coef(m0))
+
+- Class: text
+  Output: "Since both our predictors are continuous, they are the odds ratios
+    for x+1 to x. The odds ratio for area is 1.79, indicating that for a 1km^2
+    increase in area we expect a 79% increase in the odds of finding the bird on 
+    the island. For a 1km increase in distance of the island from the mainland,
+    we expect a 25% decrease in the odds of finding the bird."
+
+- Class: text
+  Output: "A more detailed discussion of these different representations can 
+    be found here: [https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/)"
+  
+- Class: text
+  Output: "### Predicted probabilities"
+
+- Class: text
+  Output: "We can generate predicted probabilities for both continuous and
+    categorical variables. We can generate predicted probabilities for each
+    row in the original dataset, just by calling the `predict()` function."
+
+- Class: text
+  Output: "Setting `type = 'link'` returns the logits; setting `type = 'response'`
+    returns the predicted probabilities."
+
+- Class: cmd_question
+  Output: "Add an extra column to the dataset for the predicted logits,
+     called 'logits'. 
+    Remember that to add a column we just need to call the data object,
+    and add the new column name with a dollar sign."
+  CorrectAnswer: isolation$logit <- predict(m0, type = 'link')
+  AnswerTests: omnitest(correctExpr = "isolation$logit <- predict(m0, type = 'link')")
+  Hint: isolation$logit <- predict(m0, type = 'link')
+
+- Class: cmd_question
+  Output: "Add another column for the predicted probabilities, called 'p'."
+  CorrectAnswer: isolation$p <- predict(m0, type = 'response')
+  AnswerTests: omnitest(correctExpr = "isolation$p <- predict(m0, type = 'response')")
+  Hint: isolation$p <- predict(m0, type = 'response')
+
+- Class: text
+  Output: "However, to better plot these relationships, we should input a specific 
+    range of x's that we predict y's for."
+
+
+- Class: text
+  Output: "## Plotting binary response data"
+
+- Class: text
+  Output: "To plot the fitted line of a generalized linear model, we generally have to 
+    use the `predict()` function, because the model, although linear, is not a straight 
+    line that can be plotted with either an intercept or slope, as we used
+    for `lm()` and `abline()`."
+
+- Class: text
+  Output: "The function `predict()` is a general wrapper for more specific functions, 
+    in this case `predict.glm()`. We have to specify the `object` (i.e., the fitted
+    model), the `newdata` (i.e., the values of `x` for which we want predictions, named 
+    identically to the predictors in the object, as a dataframe or list), and the `type` of prediction required 
+   (either on the scale of the linear predictors ('link') or on the scale of the response
+    variable ('response')."
+
+- Class: text
+  Output: "There are, as usual, at least two ways we could do this. First, we will
+    make two separate individual logistic regressions and make predictions from those."
+
+- Class: cmd_question
+  Output: "Make a model for incidence as a function of area, called `ma`."
+  CorrectAnswer: ma <- glm(incidence ~ area, family = binomial, data = isolation)
+  AnswerTests: omnitest(correctExpr = "ma <- glm(incidence ~ area, family = binomial, data = isolation)")
+  Hint: ma <- glm(incidence ~ area, family = binomial, data = isolation)
+
+- Class: cmd_question
+  Output: "We then need to make a sequence of x values (e.g., `$area`)
+    from which to predict the y (predicted probability of `$incidence`).
+    To do this, first generate a sequence of x values from 0 to 9, in steps 
+    of 0.1. Call this vector `xv`."
+  CorrectAnswer: xv <- seq(from = 0, to = 9, by = 0.1)
+  AnswerTests: omnitest(correctExpr = "xv <- seq(from = 0, to = 9, by = 0.1)")
+  Hint: xv <- seq(from = 0, to = 9, by = 0.1)
+
+
+- Class: cmd_question
+  Output: "Now generate the vector of predicted y values of the log odds (call it `yv`).
+    Remember to include the model object (ma), the new data (yv, as a dataframe), 
+    and the type (`response`)."
+  CorrectAnswer: yv <- predict(object = ma, newdata = data.frame(area = xv), type = "response")
+  AnswerTests: omnitest(correctExpr = "yv <- predict(object = ma, newdata = data.frame(area = xv), type = 'response')")
+  Hint: yv <- predict(object = ma, newdata = data.frame(area = xv), type = "response")
+
+- Class: text
+  Output: "Now, we have two vectors, xv and yv, that we can use to plot the fitted
+    (predicted) line."
+
+- Class: cmd_question
+  Output: "Add this fitted line to the plot of incidence on area, using the `lines()`
+    or `points()` function."
+  CorrectAnswer: lines(xv, yv)
+  AnswerTests: any_of_exprs("lines(xv, yv)", "points(xv, yv, type = 'l')")
+  Hint: Check the graphics pages if you have forgotten how to use these two functions.
+
+- Class: cmd_question
+  Output: "Now let's repeat this process for distance. First, make the model using
+    `glm()` and call it `md`."
+  CorrectAnswer: md <- glm(incidence ~ distance, family = binomial, data = isolation)
+  AnswerTests: omnitest(correctExpr = "md <- glm(incidence ~ distance, family = binomial, data = isolation)")
+  Hint: md <- glm(incidence ~ distance, family = binomial, data = isolation)
+
+- Class: cmd_question
+  Output: "Then make the sequence of x values for distance. Because in this
+    case, `$area` and `$distance` have identical ranges, we can use the same code
+    as before. Generate a sequence of x values from 0 to 9, in steps 
+    of 0.1, called `xv`."
+  CorrectAnswer: xv <- seq(from = 0, to = 9, by = 0.1)
+  AnswerTests: omnitest(correctExpr = "xv <- seq(from = 0, to = 9, by = 0.1)")
+  Hint: xv <- seq(from = 0, to = 9, by = 0.1)
+
+- Class: cmd_question
+  Output: "Now generate the vector of predicted y values of the log odds (call it `yv`).
+    Remember to include the model object (md), the new data (yv, as a dataframe, remember
+    to use 'distance' this time, not 'area'), 
+    and the type (`response`)."
+  CorrectAnswer: yv <- predict(object = md, newdata = data.frame(distance = xv), type = "response")
+  AnswerTests: omnitest(correctExpr = "yv <- predict(object = md, newdata = data.frame(distance = xv), type = 'response')")
+  Hint: yv <- predict(object = md, newdata = data.frame(distance = xv), type = "response")
+
+- Class: cmd_question
+  Output: "Now we have the data, let's plot! Make the plot of incidence on distance again ..."
+  CorrectAnswer: plot(incidence ~ distance, data = isolation)
+  AnswerTests: omnitest(correctExpr = "plot(incidence ~ distance, data = isolation)")
+  Hint: Plot() incidence as a function of distance.
+
+- Class: cmd_question
+  Output: "And, add the line. This time make the line blue, dashed, and four times as wide."
+  CorrectAnswer: lines(xv, yv, col = 'blue', lty = 2, lwd = 4)
+  AnswerTests: any_of_exprs("lines(xv, yv, col = 'blue', lty = 2, lwd = 4)", "points(xv, yv, type = 'l', col = 'blue', lty = 2, lwd = 4)")
+  Hint: Check the graphics pages if you have forgotten how to set these parameters.
+
+- Class: text
+  Output: "So far we have been predicting and plotting lines based solely 
+    on the values of a single predictor, using the models `ma` or `md`.
+    What if we wanted to take area into account when we display the model
+    for distance? We can go back to our additive model, `m0`."
+
+- Class: cmd_question
+  Output: "To generate predicted values for distance accounting for area,
+    we need to decide what values of area to use. A sensible option might 
+    be the mean of area (i.e., the mean size of island). We could then 
+    plot the fitted line showing how the effect of distance varies for
+    an average-sized island. Calculate the mean size of island in the
+    dataset."
+  CorrectAnswer: mean(isolation$area) 
+  AnswerTests: omnitest(correctExpr = "mean(isolation$area)")
+  Hint: What does Simon `mean()` ... ?
+
+- Class: cmd_question
+  Output: "Now repeat this value to generate a vector the same length as
+    our `xv` vector (the x-values of distance from which we predict   
+    incidence)."
+  CorrectAnswer: rep(mean(isolation$area), times = length(xv))
+  AnswerTests: omnitest(correctExpr = "rep(mean(isolation$area), times = length(xv))")
+  Hint: Use `rep()` and its argument `times = `.
+
+- Class: cmd_question
+  Output: "Ok, so now we have our values for distance (xv), and the vector of mean
+    values of area (unnamed). To put both of these into the `predict()` function,
+    we need to stick them in a dataframe. Make a data frame of our new values
+    for area and distance. Call this dataframe `xv2`"
+  CorrectAnswer: xv2 <- data.frame(area = rep(mean(isolation$area), times = length(xv)), distance = xv)
+  AnswerTests: omnitest(correctExpr = "xv2 <- data.frame(area = rep(mean(isolation$area), times = length(xv)), distance = xv)")
+  Hint: xv2 <- data.frame(area = rep(mean(isolation$area), times = length(xv)), distance = xv)
+
+- Class: cmd_question
+  Output: "Now, put the model (m0), the new data (xv2), and the type of predicted
+    values we want ('response'), in a call to `predict(), and add these value to 
+    the datafram xv2, as a new column called `y`."
+  CorrectAnswer: xv2$y <- predict(m0, newdata = xv2, type = 'response') 
+  AnswerTests: omnitest(correctExpr = "xv2$y <- predict(m0, newdata = xv2, type = 'response')")
+  Hint: xv2$y <- predict(m0, newdata = xv2, type = 'response') 
+
+- Class: cmd_question
+  Output: "Add this new line to the graph."
+  CorrectAnswer: lines(xv2$distance, xv2$y)
+  AnswerTests: any_of_exprs("lines(xv2$distance, xv2$y)", "lines(xv, xv2$y)", "points(xv2$distance, xv2$y, type = 'l')", "points(xv, xv2$y, type = 'l')")
+  Hint: Check the graphics pages if you have forgotten how to set these parameters.
+ 
+
+
+
+
+- Class: text
+  Output: "# B. Group-level: Proportion data"
+
+- Class: text
+  Output: "At the group level, we look at the proportion of successes and  
+    failures (or female/male, short/tall, rep/dem, ...) in groups or populations
+    or sites, etc. In all these cases, we know both numbers---those of `successes`
+    and those of `failures`, in contrast to Poisson regression (covered later) 
+    where we just have counts of `successes`."
+
+- Class: text
+  Output: "In the past, the way proportion data was modelled was to use a single 
+    percentage as the response variable. However, this causes problems because:
+    (i) The errors are not normally distributed, (ii) the variance is not constant,
+    (iii) the response is bounded (by 1 above and by 0 below), and (iv) we lose
+    information on the size of the sample, *n*, from which the proportion was estimated."
+
+- Class: text
+  Output: "In the GLM framework, we can model proportion data directly. R carries out
+    weighted regression, using the individual sample sizes as weights, and the logit
+    link function to ensure linearity."
+
+- Class: text
+  Output: "## Overdispersion"
+
+- Class: text
+  Output: "Overdispersion occurs in regression of proportion data when the residual
+    deviance is larger than the residual degrees of freedom. There are two 
+    possibilities: either the model is misspecified, or the probability of success, *p*,
+    is not constant within a given treatment level."
+
+- Class: text
+  Output: "To deal with overdispersion, we can either respecify the model, or set
+   `family = quasibinomial` rather than `family = binomial`."
+
+- Class: text
+  Output: "## Fitting the model"
+
+- Class: text
+  Output: "As above, we use `glm()` with `family = 'binomial'`. In contrast to the
+    binomial response, in the case of proportion data our response data is a matrix
+    of two columns, one column of successes and one of failures. This matrix must
+    be a single object (i.e., you could use `cbind()` to stick two columns together),
+    which in most cases we will call `y`."
+
+- Class: cmd_question
+  Output: "In this case, we have the number of males and females in a range of
+    populations. Does sex ratio vary with population size? Look at the head
+    of the `sexratio` data."
+  CorrectAnswer: head(sexratio) 
+  AnswerTests: omnitest(correctExpr = "head(sexratio)")
+  Hint: head(sexratio)
+
+- Class: text
+  Output: "We have columns for the total number of organisms, followed by the
+    number of males and females. We might be interested in how the sex ratio
+    varies as a function of population size."
+
+- Class: cmd_question
+  Output: "First calculate the actual proportion of males in each 
+    population. Make a new column for this vector, called `$p`"
+  CorrectAnswer: sexratio$p <- sexratio$males/(sexratio$males + sexratio$females)
+  AnswerTests: omnitest(correctExpr = "sexratio$p <- sexratio$males/(sexratio$males + sexratio$females)")
+  Hint: sexratio$p <- sexratio$males/(sexratio$males + sexratio$females)
+  
+- Class: cmd_question
+  Output: "To model proportion data, R requires a unique form of the response 
+    variable---a matrix of two columns of successes and failures, in this case
+    males and females. Use `cbind()` to create such a variable, `y`."
+  CorrectAnswer: y <- cbind(sexratio$males, sexratio$females)
+  AnswerTests: omnitest(correctExpr = "y <- cbind(sexratio$males, sexratio$females)")
+  Hint: y <- cbind(sexratio$males, sexratio$females)
+
+- Class: cmd_question
+  Output: "Now that we have the y variable, we can construct the model. We use 
+    `glm()` as before, setting y as the response, total as the predictor and 
+    `family = binomial`. Call it `m2`. A final point to consider is that to
+    generate the predicted values, we need the column names in the original data
+    and new data to match; yet another reason to use the formula approach
+    with a `data = ` argument."
+  CorrectAnswer: m2 <- glm(y ~ total, data = sexratio, family = binomial)
+  AnswerTests: omnitest(correctExpr = "m2 <- glm(y ~ total, data = sexratio, family = binomial)")
+  Hint: m2 <- glm(y ~ total, data = sexratio, family = binomial)
+
+- Class: cmd_question
+  Output: "Look at the summary."
+  CorrectAnswer: summary(m2) 
+  AnswerTests: omnitest(correctExpr = "summary(m2)")
+  Hint: summary(m2)
+  
+- Class: text
+  Output: "The output is familar. For this continuous predictor, we get an intercept 
+    and slope, and the p-values indicate whether they are significantly different from 0.
+    For categorical variables, we get, as usual, the base level mean, then differences 
+    between means. Furthermore, the coefficient estimates are in logits (*ln(p/(1 - p)*). 
+    To calculate a proportion (*p*) from a logit (x), you need to calculate `1/(1 + 1/(exp(x)))`."
+
+- Class: cmd_question
+  Output: "However, we have substantial overdispersion (residual deviance = 22.091 is 
+    much greater than residual d.f. = 6). One reason for overdispersion is if the model 
+    is misspecified. Let's try log(total) and see what happens. Try running a new model 
+    (called m3) with that."
+  CorrectAnswer: m3 <- glm(y ~ log(total), data = sexratio, family = binomial)
+  AnswerTests: omnitest(correctExpr = "m3 <- glm(y ~ log(total), data = sexratio, family = binomial)")
+  Hint: m3 <- glm(y ~ log(total), data = sexratio, family = binomial)
+
+- Class: text
+  Output: "There is no evidence of overdispersion (residual deviance = 5.67 on 6 d.f.)
+    in this new model. We can therefore conclude that the proportion of males increases
+    significantly with increasing density, and that the logistic model is linearized by 
+    logarithmic transformation of the explanatory variable (population density)."
+
+
+- Class: text
+  Output: "## Plotting proportion data"
+
+- Class: cmd_question
+  Output: "We can plot the proportion of males (`$p`) as a function of the log(total) 
+    as normal, using `plot()`."
+  CorrectAnswer: plot(p ~ log(total), data = sexratio)
+  AnswerTests: omnitest(correctExpr = "plot(p ~ log(total), data = sexratio)")
+  Hint: plot(p ~ log(total), data = sexratio)
+
+- Class: cmd_question
+  Output: "Now we need to generate the predicted values in order to plot the
+    fitted line. First generate the x values (`xv`). Remember that we are 
+    working with log(total)---look at the x-axis of the plot--- so we need values
+    from 0 to 6, in steps of 0.1."
+  CorrectAnswer: xv <- seq(from = 0, to = 6, by = 0.1)
+  AnswerTests: omnitest(correctExpr = "xv <- seq(from = 0, to = 6, by = 0.1)")
+  Hint: xv <- seq(from = 0, to = 6, by = 0.1)
+
+- Class: cmd_question
+  Output: "Now for the y values. Here we have to take the exponent of xv,
+    because our model (m3) is of log(total), not log(log(total)). Call this
+    new vector `yv` as before."
+  CorrectAnswer: yv <- predict(m3, data.frame(total = exp(xv)), type = "response")
+  AnswerTests: omnitest(correctExpr = "yv <- predict(m3, data.frame(total = exp(xv)), type = 'response')")
+  Hint: yv <- predict(m3, data.frame(total = exp(xv)), type = "response")
+
+- Class: cmd_question
+  Output: "Now add the fitted line to the plot, in red and twice the width."
+  CorrectAnswer: lines(xv, yv, col = 'red', lwd = 2)
+  AnswerTests: omnitest(correctExpr = "lines(xv, yv, col = 'red', lwd = 2)")
+  Hint: lines(xv, yv, col = 'red', lwd = 2)
+
+- Class: text
+  Output: "Great! You should be able to analyse the two main types of binomial data 
+    now, and produce graphs of the data and fitted lines."
+
+- Class: text
+  Output: "However, there are some kinds of proportion data that are better analysed
+    differently:"
+
+- Class: text
+  Output: "*Percentage cover* data is best analysed using conventional linear models
+    (assuming normal errors and constant variance) following arcsine transformation."
+
+- Class: text
+  Output: "*Percentage change* in some continuous measurement (e.g., weight, tree diameter)
+    is best modelled either as an ANCOVA of the final measurement with the initial measurement
+    as a covariate, or by specifying the response as a relative change: log(final/initial), 
+    both of which should be linear models with normal errors."
+
+
+- Class: mult_question
+  Output: "Please submit the log of this lesson to Google Forms so
+    that Simon may evaluate your progress."
+  AnswerChoices: Please, call me Humphrey.
+  CorrectAnswer: Please, call me Humphrey.
+  AnswerTests: submit_log()
+  Hint: hint
+
+
