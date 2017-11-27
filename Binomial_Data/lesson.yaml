@@ -223,8 +223,8 @@
     for x+1 to x. The odds ratio for area is 1.79, indicating that for a 1km^2
     increase in area we expect a 79% increase in the odds of finding the bird on 
     the island. For a 1km increase in distance of the island from the mainland,
-    we expect a 25% decrease in the odds of finding the bird."
-
+    we expect a 75% decrease in the odds of finding the bird."
+    
 - Class: text
   Output: "A more detailed discussion of these different representations can 
     be found here: [https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/](https://stats.idre.ucla.edu/other/mult-pkg/faq/general/faq-how-do-i-interpret-odds-ratios-in-logistic-regression/)"
