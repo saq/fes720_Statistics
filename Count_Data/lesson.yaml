@@ -1,0 +1,337 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Count Data
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "# Count data"
+
+- Class: text
+  Output: "A lot of data is in the form of counts (whole numbers or integers). 
+    For example, the number of species in plots, the number of sunny days per
+    year, the number of restuarants in towns, ..."
+
+- Class: text 
+  Output: "Further, with count data, the number 
+    0 often appears as a value of the response variable."
+
+- Class: text
+  Output: "Straightforward linear regression methods (assuming constant variance,
+    normal errors) are not appropriate for count data for four main reasons:"
+
+- Class: text
+  Output: "(1) The linear model might lead to the prediction of negative counts.
+    (2) The variance of the response variable is likely to increase with the mean.
+    (3) The errors will not be normally distributed.
+    (4) Zeros are difficult to handle in transformations."
+
+- Class: text
+  Output: "Therefore, Poisson regression is used to model count variables."
+
+- Class: text
+  Output: "The [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) 
+    distribution was made famous by the Russian statistician 
+    [Ladislaus Bortkiewicz](https://en.wikipedia.org/wiki/Ladislaus_Bortkiewicz) 
+    (1868-1931), who counted the number of soldiers killed by being kicked by a
+    horse each year in each of 14 cavalry corps in the Prussian army over a 20-year
+    period. The data can be found [here](http://www.math.uah.edu/stat/data/HorseKicks.html), 
+    if you are interested."
+
+- Class: text
+  Output: "To fit a Poisson regression, we run a generalized linear model with
+    `family = poisson`, which sets `errors = Poisson` and `link = log`. 
+    The log link ensures that all the fitted values are positive. The Poisson
+    errors take account of the fact that the data are integer and have variances
+    that are equal to their means."
+
+- Class: text
+  Output: "We will illustrate a Poisson regression with data on the number of
+    awards earned by students at one high school. Predictors of the number of
+    awards earned include the type of program in which the student was enrolled
+    (e.g., vocational, general, or academic) and the score on their final exam in maths."
+
+- Class: cmd_question
+  Output: "Look at the head of the data, `awards`."
+  CorrectAnswer: head(awards)
+  AnswerTests: omnitest(correctExpr = "head(awards)")
+  Hint: Use your head() ...
+
+- Class: text
+  Output: "The response variable is the number of awards earned by each high-school
+    student during the year (`$num_awards`). The predictor variables are each students'
+    score on their maths final exam (`$math_score`, continuous) and  the type of
+    program in which the students were enrolled (`$program`, categorical with three
+    levels: general, academic, vocational)."
+
+- Class: cmd_question
+  Output: "Check that the data read in correctly, with `str()`."
+  CorrectAnswer: str(awards)
+  AnswerTests: omnitest(correctExpr = "str(awards)")
+  Hint: str() ...
+  
+- Class: text
+  Output: "### Checking the data"
+
+- Class: text
+  Output: "The Poisson distribution assumes that the mean and variance of the
+    response variable, conditioned on the predictors, are equal. We can check 
+    that this is the case."
+
+- Class: cmd_question
+  Output: "First, the *unconditional* mean and variance (i.e., the mean and
+    variance of the whole vector). Calculate the mean number of awards given,
+    over all students (i.e. the entire column in the data)."
+  CorrectAnswer: mean(awards$num_awards)
+  AnswerTests: omnitest(correctExpr = "mean(awards$num_awards)")
+  Hint: Use the function `mean()`
+
+- Class: cmd_question
+  Output: "Now, calculate the variance of the number of awards."
+  CorrectAnswer: var(awards$num_awards)
+  AnswerTests: omnitest(correctExpr = "var(awards$num_awards)")
+  Hint: Use `var()`
+
+
+- Class: text
+  Output: "Second, check the *conditional* mean and variance
+    (i.e., the mean and variance of the respose variable conditional
+    on the levels of categorical predictors)."
+
+- Class: cmd_question
+  Output: "Calculate the mean number of awards for each program. Call
+    this object `a_mean`."
+  CorrectAnswer: a_mean <- tapply(awards$num_awards, awards$program, mean)
+  AnswerTests: omnitest(correctExpr = "a_mean <- tapply(awards$num_awards, awards$program, mean)")
+  Hint: Use `tapply()`
+
+- Class: cmd_question
+  Output: "Calculate the variance in the number of awards for each program. Call
+    this object `a_var`."
+  CorrectAnswer: a_var <- tapply(awards$num_awards, awards$program, var)
+  AnswerTests: omnitest(correctExpr = "a_var <- tapply(awards$num_awards, awards$program, var)")
+  Hint: Use `tapply()`
+
+- Class: figure
+  Output: "The conditional mean and variance look reasonably similar here. Let's
+    make a histogram. The displayed figure is created from the following code: 
+    `barplot(t(table(awards$num_awards, awards$program)), beside = TRUE, 
+        xlab = 'Number of Awards', ylab = 'Count')`."
+  Figure: awards-hist.R
+  FigureType: new
+
+- Class: text
+  Output: "## Fitting the model"
+
+- Class: cmd_question
+  Output: "Let's fit a glm! We want to model the number of awards
+    as a function of the program and the maths grade. Remember to 
+    set the `family = ` argument to `poisson`. Use a formula and 
+    `data = ` argument, and call this `m1`."
+  CorrectAnswer: m1 <- glm(num_awards ~ program + math_score, data = awards, family = 'poisson')
+  AnswerTests: any_of_exprs("m1 <- glm(num_awards ~ program + math_score, data = awards, family = 'poisson')", "m1 <- glm(num_awards ~ program + math_score, family = 'poisson', data = awards)")
+  Hint: m1 <- glm(num_awards ~ program + math_score, data = awards, family = 'poisson')
+
+- Class: cmd_question
+  Output: "Now display the summary of the model result."
+  CorrectAnswer: summary(m1)
+  AnswerTests: omnitest(correctExpr = "summary(m1)")
+  Hint: summary(m1)
+
+- Class: text
+  Output: "Let's work through this output, which is in the usual format."
+
+- Class: text
+  Output: "First we have the model **Call**, reiterating the model we just ran."
+
+- Class: text
+  Output: "Second, we have the **Deviance Residuals**, which are
+   approximately normally distributed if the model is specified
+   correctly. Here, it shows a little bit of skeweness since median
+    is not quite zero."
+
+- Class: text
+  Output: "Then, we have the **Coefficients**: The Poisson regression coefficients, 
+    standard errors, z-scores, and p-values for each variable."
+
+- Class: text
+  Output: "For continuous predictor variables, the coefficient estimate
+    is the expected *log count* of the response variable for a one-unit
+    increase in the continuous predictor."
+
+- Class: text
+  Output: "For example, the coefficient for `$math_score` is 0.07. 
+   This means that the expected increase in log award number for a 
+   one-unit increase in math is 0.07. To obtain the actual 
+   counts, we need to calculate the exponential of 0.07." 
+
+- Class: cmd_question
+  Output: "Extract the coefficient estimate for `$math_score` from
+    this model summary, and calculate the exponent."
+  CorrectAnswer: exp(coef(m1)['math_score'])
+  AnswerTests: any_of_exprs("exp(coef(m1)['math_score'])", "exp(m1$coefficients['math_score'])", "exp(coef(m1)[4])", "exp(m1$coefficients[4])" )
+  Hint: Use `exp()` and extract the coefficient estimate using `[]` and `coef()` or some other means
+
+- Class: text
+  Output: "For categorical predictor variables, the coefficient estimate
+    is the expected difference in log count between the baseline level 
+    (in this case, `academic`) and each other level. To return the difference
+    in actual counts, you would take the exponent."
+
+- Class: text
+  Output: "In this example, the expected difference in log count for
+    `general` compared to `academic` is -1.08. The expected difference
+    in log count for `vocational` compared to `academic` is -0.7: students 
+    in `general` and `vocational` programs got fewer awards than students
+    in academic programs."
+
+- Class: text
+  Output: "Finally, we have information on the **Deviance**. The residual 
+    deviance can be used to test for the goodness of fit of the overall
+    model. The residual deviance is the difference between the deviance
+    of the current model and the maximum deviance of the ideal model where
+    the predicted values are identical to the observed. The smaller the 
+    residual deviance, the better the model fit."
+
+- Class: text
+  Output: "We can eyeball this fit by checking if the residual deviance
+    is similar to the residual degrees of freedom (it should be, because 
+    the variance and the mean should be the same). If the residual deviance 
+    is *larger* than residual degrees of freedom, this difference suggests 
+    that there is extra, unexplained, variation in the response (i.e., we have 
+    a case of overdispersion). *Overdispersion* can be compensated for
+    by refitting the model using `family = `quasipoisson` rather than
+    Poisson errors."
+
+- Class: text
+  Output: "A better approach is to explicitly test for a difference.
+    We can do this using a chi-squared goodness of fit test, `pchisq()`.
+    This function returns a p-value for a specific value (`q`) and 
+    degrees of freedom (`df`) for the chi-squared distribution.
+    By default, `pchisq()` gives the proportion of the distribution
+    to the left of the value. To get the proportion more extreme than
+    the difference, you can specify `lower.tail = FALSE` 
+    (or subtract the result from 1)."
+
+- Class: text
+  Output: "If the residual difference is small enough, the goodness of 
+    fit test will not be significant, indicating that the model fits 
+    the data."
+
+- Class: cmd_question
+  Output: "Run a chi-squared goodness of fit test on the 
+    residuals of m1. Make sure that you extract the deviance
+    and degrees of freedom from the model, rather than 
+    entering the values manually."
+  CorrectAnswer: pchisq(m1$deviance, m1$df.residual, lower.tail = FALSE)
+  AnswerTests: omnitest(correctExpr = "pchisq(m1$deviance, m1$df.residual, lower.tail = FALSE)")
+  Hint: You can extract the deviance with `m1$deviance`.
+
+- Class: cmd_question
+  Output: "We can also use a goodness of fit test to compare
+    this full model with a simpler model, such as one that 
+    only includes `$math_score`. Run a new model, `m2`, 
+    that models the number of awards as a function of 
+    math_score only."
+  CorrectAnswer: m2 <- glm(num_awards ~ math_score, data = awards, family = 'poisson')
+  AnswerTests: any_of_exprs("m2 <- glm(num_awards ~ math_score, data = awards, family = 'poisson')", "m2 <- glm(num_awards ~ math_score, family = 'poisson', data = awards)")
+  Hint: m2 <- glm(num_awards ~ math_score, data = awards, family = 'poisson')
+
+- Class: cmd_question
+  Output: "Now we can test the overall effect of `$program` by comparing
+    the deviance of the full model with the deviance of this new model.
+    Use the `anova()` function, with `test = 'Chisq'` to compare models
+    m1 and m2."
+  CorrectAnswer: anova(m2, m1, test = "Chisq")
+  AnswerTests: omnitest(correctExpr = "anova(m2, m1, test = 'Chisq')")
+  Hint: anova(m2, m1, test = "Chisq")
+
+- Class: text
+  Output: "The two degree-of-freedom chi-square test indicates that
+    `$program` is a statistically significant predictor of num_awards." 
+
+- Class: text
+  Output: "## Plotting the model"
+
+- Class: text
+  Output: "As with the binomial glm, we cannot just use the coefficient
+    estimates to plot the fitted line with `abline()`."
+
+- Class: text
+  Output: "We first need to calculate and store predicted values for
+    each row in the original dataset (we have enough data here that, 
+    at least for our purposes, we do not need to generate a new vector 
+    of math_scores)."
+
+- Class: cmd_question
+  Output: "Use the `predict()` function to add a new column (`$pred`) to the
+    `awards` data object for the predicted values from the original model,
+    m1. In this case, we do not need to provide any `newdata`. Further,
+    to get predicted *counts8 (rather than log counts), we need 
+    to set `type = 'response'."
+  CorrectAnswer: awards$pred <- predict(m1, type = "response")
+  AnswerTests: omnitest(correctExpr = "awards$pred <- predict(m1, type = 'response')")
+  Hint: awards$pred <- predict(m1, type = "response")
+
+- Class: text
+  Output: "Now we can make a plot of the data and fitted lines. Think 
+    about how we would plot both a continuous and a categorical
+    predictor variables. A good way would be to have the continuous
+    variable as the x-axis, and different points/lines for each 
+    level of the categorical variable."
+
+- Class: cmd_question
+  Output: "To plot the results, we need to first order the data by `$program` 
+    and `$math_score`, so that the lines we plot will be curves and not go all 
+    over the plot. We can do that using the `order()` function within
+    the square brackets, as we did before. Run: 
+    awards2 <- awards[order(awards$program, awards$math_score), ]."
+  CorrectAnswer: awards2 <- awards[order(awards$program, awards$math_score), ]
+  AnswerTests: omnitest(correctExpr = "awards2 <- awards[order(awards$program, awards$math_score), ]")
+  Hint: awards2 <- awards[order(awards$program, awards$math_score), ]
+
+- Class: cmd_question
+  Output: "Now, we can plot the data points (adding some jitter to the
+    counts, because there will be some overlapping points), and then 
+    add the predicted lines. First, plot jittered `$num_awards` as a function
+    of `math_score`. Use `pch = 20`, and the argument `col = ` to colour each point
+    depending on the program."
+  CorrectAnswer: plot(jitter(num_awards) ~ math_score, data = awards2, col = program, pch = 20)
+  AnswerTests: omnitest(correctExpr = "plot(jitter(num_awards) ~ math_score, data = awards2, col = program, pch = 20)")
+  Hint: plot(jitter(num_awards) ~ math_score, data = awards2, col = program, pch = 20)
+
+- Class: cmd_question
+  Output: "Now you can use `lines()` to add a line for each program. 
+    The way to do this is similar to making a plot. Set up the formula
+    (i.e., the predicted values as a function of the continuous variable),
+    and use the `data = ` argument to subset out only the rows of data
+    you want for each line. First, plot the `academic` group with the 
+    default line parameters."
+  CorrectAnswer: lines(pred ~ math_score, data = awards2[awards2$program == 'academic', ])
+  AnswerTests: omnitest(correctExpr = "lines(pred ~ math_score, data = awards2[awards2$program == 'academic', ])")
+  Hint: lines(pred ~ math_score, data = awards2[awards2$program == 'academic', ])
+
+- Class: cmd_question
+  Output: "Now, plot the line for `general`, using `col = 2`. Ensuring that 
+    the color numbers are in the same order as the levels of the factor you
+    are plotting will ensure that the lines and points are the same
+    colour."
+  CorrectAnswer: lines(pred ~ math_score, data = awards2[awards2$program == 'general', ], col = 2)
+  AnswerTests: omnitest(correctExpr = "lines(pred ~ math_score, data = awards2[awards2$program == 'general', ], col = 2)")
+  Hint: lines(pred ~ math_score, data = awards2[awards2$program == 'general', ], col = 2)
+
+- Class: cmd_question
+  Output: "Now, plot the line for `vocational`, using `col = 3`."
+  CorrectAnswer: lines(pred ~ math_score, data = awards2[awards2$program == 'vocational', ], col = 3)
+  AnswerTests: omnitest(correctExpr = "lines(pred ~ math_score, data = awards2[awards2$program == 'vocational', ], col = 3)")
+  Hint: lines(pred ~ math_score, data = awards2[awards2$program == 'vocational', ], col = 3)
+
+- Class: text
+  Output: "Great! Now you can run a poisson glm, and plot the data. Have a muffin."
+
+- Class: text
+  Output: "This swirl lesson is assessed by the honesty of your heart."
+  
+  
