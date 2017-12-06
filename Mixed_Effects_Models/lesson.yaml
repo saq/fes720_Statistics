@@ -97,10 +97,11 @@
     density (i.e., negative density dependence)."
     
 - Class: cmd_question
-  Output: "Let's explore the data a bit more. How many seedlings lived and died?"
+  Output: "Let's explore the data a bit more. Return the number of seedlings
+    that lived and died."
   CorrectAnswer: table(seedling$STATUS) 
   AnswerTests: omnitest(correctExpr = "table(seedling$STATUS)")
-  Hint: table()
+  Hint: "Remember this super-useful function, `table()`?"
 
 - Class: cmd_question
   Output: "Make an histogram of the number of conspecific
@@ -292,7 +293,8 @@
     plots before we start modelling."
 
 - Class: cmd_question
-  Output: "Look at the top 6 rows of data."
+  Output: "We have a dataset called `fruit` loaded with the 
+    lesson. Look at the top 6 rows of data."
   CorrectAnswer: head(fruit) 
   AnswerTests: omnitest(correctExpr = "head(fruit) ") 
   Hint: head(fruit) 
@@ -357,8 +359,8 @@
 
 - Class: cmd_question
   Output: "So the log of 0 is negative infinity.. not a number
-    that we can deal with all that easily. Make
-    sure that there are no 0's in the `$FRUIT` column."
+    that we can deal with all that easily. Check that
+    there are no 0's in the `$FRUIT` column."
   CorrectAnswer: table(fruit$FRUIT < 1)
   AnswerTests: any_of_exprs("table(fruit$FRUIT < 1)", "table(fruit$FRUIT == 0)", "table(fruit$LOGFRUIT == '-Inf')")
   Hint: "There are a number of ways you can do this.. look for `-Inf` in the `$LOGFRUIT` column, 
@@ -450,15 +452,22 @@
   AnswerTests: omnitest(correctExpr = "m3 <- lmer(LOGFRUIT ~ DBH + YEARFAC + (1|TAG), data = fruit)")
   Hint: m3 <- lmer(LOGFRUIT ~ DBH + YEARFAC + (1|TAG), data = fruit)
 
-- Class: text
+- Class: cmd_question
   Output: "The summary output is similar to that for `glmer()`.
-    We have the model formula, residuals, and random effects 
+    Have a look."
+  CorrectAnswer: summary(m3)
+  AnswerTests: omnitest(correctExpr = "summary(m3)")
+  Hint: summary(m3)
+    
+- Class: text
+  Output: "We have the model formula, residuals, and random effects 
     (showing that there is considerable variation among years
     for any one tree, as well as a lot of unexplained variation
-    in fruit production), and the fixed effect coefficient estimates."
+    in fruit production) ..."
 
 - Class: text  
-  Output: "For every 1mm increase in DBH, a tree produced 0.004 log fruits
+  Output: " ...  the fixed effect coefficient estimates: 
+    For every 1mm increase in DBH, a tree produced 0.004 log fruits
     (or exp(0.004) = c.1 fruit) on average."
 
 - Class: text
@@ -478,13 +487,13 @@
     and the references therein."
 
 - Class: text
-  Output: "Great work on completing FES720! You are are 
-    an R wizard!"
+  Output: "And finally: Great work on completing FES720! You are are 
+    a total R wizard!"
 
 - Class: mult_question
   Output: "Please submit the log of this lesson to Google Forms so
     that Simon may evaluate your progress."
-  AnswerChoices: That's all folks; thanks for the ride!
-  CorrectAnswer: That's all folks; thanks for the ride!
+  AnswerChoices: That's all folks, thanks for the ride!
+  CorrectAnswer: That's all folks, thanks for the ride!
   AnswerTests: submit_log()
   Hint: hint
