@@ -1,0 +1,490 @@
+- Class: meta
+  Course: fes720_Statistics
+  Lesson: Mixed Effects Models
+  Author: Simon Queenborough
+  Type: Standard
+  Organization: FES
+  Version: 0.0.1
+
+- Class: text
+  Output: "# Mixed Effects Models"
+
+- Class: text
+  Output: "In many cases, the data points that we collect may be related in some way, thus violating
+    the assumption of independence present in linear regression, generalised linear models, etc."
+  
+- Class: text
+  Output: "Sometimes these relationships will be direct and obvious. For example, we could
+    take four soil samples from the same forest plot, or many different measurements from
+    the same individual sparrow; or interview lots of folks in the same college or organisation."
+    
+- Class: text
+  Output: "Or, the individual measurements may be related in a slightly more distant way. 
+    For example, we could measure the same tree every year, or interview the same people every year;
+    or take measurements from many trees in plot."
+  
+- Class: text
+  Output: "Finally, the data points could be related even more distantly, for example, if
+    we take multiple measurements from the same species, or from closely-related species, or 
+    from closely-related individuals."
+    
+- Class: text
+  Output: "In all these examples, the relatedness (in time, space, or direct relatedness)
+    means that the measurements from one individual are more likely to be similar to 
+    measurements from closely-related individuals. E.g., trees growing close together in a
+    forest are likely to experience similar growing conditions; individuals from the 
+    same species are likely to have similar trait values, etc, etc."
+    
+- Class: text
+  Output: "Previously, there were only a limited number of options to 
+    resolve these issues of non-independence. The main way would be to 
+    average across the grouping variable that was likely having an effect
+    (e.g., averaging the four soil samples, taking average tree growth
+    per plot) or by only using a subset of all the data you had collected."
+    
+- Class: text
+  Output: "Both these approaches are correct and fine. However, using a 
+    mixed effects model gives you more flexibility and allows you to
+    use all the data."
+  
+- Class: text
+  Output: "So, instead of averaging over these grouping variables (losing
+    data and information) or treating everything as independent (violating
+    assumptions), we can treat these grouping variables as *random effects*."
+    
+- Class: text
+  Output: "The model essentially creates a different baseline value for
+    each level of the random effect (e.g., plot 1, 2, 3, ... n), modelling
+    a different intercept for each level."
+    
+- Class: text
+  Output: "We can then model the variables---the *fixed effects*---that we are interested in,
+    accounting for the various random effects that we need to account for,
+    but are not explicitly interested in."
+  
+- Class: text
+  Output: "For example, we know that seedling survival varies among plots, 
+    because we know that many of the things that affect survival vary 
+    in space: a tree falls over and kills all the seedlings underneath,
+    a patch of soil has high Nitrogen, etc."
+  
+  
+- Class: text
+  Output: "# Generalized Linear Mixed Effects Model: Example using seedling survival data"
+
+- Class: text
+  Output: "## Exploring the data"
+
+- Class: cmd_question
+  Output: "Examine the top few rows of the `seedling` dataset loaded with this lesson."
+  CorrectAnswer: head(seedling)
+  AnswerTests: omnitest(correctExpr = "head(seedling)")
+  Hint: Use your `head()` ...
+  
+- Class: text
+  Output: "Here we have a dataset with seven (7) columns: `$PLOT` which is the 
+    1m^2 plot in which the seedling is located; `$SPECIES` a 6-letter code identifying
+    the species; `$HEIGHT`, the height of the seedling in mm; `$STATUS`, if the seedling 
+    is alive (1) or dead (0); `$LIGHT` a measure of the light availability for each plot;
+    `$CONS`, the density of conspecific seedlings in the same plot; and `$CONBA`, the
+    sum of the basal area of all conspecific trees >1 cm diameter."
+  
+- Class: text
+  Output: "We might expect survival to be linked to these variables as follows. Taller
+    seedlings with access to more light should survive better, 
+    but trees with more conspecifics around them might 
+    suffer lower survival because pests and pathogens might build up in areas of high
+    density (i.e., negative density dependence)."
+    
+- Class: cmd_question
+  Output: "Let's explore the data a bit more. How many seedlings lived and died?"
+  CorrectAnswer: table(seedling$STATUS) 
+  AnswerTests: omnitest(correctExpr = "table(seedling$STATUS)")
+  Hint: table()
+
+- Class: cmd_question
+  Output: "Make an histogram of the number of conspecific
+    seedlings."
+  CorrectAnswer: hist(seedling$CONS)
+  AnswerTests: omnitest(correctExpr = "hist(seedling$CONS)")
+  Hint: hist(seedling$CONS)
+
+- Class: cmd_question
+  Output: "Make an histogram of seedling height."
+  CorrectAnswer: hist(seedling$HEIGHT)
+  AnswerTests: omnitest(correctExpr = "hist(seedling$HEIGHT)")
+  Hint: hist(seedling$HEIGHT)
+
+- Class: cmd_question
+  Output: "Make an histogram of light availability."
+  CorrectAnswer: hist(seedling$LIGHT)
+  AnswerTests: omnitest(correctExpr = "hist(seedling$LIGHT)")
+  Hint: hist(seedling$LIGHT)
+
+- Class: text
+  Output: "Note that our predictors have very different ranges so, 
+    if you want to directly compare the effects or test for interactions, 
+    you should *rescale* them by subtracting the mean and dividing by
+    the standard deviation."
+
+- Class: cmd_question
+  Output: "We could do that manually (e.g., `seedling$LIGHTadj <- 
+    (seedling$LIGHT - mean(seedling$LIGHT)) / sd(seedling$LIGHT)`, or 
+    use the `scale()` function. Use `scale()` to standardize light,
+    height, and conspecifics, starting with light. Call the new column
+    `LIGHTadj`."
+  CorrectAnswer: seedling$LIGHTadj <- scale(seedling$LIGHT)
+  AnswerTests: omnitest(correctExpr = "seedling$LIGHTadj <- scale(seedling$LIGHT)")
+  Hint: seedling$LIGHTadj <- scale(seedling$LIGHT)
+
+- Class: cmd_question
+  Output: "Now center and rescale `$HEIGHT`."
+  CorrectAnswer: seedling$HEIGHTadj <- scale(seedling$HEIGHT)
+  AnswerTests: omnitest(correctExpr = "seedling$HEIGHTadj <- scale(seedling$HEIGHT)")
+  Hint: seedling$HEIGHTadj <- scale(seedling$HEIGHT)
+  
+- Class: cmd_question
+  Output: "Now center and rescale `$CONS`."
+  CorrectAnswer: seedling$CONSadj <- scale(seedling$CONS)
+  AnswerTests: omnitest(correctExpr = "seedling$CONSadj <- scale(seedling$CONS)")
+  Hint: seedling$CONSadj <- scale(seedling$CONS)
+  
+- Class: cmd_question
+  Output: "Double-check the data, using `head()`."
+  CorrectAnswer: head(seedling)
+  AnswerTests: omnitest(correctExpr = "head(seedling)")
+  Hint: head(seedling)
+  
+- Class: cmd_question
+  Output: "Let's construct a simple binomial glm model,
+    of seedling survival as a function of height, light,
+    and seedling conspecific density. Call this model `m0`."
+  CorrectAnswer: m0 <- glm(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj, data = seedling, family = binomial)
+  AnswerTests: omnitest(correctExpr = "m0 <- glm(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj, data = seedling, family = binomial)")
+  Hint: m0 <- glm(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj, data = seedling, family = binomial)
+  
+- Class: cmd_question
+  Output: "Look at the summary of this model."
+  CorrectAnswer: summary(m0)
+  AnswerTests: omnitest(correctExpr = "summary(m0)")
+  Hint: summary(m0)
+  
+- Class: text
+  Output: "It appears that all three variables have a significant effect. Taller
+    seedlings survive better, seedlings in higher light actually survive worse, as
+    do those with more conspecifics in the same plot."
+  
+- Class: text
+  Output: "However, we know that this simple model is likely to be wrong, because
+    we are not yet accounting for the relationships between individual seedlings.
+    Those in the same plot will likely be affected by the same things (e.g., tree falls),
+    and different species will likely have different inherent survival rates (e.g., 
+    there is a clear spectrum of life history strategy from live fast-die young to
+    live slow-die old."
+  
+- Class: text
+  Output: "To include random effects in the model, we need to use a new package that 
+    includes this kind of model. There are a few that do so. We will use the package
+    `lme4`, loaded with this lesson."
+    
+- Class: text
+  Output: "To specify a mixed effects model, we follow identical syntax to a regular
+    linear model, except that we add in the random effects in parentheses, as follows:
+    `+ (1|RANDOM)`, where RANDOM is the variable that you want to set as your 
+    random effect."
+    
+- Class: text
+  Output: "For example, we know that `$PLOT` should likely be one random 
+    grouping variable, so we would use `+ (1|PLOT)`."
+
+- Class: text
+  Output: "Specifically, this syntax means that we want the *intercept*
+    of the model to vary among plots, i.e., we think that each plot
+    has a (slightly) different mean survival rate."
+    
+- Class: cmd_question
+  Output: "Using the function for a generalised linear mixed effects
+    model, `glmer()`, add in a random effect for plot to our previous
+    model, and call it m1."
+  CorrectAnswer: m1 <- glmer(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj + (1|PLOT), data = seedling, family = binomial)
+  AnswerTests: omnitest(correctExpr = "m1 <- glmer(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj + (1|PLOT), data = seedling, family = binomial)")
+  Hint: m1 <- glmer(STATUS ~ HEIGHTadj + LIGHTadj + CONSadj + (1|PLOT), data = seedling, family = binomial)
+
+- Class: cmd_question
+  Output: "Look at the summary of this model."
+  CorrectAnswer: summary(m1)
+  AnswerTests: omnitest(correctExpr = "summary(m1)")
+  Hint: summary(m1) 
+
+- Class: text
+  Output: "For `lmer()` and `glmer()`, the output is similar to that for `lm()` and `glm()`,
+    expect that we have two new sections."
+
+- Class: text
+  Output: "First, as usual, we have what kind of model was run and the formula. Then, 
+    some measures of fit and the residuals."
+
+- Class: text
+  Output: "Then, the section on `Random effects:` describes how much of the variation
+    in survival is explained by `$PLOT`, and that plots vary quite a bit relative to
+    the fixed effects, because the standard deviation is similar to the effect size 
+    for height."
+    
+- Class: text
+  Output: "Then we have the usual table of coefficients and p-values
+    (called `Fixed effects:`). This table suggests that there is 
+    no effect of light or conspecifics, once we account for
+    variation among plots. Nevermind all those papers that
+    provide evidence for strong and pervasive negative density
+    dependence. Oh well."
+    
+- Class: text
+  Output: "Don't worry.. we will come back to this model in the lab."
+
+- Class: text
+  Output: "Finally, we have the `Correlation of Fixed Effects:`. This is not usually that 
+    useful or helpful, because it does not have the intuitive meaning you might think. 
+    It is *not* about the correlation of the predictor variables. It is, in fact, about the
+    expected correlation of the regression coefficients. It suggests that in a repeat of 
+    the study, variables showing a strong correlation here would likely vary in a similar
+    direction. As I said, not that useful in most circumstances, and can safely be ignored."
+    
+- Class: text
+  Output: "Ok, moving on ..."
+    
+- Class: text
+  Output: "# Linear Mixed Effects Model: Example using fruit production data with repeated measures"
+
+- Class: text
+  Output: "We just worked through an example with a binary response
+    variable. The workings of this model are actually much simpler 
+    and easier to compute than a regular linear model. You will notice
+    that the model output was essentially the same as the output from
+    non-mixed effects models."
+
+- Class: text
+  Output: "The situation for linear mixed effects models is not so 
+    straightforward, as the function `lmer()` does not return 
+    p-values (if you are interested in those ...)."
+
+- Class: text
+  Output: "`lmer()` does not return p-values because of 
+    uncertainties in calculating the appropriate degrees
+    of freedom in a model with random effects. 
+    Statistics is a developing science, like 
+    any other, and mixed effect models are right at the frontier."
+
+- Class: text
+  Output: "For more details and the latest recommendations,
+    see this website: [http://glmm.wikidot.com/](http://glmm.wikidot.com/)"
+
+- Class: text
+  Output: "Ok, let's consider a problem where we want to understand how
+    tree size affects the number of fruit that tree produces."
+
+- Class: text
+  Output: "Easy? It would be, but we have three years of data for each
+    individual tree ... any analysis that does not account for
+    this *repeated measures* set-up will not be entirely correct."
+
+- Class: text
+  Output: "As before, let's look at the data and some 
+    plots before we start modelling."
+
+- Class: cmd_question
+  Output: "Look at the top 6 rows of data."
+  CorrectAnswer: head(fruit) 
+  AnswerTests: omnitest(correctExpr = "head(fruit) ") 
+  Hint: head(fruit) 
+
+- Class: text
+  Output: "We have four columns of data: `$TAG` is the 
+    unique tag number of the tree; `$DBH` is the diameter
+    at breast height of the tree (mm); `$FRUIT` is the number
+    of fruit counted in each tree; and `$YEAR` is the year."
+
+- Class: cmd_question
+  Output: "Look at the structure of the data to get a 
+    better idea of how many trees, years, and to check
+    that everything is the correct class."
+  CorrectAnswer: str(fruit)
+  AnswerTests: omnitest(correctExpr = "str(fruit)") 
+  Hint: str(fruit)
+
+- Class: cmd_question
+  Output: "Now use the `summary()` function to return
+    some simple statistics about the data."
+  CorrectAnswer: summary(fruit)
+  AnswerTests: omnitest(correctExpr = "summary(fruit)") 
+  Hint: summary(fruit)
+
+- Class: cmd_question
+  Output: "Now look at the distribution of the 
+    fruit data. Plot a histogram of `$FRUIT`."
+  CorrectAnswer: hist(fruit$FRUIT)
+  AnswerTests: omnitest(correctExpr = "hist(fruit$FRUIT)") 
+  Hint: hist(fruit$FRUIT)
+
+- Class: text
+  Output: "The distribution is definitely skewed, with
+    lots of low values. One option, given that we have 
+    count data, would be to run a glm with poisson errors.
+    However, we want to illustrate the use of `lmer()`,
+    and in the 'good ol' days' a regular log-transformation
+    would do just fine. The log transform is also one
+    of the easier-to-interpret transformations out there."
+
+- Class: cmd_question
+  Output: "So, plot another histogram of log(fruit)."
+  CorrectAnswer: hist(log(fruit$FRUIT))
+  AnswerTests: omnitest(correctExpr = "hist(log(fruit$FRUIT))") 
+  Hint: Nest the log of fruit within a call to hist()
+
+- Class: cmd_question
+  Output: "That looks much better... so, let's try that in 
+    our model. First, we need to make a new column, `$LOGFRUIT`. 
+    In the fruit data, make this column of the log of `$fruit`."
+  CorrectAnswer: fruit$LOGFRUIT <- log(fruit$FRUIT)
+  AnswerTests: omnitest(correctExpr = "fruit$LOGFRUIT <- log(fruit$FRUIT)") 
+  Hint: Remember that to create a new column, just call the data object and the new column name, separated by `$`.
+
+- Class: cmd_question
+  Output: "Whoa! Wait a second ... what if there are years with 
+    no (0) fruit? What would that do? Check out what the log of 0 is."
+  CorrectAnswer: log(0)
+  AnswerTests: omnitest(correctExpr = "log(0)") 
+  Hint: take the log of 0.
+
+- Class: cmd_question
+  Output: "So the log of 0 is negative infinity.. not a number
+    that we can deal with all that easily. Make
+    sure that there are no 0's in the `$FRUIT` column."
+  CorrectAnswer: table(fruit$FRUIT < 1)
+  AnswerTests: any_of_exprs("table(fruit$FRUIT < 1)", "table(fruit$FRUIT == 0)", "table(fruit$LOGFRUIT == '-Inf')")
+  Hint: "There are a number of ways you can do this.. look for `-Inf` in the `$LOGFRUIT` column, 
+    check for zeros in the `$FRUIT` column, ... "
+
+- Class: text
+  Output: "Phew, we do not have any. However, remember that a way 
+    to deal with 0's if you ever need to log-transform data is to 
+    add 1 (+1) to the data before you transform it."
+
+
+- Class: cmd_question
+  Output: "Ok, so now let's finally get round to plotting the
+    relationship we are interested in and going to model. 
+    Plot `$LOGFRUIT` as a function of `$DBH`."
+  CorrectAnswer: plot(LOGFRUIT ~ DBH, data = fruit)
+  AnswerTests: any_of_exprs("plot(LOGFRUIT ~ DBH, data = fruit)", "plot(fruit$LOGFRUIT ~ fruit$DBH)") 
+  Hint: Use `plot()` and a formula.
+
+- Class: cmd_question
+  Output: "We also have three years of data. Can you colour
+     each point as a function of `$YEAR`."
+  CorrectAnswer: plot(LOGFRUIT ~ DBH, data = fruit, col = YEAR)
+  AnswerTests: any_of_exprs("plot(LOGFRUIT ~ DBH, data = fruit, col = YEAR)", "plot(fruit$LOGFRUIT ~ fruit$DBH, col = fruit$YEAR)") 
+  Hint: Use `plot()` and a formula, and col = .
+
+- Class: text
+  Output: "It looks like there are certainly differences in fruit production 
+    among years. We might want to include that explicitly in the 
+    model."
+
+- Class: cmd_question
+  Output: "However, `$YEAR` in the data is numeric, but 
+    we actually want it to be a factor. Create a new column
+    in the data called `$YEARFAC` which is `$YEAR` as a factor."
+  CorrectAnswer: fruit$YEARFAC <- as.factor(fruit$YEAR)
+  AnswerTests: omnitest(correctExpr = "fruit$YEARFAC <- as.factor(fruit$YEAR)") 
+  Hint: fruit$YEARFAC <- as.factor(fruit$YEAR)
+
+
+- Class: cmd_question
+  Output: "Now let's run a regular linear regression on these data. 
+    Use `lm()` to model log fruit as a function of dbh and year, called `m2`."
+  CorrectAnswer: m2 <- lm(LOGFRUIT ~ DBH + YEARFAC, data = fruit)
+  AnswerTests: omnitest(correctExpr = "m2 <- lm(LOGFRUIT ~ DBH + YEARFAC, data = fruit)") 
+  Hint: m2 <- lm(LOGFRUIT ~ DBH + YEARFAC, data = fruit)
+
+- Class: cmd_question
+  Output: "Look at the summary output of m2."
+  CorrectAnswer: summary(m2)
+  AnswerTests: omnitest(correctExpr = "summary(m2)") 
+  Hint: summary(m2)
+
+- Class: text
+  Output: "We actually have the same individuals measured in each year
+    (i.e., repeated measures). We can account for this issue
+    by including individual (i.e., `$TAG`) as a random effect within
+    a linear mixed effects model."
+
+- Class: text
+  Output: "We used `glmer()` to run a generalised mixed effects
+    model on the binomial data. We can use `lmer()` to run 
+    a linear mixed effects model on this fruit data. The same
+    package, `lme4`, includes this function."
+
+- Class: text
+  Output: "However, `lme4` does not calculate p-values, because
+    the package authors (eminently sensible people) do not think that there is a reliable
+    way to do this: There are various issues with obtaining the degrees of 
+    freedom, and thence the F value and p-values."
+
+- Class: text
+  Output: "Others (also sensible people) disagree, and have developed various 
+    approaches to approximate the degrees of freedom and 
+    calculate p-values. One of these can now be done using the 
+    `lmer()` function in the package `lmerTest`."
+
+- Class: text
+  Output: "When we installed the `lme4` and `lmerTest` packages
+    at the beginning of the lesson, the `lmer()` function
+    in `lmerTest` overwrote the same function in `lme4`."
+
+- Class: cmd_question
+  Output: "Anyway, now you can write the model.
+    We construct it in a similar way to before.
+    Include `+ (1|TAG)` in the formula to represent the random effect
+    of individual tree. Call this model m3"
+  CorrectAnswer: m3 <- lmer(LOGFRUIT ~ DBH + YEARFAC + (1|TAG), data = fruit)
+  AnswerTests: omnitest(correctExpr = "m3 <- lmer(LOGFRUIT ~ DBH + YEARFAC + (1|TAG), data = fruit)")
+  Hint: m3 <- lmer(LOGFRUIT ~ DBH + YEARFAC + (1|TAG), data = fruit)
+
+- Class: text
+  Output: "The summary output is similar to that for `glmer()`.
+    We have the model formula, residuals, and random effects 
+    (showing that there is considerable variation among years
+    for any one tree, as well as a lot of unexplained variation
+    in fruit production), and the fixed effect coefficient estimates."
+
+- Class: text  
+  Output: "For every 1mm increase in DBH, a tree produced 0.004 log fruits
+    (or exp(0.004) = c.1 fruit) on average."
+
+- Class: text
+  Output: "Year two had generally more fruit than year one,   
+    and year three had generally fewer fruit than year one ..."
+
+- Class: text
+  Output: "Great! Now you know more than most people about 
+    mixed effects models.. but a lot less than you really should
+    if you are interested in working with them ;)"
+
+- Class: text
+  Output: "So, please do read more on the `lme4` FAQ page: 
+    [http://bbolker.github.io/mixedmodels-misc/glmmFAQ.html](
+    http://bbolker.github.io/mixedmodels-misc/glmmFAQ.html), 
+    and the glmm wiki: [http://glmm.wikidot.com/](http://glmm.wikidot.com/),
+    and the references therein."
+
+- Class: text
+  Output: "Great work on completing FES720! You are are 
+    an R wizard!"
+
+- Class: mult_question
+  Output: "Please submit the log of this lesson to Google Forms so
+    that Simon may evaluate your progress."
+  AnswerChoices: That's all folks; thanks for the ride!
+  CorrectAnswer: That's all folks; thanks for the ride!
+  AnswerTests: submit_log()
+  Hint: hint
